@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbfaf8;
+  --background-secondary: #f6f2ee;
+  --foreground: #121721;
+  --accent: #c99c9c;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-background-secondary: var(--background-secondary);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+
+  --font-sans: var(--font-work-sans);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-work-sans), sans-serif;
+}
+
+.font-display {
+  font-family: "Cal Sans", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Cal Sans", sans-serif;
+  font-weight: 600 !important;
+}
+
+.font-body {
+  font-family: var(--font-work-sans), sans-serif;
+}
