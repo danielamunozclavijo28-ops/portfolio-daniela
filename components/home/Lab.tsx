@@ -1,30 +1,37 @@
+
 import Image from "next/image";
 import Link from "next/link";
 
 const explorations = [
   {
     title: "Academic Projects",
-    description: "Research, layouts and visual explorations.",
-    image: "/images/lab/academic-projects.png",
+    description:
+      "Projects developed during my studies, from initial ideas to finished concepts.",
+    image: "/images/lab/a-casa-portuguesa.png",
   },
   {
-    title: "Web Experiments",
-    description: "Interactions, layouts and visual explorations.",
-    image: "/images/lab/web-experiments.png",
+    title: "Design Experiments",
+    description:
+      "Ideas, interfaces and visual directions I wanted to try out.",
+    image: "/images/lab/amigou.png",
   },
   {
-    title: "AI Experiments",
-    description: "Testing new tools, prompts and workflows.",
-    image: "/images/lab/ai-experiments.png",
+    title: "AI Explorations",
+    description:
+      "Trying AI tools to explore images, concepts and different creative approaches.",
+    image: "/images/lab/frizz.png",
   },
 ];
 
 export default function Lab() {
   return (
-    <section id="lab" className="bg-background px-20 py-[72px]">
-      <div className="mx-auto flex max-w-[1352px] items-center gap-16">
+    <section
+      id="lab"
+      className="bg-background px-6 py-12 md:px-10 md:py-[72px] xl:px-20"
+    >
+      <div className="mx-auto flex max-w-[1352px] flex-col items-start gap-10 lg:flex-row lg:items-center lg:gap-16">
         {/* Intro */}
-        <div className="flex w-[321px] shrink-0 flex-col gap-8">
+        <div className="flex w-full shrink-0 flex-col gap-8 lg:w-[321px]">
           <div className="flex flex-col gap-8">
             <p className="text-[18px] font-normal text-accent">
               EXPLORATION LAB
@@ -36,15 +43,15 @@ export default function Lab() {
               </h2>
 
               <p className="text-[18px] font-normal leading-normal text-[#454C54]">
-                Small experiments, visual explorations and side projects that
-                let me try something new without having to turn everything
-                into a full case study.
+                A mix of academic projects, visual experiments and ideas
+                I&apos;ve explored along the way. Some started with a brief,
+                others simply with curiosity.
               </p>
             </div>
           </div>
 
           <Link
-            href="#lab"
+            href="/lab"
             className="flex w-fit items-center gap-[10px] rounded-[6px] bg-foreground px-3 py-3 text-[18px] font-medium text-white transition-opacity hover:opacity-90"
           >
             <span>See what I&apos;m exploring</span>
@@ -55,24 +62,24 @@ export default function Lab() {
         </div>
 
         {/* Explorations */}
-        <div className="flex min-w-0 flex-1 items-start gap-6">
+        <div className="grid w-full min-w-0 flex-1 grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6">
           {explorations.map((exploration) => (
             <article
               key={exploration.title}
-              className="flex min-w-0 flex-1 flex-col"
+              className="flex min-w-0 flex-col"
             >
               <div className="relative h-[210px] w-full">
                 <Image
                   src={exploration.image}
-                  alt=""
+                  alt={exploration.title}
                   fill
                   className="object-contain object-center"
-                  sizes="(max-width: 1024px) 30vw, 320px"
+                  sizes="(max-width: 639px) 100vw, (max-width: 1023px) 45vw, 320px"
                 />
               </div>
 
               <div className="mt-6 flex flex-col gap-2">
-                <h3 className="font-body text-[22px] font-semibold leading-normal text-[#FF1744]">
+                <h3 className="font-body text-[22px] font-semibold leading-normal text-foreground">
                   {exploration.title}
                 </h3>
 

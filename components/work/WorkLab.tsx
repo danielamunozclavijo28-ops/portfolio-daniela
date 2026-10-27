@@ -4,18 +4,21 @@ import Link from "next/link";
 
 const explorations = [
   {
-    title: "Academic Projects",
-    description: "Research, layouts and visual explorations.",
+    title: "Academic projects",
+    description:
+      "Projects developed during my studies, where I explored design problems, developed concepts and put what I was learning into practice.",
     image: "/images/lab/a-casa-portuguesa.png",
   },
   {
-    title: "Web Experiments",
-    description: "Interactions, layouts and visual explorations.",
+    title: "Visual explorations",
+    description:
+      "A place for trying out layouts, typography, visual styles and ideas that caught my attention.",
     image: "/images/lab/amigou.png",
   },
   {
-    title: "AI Experiments",
-    description: "Testing new tools, prompts and workflows.",
+    title: "AI experiments",
+    description:
+      "Experiments with AI tools to explore visual concepts, generate variations and see how they can fit into my creative process.",
     image: "/images/lab/frizz.png",
   },
 ];
@@ -74,8 +77,9 @@ export default function WorkLab() {
             </p>
 
             <p className="text-[14px] font-normal leading-[1.45] text-[#454C54]">
-              A collection of smaller projects, visual explorations and
-              experiments with AI, web design, interaction and code.
+              This is where I keep projects from my studies, visual
+              explorations and experiments with new tools. Different ideas,
+              different approaches, and always something new to learn.
             </p>
           </div>
 
@@ -122,7 +126,7 @@ export default function WorkLab() {
               </div>
 
               <div className="mt-5 flex flex-col gap-2">
-                <h3 className="text-[16px] font-semibold leading-[1.3] text-[#FE1346]">
+                <h3 className="text-[20px] font-semibold leading-[1.3] text-foreground">
                   {exploration.title}
                 </h3>
 
