@@ -8,17 +8,8 @@ const projects = [
     href: "/work/acreditta",
     description:
       "Designing and improving the experience for creating, managing and verifying digital credentials.",
-    image: "/images/work/work-1.png",
+    image: "/images/selected-work/selected-work-01.png",
     aspectRatio: "1782 / 1124",
-    tags: ["Research", "UX", "UI", "SaaS", "Product Design"],
-  },
-  {
-    title: "Acreditta Wallet",
-    href: "/work/acreditta-wallet",
-    description:
-      "Exploring the experience of receiving, viewing and managing digital credentials from the user side.",
-    image: "/images/work/work-2.png",
-    aspectRatio: "1782 / 1048",
     tags: ["Research", "UX", "UI", "SaaS", "Product Design"],
   },
   {
@@ -26,8 +17,17 @@ const projects = [
     href: "/work/tus-clases-particulares",
     description:
       "Designing and testing new features to make it easier for teachers to manage their experience on the platform.",
-    image: "/images/work/work-3.png",
+    image: "/images/selected-work/selected-work-02.png",
     aspectRatio: "1782 / 1124",
+    tags: ["Research", "UX", "UI", "SaaS", "Product Design"],
+  },
+  {
+    title: "Acreditta Wallet",
+    href: "/work/wallet",
+    description:
+      "Exploring the experience of receiving, viewing and managing digital credentials from the user side.",
+    image: "/images/selected-work/selected-work-03.png",
+    aspectRatio: "1782 / 1048",
     tags: ["Research", "UX", "UI", "SaaS", "Product Design"],
   },
 ];
@@ -79,7 +79,7 @@ export default function SelectedWork() {
                 >
                   <Image
                     src={project.image}
-                    alt={project.title}
+                    alt={`${project.title} project preview`}
                     fill
                     className="object-cover"
                     sizes="(max-width: 767px) 100vw, (max-width: 1023px) 50vw, 419px"

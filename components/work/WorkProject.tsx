@@ -14,7 +14,7 @@ type WorkProjectProps = {
   image: string;
   cta: string;
   icon?: string;
-  href?: string;
+  href: string;
 };
 
 export default function WorkProject({
@@ -29,7 +29,7 @@ export default function WorkProject({
   image,
   cta,
   icon,
-  href = "#",
+  href,
 }: WorkProjectProps) {
   return (
     <section className="bg-background-secondary px-6 py-12 md:px-10 md:py-[72px] xl:px-20">
@@ -120,13 +120,19 @@ export default function WorkProject({
 
         {/* Project visual */}
         <div className="relative h-[320px] w-full min-w-0 lg:h-[500px] lg:flex-1">
-          <Image
-            src={image}
-            alt={`${title} project preview`}
-            fill
-            className="object-contain object-center"
-            sizes="(max-width: 1023px) 100vw, (max-width: 1352px) 55vw, 727px"
-          />
+          <Link
+            href={href}
+            aria-label={`View ${title} case study`}
+            className="block h-full w-full"
+          >
+            <Image
+              src={image}
+              alt={`${title} project preview`}
+              fill
+              className="object-contain object-center transition-transform duration-500 hover:scale-[1.02]"
+              sizes="(max-width: 1023px) 100vw, (max-width: 1352px) 55vw, 727px"
+            />
+          </Link>
         </div>
       </div>
     </section>

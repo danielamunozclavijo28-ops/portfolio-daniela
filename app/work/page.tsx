@@ -62,7 +62,7 @@ export default function WorkPage() {
         ]}
         image="/images/work/work-3.png"
         cta="View case study"
-        href="/work/acreditta-wallet"
+        href="/work/wallet"
       />
 
       <WorkLab />
