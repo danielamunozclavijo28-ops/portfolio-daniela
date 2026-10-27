@@ -10,7 +10,7 @@ const projects = [
       "Designing and improving the experience for creating, managing and verifying digital credentials.",
     image: "/images/work/work-1.png",
     aspectRatio: "1782 / 1124",
-    tags: ["Research", "UX", "UI", "Saas", "Product Design"],
+    tags: ["Research", "UX", "UI", "SaaS", "Product Design"],
   },
   {
     title: "Acreditta Wallet",
@@ -19,16 +19,16 @@ const projects = [
       "Exploring the experience of receiving, viewing and managing digital credentials from the user side.",
     image: "/images/work/work-2.png",
     aspectRatio: "1782 / 1048",
-    tags: ["Research", "UX", "UI", "Saas", "Product Design"],
+    tags: ["Research", "UX", "UI", "SaaS", "Product Design"],
   },
   {
-    title: "Tusclasesparticulares",
+    title: "Tus Clases Particulares",
     href: "/work/tus-clases-particulares",
     description:
       "Designing and testing new features to make it easier for teachers to manage their experience on the platform.",
     image: "/images/work/work-3.png",
     aspectRatio: "1782 / 1124",
-    tags: ["Research", "UX", "UI", "Saas", "Product Design"],
+    tags: ["Research", "UX", "UI", "SaaS", "Product Design"],
   },
 ];
 
@@ -90,7 +90,7 @@ export default function SelectedWork() {
                 <div className="flex w-full flex-1 flex-col gap-6 p-4 md:p-6">
                   <div className="flex w-full flex-col gap-2">
                     <div className="flex items-center gap-2">
-                      <h3 className="font-display text-[22px] font-normal leading-normal text-foreground">
+                      <h3 className="font-display text-[22px] font-semibold leading-normal text-foreground">
                         {project.title}
                       </h3>
 
@@ -98,7 +98,7 @@ export default function SelectedWork() {
                         aria-hidden="true"
                         className="text-[20px] leading-none text-foreground"
                       >
-                        ↗
+                        →
                       </span>
                     </div>
 
