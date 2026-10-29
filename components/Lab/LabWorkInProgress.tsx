@@ -17,7 +17,7 @@ const areas = [
   },
   {
     title: "Content",
-    description: "UX writing And exploration",
+    description: "UX writing and exploration",
     icon: "/images/lab/lab-icons/lab-icon-04.svg",
   },
   {
@@ -34,16 +34,16 @@ const areas = [
 
 export default function LabWorkInProgress() {
   return (
-    <section className="bg-background px-20 py-[72px]">
-      <div className="mx-auto flex max-w-[1352px] items-start gap-16">
+    <section className="bg-background px-8 py-10 md:px-20 md:py-[72px]">
+      <div className="mx-auto flex max-w-[1352px] flex-col gap-10 md:flex-row md:items-start md:gap-16">
         {/* Intro */}
-        <div className="flex w-[321px] shrink-0 flex-col gap-8">
-          <p className="text-[18px] font-normal text-accent">
+        <div className="flex w-full shrink-0 flex-col gap-6 md:w-[321px] md:gap-8">
+          <p className="text-[16px] font-normal text-accent md:text-[18px]">
             A WORK IN PROGRESS
           </p>
 
           <div className="flex flex-col gap-4">
-            <h2 className="font-display text-[34px] font-normal leading-[1.15] text-foreground">
+            <h2 className="font-display text-[24px] font-normal leading-[1.15] text-foreground md:text-[34px]">
               Learning how to design with AI, not just use AI.
             </h2>
 
@@ -63,26 +63,27 @@ export default function LabWorkInProgress() {
         </div>
 
         {/* Areas */}
-        <div className="grid min-w-0 flex-1 grid-cols-3 gap-x-8 gap-y-12">
+        <div className="grid w-full min-w-0 grid-cols-2 gap-x-6 gap-y-8 md:flex-1 md:grid-cols-3 md:gap-x-8 md:gap-y-12">
           {areas.map((area) => (
             <article
               key={area.title}
-              className="flex flex-col gap-6"
+              className="flex min-w-0 flex-col gap-4 md:gap-6"
             >
-              <div className="flex h-[50px] w-[50px] items-center justify-center rounded-full bg-accent">
+              <div className="flex size-[50px] shrink-0 items-center justify-center rounded-full bg-accent">
                 <img
                   src={area.icon}
                   alt=""
                   aria-hidden="true"
+                  className="size-full object-contain"
                 />
               </div>
 
               <div className="flex flex-col gap-1">
-                <h3 className="text-[18px] font-semibold leading-normal text-foreground">
+                <h3 className="text-[16px] font-semibold leading-[1.25] text-foreground md:text-[18px] md:leading-normal">
                   {area.title}
                 </h3>
 
-                <p className="text-[16px] font-normal leading-normal text-[#454C54]">
+                <p className="text-[16px] font-normal leading-[1.25] text-[#454C54]">
                   {area.description}
                 </p>
               </div>

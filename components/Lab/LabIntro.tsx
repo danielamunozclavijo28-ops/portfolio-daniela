@@ -1,18 +1,17 @@
+
 export default function LabIntro() {
   return (
-    <section className="h-[385px] bg-background px-20">
-      <div className="mx-auto flex h-full max-w-[1352px] items-center gap-8">
+    <section className="min-h-0 bg-background px-8 py-10 md:h-[385px] md:px-20 md:py-0">
+      <div className="mx-auto flex h-full max-w-[1352px] flex-col gap-8 md:flex-row md:items-center">
         {/* Intro */}
-        <div className="flex w-[545px] shrink-0 flex-col gap-8">
-          <p className="text-[18px] font-normal text-accent">
+        <div className="flex w-full shrink-0 flex-col gap-6 md:w-[545px] md:gap-8">
+          <p className="text-[16px] font-normal text-accent md:text-[18px]">
             EXPLORATION LAB
           </p>
 
           <div className="flex flex-col gap-4">
-            <h1 className="font-display text-[34px] font-normal leading-[1.15] text-foreground">
-              Projects, ideas and things I wanted
-              <br />
-              to explore.
+            <h1 className="font-display text-[24px] font-normal leading-[1.15] text-foreground md:text-[34px]">
+              Projects, ideas and things I wanted to explore.
             </h1>
 
             <p className="text-[16px] font-normal leading-[1.25] text-[#454C54]">
@@ -24,8 +23,8 @@ export default function LabIntro() {
           </div>
         </div>
 
-        {/* Handwritten statement */}
-        <div className="flex h-[218px] min-w-0 flex-1 items-center justify-end bg-background-secondary px-[34px]">
+        {/* Handwritten statement — desktop only */}
+        <div className="hidden h-[218px] min-w-0 flex-1 items-center justify-end bg-background-secondary px-[34px] md:flex">
           <p className="w-[170px] rotate-[-8deg] font-serif text-[30px] font-normal italic leading-[1.15] text-[#A97979]">
             explore
             <br />

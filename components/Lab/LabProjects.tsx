@@ -5,23 +5,23 @@ const projects = [
   {
     title: "A Casa Portuguesa",
     description:
-      "An academic project exploring a digital experience inspired by Portuguese culture and products.",
+      "An e-commerce concept inspired by Portuguese culture and traditions. I worked on the brand and digital experience, from discovering products to exploring the stories behind them.",
     image: "/images/lab/a-casa-portuguesa.png",
-    tags: ["UX/UI", "Branding", "E-commerce"],
+    tags: ["Branding", "UX/UI", "E-commerce"],
   },
   {
     title: "Opto",
     description:
-      "A digital product concept exploring how technology can support healthier drinking habits.",
+      "A mobile app concept exploring how technology could help people become more aware of their drinking habits through information, tracking and social features.",
     image: "/images/lab/opto.png",
-    tags: ["UX Research", "UX/UI", "Mobile"],
+    tags: ["UX Research", "Mobile Product", "UI", "App"],
   },
   {
     title: "Frizz",
     description:
-      "A digital experience exploring branding, product discovery and e-commerce for a beverage brand.",
+      "An e-commerce concept for vitamin drinks that combines product discovery, a fresh visual identity and a simple digital shopping experience.",
     image: "/images/lab/frizz.png",
-    tags: ["Branding", "UI", "E-commerce"],
+    tags: ["Web Design", "E-commerce", "AI", "UI"],
   },
   {
     title: "Diego Pomareda",
@@ -48,52 +48,61 @@ const projects = [
 
 export default function LabProjects() {
   return (
-    <section className="bg-[#F6F2EE] px-20 py-[72px]">
+    <section className="bg-[#F6F2EE] px-8 py-10 md:px-20 md:py-[72px]">
       <div className="mx-auto max-w-[1352px]">
-        <div className="grid grid-cols-3">
+        <div className="grid grid-cols-1 md:grid-cols-3">
           {projects.map((project, index) => (
             <article
               key={project.title}
               className={[
-                "flex flex-col px-6 py-8",
-                index % 3 !== 0 ? "border-l border-[#D9D8D5]" : "",
+                "flex min-w-0 flex-col px-0 py-8",
+                "md:px-6 md:py-8",
+                index % 3 !== 0
+                  ? "md:border-l md:border-[#D9D8D5]"
+                  : "",
+                index > 0 ? "border-t border-[#D9D8D5] md:border-t-0" : "",
               ].join(" ")}
             >
-              <div className="mb-8 flex h-[220px] items-center justify-center">
+              {/* Project image */}
+              <div className="mb-6 flex h-[190px] w-full items-center justify-center md:mb-8 md:h-[220px]">
                 <Image
                   src={project.image}
-                  alt={project.title}
+                  alt={`${project.title} project mockups`}
                   width={800}
                   height={500}
+                  sizes="(max-width: 767px) 326px, (max-width: 1352px) 30vw, 400px"
                   className="h-full w-full object-contain"
                 />
               </div>
 
-              <div className="flex flex-col gap-4">
-                <h2 className="font-display text-[22px] font-normal text-foreground">
+              {/* Project information */}
+              <div className="flex flex-col gap-3 md:gap-4">
+                <h2 className="font-display text-[16px] font-semibold leading-[1.25] text-foreground md:text-[22px] md:font-normal">
                   {project.title}
                 </h2>
 
-                <p className="text-[18px] font-normal leading-normal text-[#454C54]">
+                <p className="text-[16px] font-normal leading-[1.25] text-[#454C54] md:text-[18px] md:leading-normal">
                   {project.description}
                 </p>
 
+                {/* Tags */}
                 <div className="flex flex-wrap gap-2">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="rounded-[20px] bg-[#F1E3E1] px-[10px] py-[6px] text-[14px] text-[#454C54]"
+                      className="rounded-[20px] bg-[#F1E3E1] px-[9px] py-[5px] text-[12px] leading-none text-[#454C54] md:px-[10px] md:py-[6px] md:text-[14px] md:leading-normal"
                     >
                       {tag}
                     </span>
                   ))}
                 </div>
 
+                {/* CTA */}
                 <a
                   href="#"
-                  className="flex w-fit items-center gap-2 text-[18px] font-semibold text-foreground"
+                  className="mt-2 flex w-fit items-center gap-2 text-[16px] font-semibold text-foreground transition-opacity hover:opacity-60 md:mt-0 md:text-[18px]"
                 >
-                  <span>Explore project</span>
+                  <span>Explore more</span>
                   <span aria-hidden="true">→</span>
                 </a>
               </div>
