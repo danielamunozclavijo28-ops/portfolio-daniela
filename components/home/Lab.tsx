@@ -33,16 +33,16 @@ export default function Lab() {
         {/* Intro */}
         <div className="flex w-full shrink-0 flex-col gap-5 lg:w-[321px] lg:gap-8">
           <div className="flex flex-col gap-5 lg:gap-8">
-            <p className="text-[9px] font-normal text-accent md:text-[18px]">
+            <p className="text-[16px] font-normal text-accent md:text-[18px]">
               EXPLORATION LAB
             </p>
 
             <div className="flex flex-col gap-3 md:gap-4">
-              <h2 className="font-display text-[22px] font-normal leading-[1.2] text-foreground md:text-[34px] md:leading-normal">
+              <h2 className="font-display text-[24px] font-normal leading-[1.2] text-foreground md:text-[34px] md:leading-normal">
                 Things I&apos;m trying out.
               </h2>
 
-              <p className="text-[12px] font-normal leading-[1.45] text-[#454C54] md:text-[18px] md:leading-normal">
+              <p className="text-[16px] font-normal leading-[1.5] text-[#454C54] md:text-[18px] md:leading-normal">
                 A mix of academic projects, visual experiments and ideas
                 I&apos;ve explored along the way. Some started with a brief,
                 others simply with curiosity.
@@ -52,12 +52,12 @@ export default function Lab() {
 
           <Link
             href="/lab"
-            className="flex w-fit items-center gap-2 rounded-[6px] bg-foreground px-3 py-3 text-[12px] font-medium text-white transition-opacity hover:opacity-90 md:gap-[10px] md:text-[18px]"
+            className="flex w-fit items-center gap-2 rounded-[6px] bg-foreground px-3 py-3 text-[16px] font-medium text-white transition-opacity hover:opacity-90 md:gap-[10px] md:text-[18px]"
           >
             <span>See what I&apos;m exploring</span>
             <span
               aria-hidden="true"
-              className="text-[18px] leading-none md:text-[20px]"
+              className="text-[20px] leading-none"
             >
               →
             </span>
@@ -86,7 +86,7 @@ export default function Lab() {
                   {exploration.title}
                 </h3>
 
-                <p className="font-body text-[12px] font-normal leading-[1.45] text-[#454C54] md:text-[18px] md:leading-normal">
+                <p className="font-body text-[16px] font-normal leading-[1.5] text-[#454C54] md:text-[18px] md:leading-normal">
                   {exploration.description}
                 </p>
               </div>

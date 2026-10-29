@@ -42,11 +42,11 @@ export default function SelectedWork() {
         {/* Section header */}
         <div className="flex flex-col items-start gap-5 md:flex-row md:items-end md:justify-between md:gap-6">
           <div className="flex w-full flex-col gap-5 md:max-w-[545px] md:gap-8">
-            <p className="text-[9px] font-normal text-accent md:text-[18px]">
+            <p className="text-[16px] font-normal text-accent md:text-[18px]">
               SELECTED WORK
             </p>
 
-            <h2 className="font-display text-[22px] font-semibold leading-[1.2] text-foreground md:text-[34px] md:leading-normal">
+            <h2 className="font-display text-[24px] font-semibold leading-[1.2] text-foreground md:text-[34px] md:leading-normal">
               A few things I’ve worked on.
             </h2>
           </div>
@@ -86,13 +86,13 @@ export default function SelectedWork() {
 
                       <span
                         aria-hidden="true"
-                        className="shrink-0 text-[18px] leading-none text-foreground md:text-[20px]"
+                        className="shrink-0 text-[20px] leading-none text-foreground"
                       >
                         →
                       </span>
                     </div>
 
-                    <p className="text-[12px] font-normal leading-[1.45] text-[#454C54] md:text-[18px] md:leading-normal">
+                    <p className="text-[16px] font-normal leading-[1.5] text-[#454C54] md:text-[18px] md:leading-normal">
                       {project.description}
                     </p>
                   </div>
@@ -102,7 +102,7 @@ export default function SelectedWork() {
                     {project.tags.map((tag) => (
                       <span
                         key={tag}
-                        className="rounded-[20px] bg-[#F1E3E1] px-[9px] py-[5px] text-[10px] font-normal leading-normal text-[#2C323A] md:px-[10px] md:py-[6px] md:text-[14px]"
+                        className="rounded-[20px] bg-[#F1E3E1] px-[10px] py-[6px] text-[16px] font-normal leading-normal text-[#2C323A] md:text-[14px]"
                       >
                         {tag}
                       </span>
@@ -114,14 +114,17 @@ export default function SelectedWork() {
           ))}
         </div>
 
-        {/* View all projects — mobile and desktop */}
+        {/* View all projects */}
         <div className="mt-2 flex justify-start md:mt-8">
           <Link
             href="/work"
-            className="inline-flex items-center gap-[10px] rounded-[6px] bg-foreground px-3 py-3 text-[12px] font-medium text-white transition-opacity hover:opacity-90 md:text-[18px]"
+            className="inline-flex items-center gap-[10px] rounded-[6px] bg-foreground px-3 py-3 text-[16px] font-medium text-white transition-opacity hover:opacity-90 md:text-[18px]"
           >
             <span>View all projects</span>
-            <span aria-hidden="true" className="text-[18px] leading-none md:text-[20px]">
+            <span
+              aria-hidden="true"
+              className="text-[20px] leading-none"
+            >
               →
             </span>
           </Link>

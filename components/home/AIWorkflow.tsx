@@ -38,16 +38,16 @@ export default function AIWorkflow() {
       <div className="mx-auto flex max-w-[1352px] flex-col gap-8 md:flex-row md:items-center md:gap-10 lg:gap-16">
         {/* Left column */}
         <div className="flex w-full shrink-0 flex-col gap-5 md:w-[280px] md:gap-8 lg:w-[321px]">
-          <p className="text-[9px] font-normal text-accent md:text-[18px]">
+          <p className="text-[16px] font-normal text-accent md:text-[18px]">
             AI IN MY WORKFLOW
           </p>
 
           <div className="flex flex-col gap-3 md:gap-4">
-            <h2 className="font-display text-[22px] font-normal leading-[1.2] text-foreground md:text-[34px] md:leading-normal">
+            <h2 className="font-display text-[24px] font-normal leading-[1.2] text-foreground md:text-[34px] md:leading-normal">
               I’ve been exploring how AI can fit into my design process.
             </h2>
 
-            <p className="text-[12px] font-normal leading-[1.45] text-[#454C54] md:text-[18px] md:leading-normal">
+            <p className="text-[16px] font-normal leading-[1.5] text-[#454C54] md:text-[18px] md:leading-normal">
               I use AI for things like exploring ideas, organising research,
               writing, prototyping and getting through repetitive tasks faster.
               I still make the design decisions, but it has changed the way I
@@ -75,11 +75,11 @@ export default function AIWorkflow() {
               </div>
 
               <div className="flex flex-col gap-1 md:gap-2">
-                <h3 className="text-[13px] font-semibold leading-[1.3] text-foreground md:text-[18px] md:leading-normal">
+                <h3 className="text-[16px] font-semibold leading-[1.3] text-foreground md:text-[18px] md:leading-normal">
                   {area.title}
                 </h3>
 
-                <p className="text-[12px] font-normal leading-[1.45] text-[#454C54] md:text-[18px] md:leading-normal">
+                <p className="text-[16px] font-normal leading-[1.5] text-[#454C54] md:text-[18px] md:leading-normal">
                   {area.description}
                 </p>
               </div>

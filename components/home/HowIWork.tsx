@@ -49,16 +49,16 @@ export default function HowIWork() {
       <div className="mx-auto flex max-w-[1352px] flex-col gap-8 md:flex-row md:items-center md:gap-10 lg:gap-16">
         {/* Intro */}
         <div className="flex w-full shrink-0 flex-col gap-5 md:w-[280px] md:gap-8 lg:w-[314px]">
-          <p className="text-[9px] font-normal text-accent md:text-[18px]">
+          <p className="text-[16px] font-normal text-accent md:text-[18px]">
             HOW I WORK
           </p>
 
           <div className="flex flex-col gap-3 md:gap-4">
-            <h2 className="font-display text-[22px] font-semibold leading-[1.2] text-foreground md:text-[34px] md:leading-normal">
+            <h2 className="font-display text-[24px] font-semibold leading-[1.2] text-foreground md:text-[34px] md:leading-normal">
               It usually starts with a lot of questions.
             </h2>
 
-            <p className="text-[12px] font-normal leading-[1.45] text-[#454C54] md:text-[18px] md:leading-normal">
+            <p className="text-[16px] font-normal leading-[1.5] text-[#454C54] md:text-[18px] md:leading-normal">
               Before jumping into the interface, I like to understand what
               we’re building, who it is for and what we’re trying to improve.
               From there, I move between research, flows, wireframes, UI and
@@ -87,7 +87,7 @@ export default function HowIWork() {
                   />
                 </div>
 
-                <div className="flex flex-col gap-1 text-[12px] leading-[1.4] md:gap-2 md:text-[18px] md:leading-normal">
+                <div className="flex flex-col gap-1 text-[16px] leading-[1.4] md:gap-2 md:text-[18px] md:leading-normal">
                   <p className="font-semibold text-foreground">
                     {step.title}
                   </p>
@@ -114,7 +114,7 @@ export default function HowIWork() {
                 className="mt-0.5 h-5 w-5 shrink-0 object-contain md:mt-0 md:h-7 md:w-7"
               />
 
-              <p className="text-[12px] font-normal leading-[1.45] text-[#454C54] md:text-[18px] md:leading-normal">
+              <p className="text-[16px] font-normal leading-[1.5] text-[#454C54] md:text-[18px] md:leading-normal">
                 I use <strong>AI</strong> throughout my workflow to accelerate
                 research, exploration, prototyping and production, while
                 keeping product decisions, thinking and design
