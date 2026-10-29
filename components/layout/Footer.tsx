@@ -12,7 +12,7 @@ export default function Footer() {
           className="font-display text-[30px] leading-none text-accent"
           aria-label="Back to home"
         >
-          DM
+          Daniela Muñoz
         </Link>
 
         <Link
@@ -106,10 +106,10 @@ export default function Footer() {
           <div className="flex min-h-[72px] flex-row items-center justify-center gap-8">
             <Link
               href="/"
-              className="font-display text-[34px] leading-none text-accent"
+              className="font-display text-[24px] leading-none text-accent"
               aria-label="Back to home"
             >
-              DM
+              Daniela Muñoz
             </Link>
 
             <div className="h-px flex-1 bg-[#D9D8D5]" />

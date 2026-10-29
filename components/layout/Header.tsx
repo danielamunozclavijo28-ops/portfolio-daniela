@@ -31,10 +31,10 @@ export default function Header() {
         <Link
           href="/"
           onClick={() => handleNavigate("/")}
-          className="font-display text-[30px] leading-none text-accent md:text-[34px]"
+          className="font-display text-[30px] leading-none text-accent md:text-[24px]"
           aria-label="Daniela Muñoz Clavijo — Home"
         >
-          DM
+          Daniela Muñoz
         </Link>
 
         {/* Desktop navigation */}
