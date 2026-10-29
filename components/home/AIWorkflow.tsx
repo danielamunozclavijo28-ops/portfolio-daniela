@@ -1,3 +1,6 @@
+
+import Image from "next/image";
+
 const areas = [
   {
     title: "Research",
@@ -28,20 +31,23 @@ const areas = [
 
 export default function AIWorkflow() {
   return (
-    <section id="ai-workflow" className="bg-background-secondary px-20 py-[72px]">
-      <div className="mx-auto flex max-w-[1352px] items-center gap-16">
+    <section
+      id="ai-workflow"
+      className="bg-background-secondary px-8 py-10 md:px-10 md:py-[72px] xl:px-20"
+    >
+      <div className="mx-auto flex max-w-[1352px] flex-col gap-8 md:flex-row md:items-center md:gap-10 lg:gap-16">
         {/* Left column */}
-        <div className="flex w-[321px] shrink-0 flex-col gap-8">
-          <p className="text-[18px] font-normal text-accent">
+        <div className="flex w-full shrink-0 flex-col gap-5 md:w-[280px] md:gap-8 lg:w-[321px]">
+          <p className="text-[9px] font-normal text-accent md:text-[18px]">
             AI IN MY WORKFLOW
           </p>
 
-          <div className="flex flex-col gap-4">
-            <h2 className="font-display text-[34px] font-normal leading-normal text-foreground">
+          <div className="flex flex-col gap-3 md:gap-4">
+            <h2 className="font-display text-[22px] font-normal leading-[1.2] text-foreground md:text-[34px] md:leading-normal">
               I’ve been exploring how AI can fit into my design process.
             </h2>
 
-            <p className="text-[18px] font-normal leading-normal text-[#454C54]">
+            <p className="text-[12px] font-normal leading-[1.45] text-[#454C54] md:text-[18px] md:leading-normal">
               I use AI for things like exploring ideas, organising research,
               writing, prototyping and getting through repetitive tasks faster.
               I still make the design decisions, but it has changed the way I
@@ -51,26 +57,29 @@ export default function AIWorkflow() {
         </div>
 
         {/* AI areas */}
-        <div className="flex min-w-0 flex-1 items-start gap-8">
+        <div className="grid w-full min-w-0 grid-cols-2 items-start gap-x-5 gap-y-8 md:flex md:flex-1 md:gap-6 lg:gap-8">
           {areas.map((area) => (
             <article
               key={area.title}
-              className="flex w-[167.8px] shrink-0 flex-col gap-6"
+              className="flex min-w-0 flex-col gap-3 md:w-0 md:flex-1 md:gap-6"
             >
-              <div className="h-[50px] w-[50px] shrink-0">
-                <img
+              <div className="h-10 w-10 shrink-0 md:h-[50px] md:w-[50px]">
+                <Image
                   src={area.icon}
                   alt=""
-                  className="h-full w-full"
+                  width={50}
+                  height={50}
+                  aria-hidden="true"
+                  className="h-full w-full object-contain"
                 />
               </div>
 
-              <div className="flex flex-col gap-2 text-[18px] leading-normal">
-                <h3 className="font-semibold text-foreground">
+              <div className="flex flex-col gap-1 md:gap-2">
+                <h3 className="text-[13px] font-semibold leading-[1.3] text-foreground md:text-[18px] md:leading-normal">
                   {area.title}
                 </h3>
 
-                <p className="text-[#454C54]">
+                <p className="text-[12px] font-normal leading-[1.45] text-[#454C54] md:text-[18px] md:leading-normal">
                   {area.description}
                 </p>
               </div>
