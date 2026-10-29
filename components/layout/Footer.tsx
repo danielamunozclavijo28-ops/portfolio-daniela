@@ -5,11 +5,11 @@ import Image from "next/image";
 export default function Footer() {
   return (
     <footer id="contact">
-      {/* Mobile footer — 390 × 77 reference */}
+      {/* Mobile footer */}
       <div className="flex h-[77px] items-center justify-between bg-[#F6F2EE] px-8 md:hidden">
         <Link
           href="/"
-          className="font-display text-[30px] leading-none text-accent"
+          className="font-display text-[20px] font-semibold leading-none text-accent"
           aria-label="Back to home"
         >
           Daniela Muñoz
@@ -106,7 +106,7 @@ export default function Footer() {
           <div className="flex min-h-[72px] flex-row items-center justify-center gap-8">
             <Link
               href="/"
-              className="font-display text-[24px] leading-none text-accent"
+              className="font-display text-[24px] font-semibold leading-none text-accent"
               aria-label="Back to home"
             >
               Daniela Muñoz

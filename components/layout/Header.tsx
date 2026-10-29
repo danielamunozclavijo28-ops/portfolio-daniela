@@ -31,7 +31,7 @@ export default function Header() {
         <Link
           href="/"
           onClick={() => handleNavigate("/")}
-          className="font-display text-[30px] leading-none text-accent md:text-[24px]"
+          className="font-display text-[20px] font-semibold leading-none text-accent md:text-[24px]"
           aria-label="Daniela Muñoz Clavijo — Home"
         >
           Daniela Muñoz
