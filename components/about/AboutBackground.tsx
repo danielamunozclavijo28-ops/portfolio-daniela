@@ -1,6 +1,4 @@
 
-import Link from "next/link";
-
 const timeline = [
   {
     title: "Industrial Design",
@@ -88,18 +86,21 @@ export default function AboutBackground() {
             </div>
           </div>
 
-          <Link
-            href="#experience"
+          {/* CV button */}
+          <a
+            href="/documents/daniela-munoz-cv.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
             className="flex w-fit items-center gap-[10px] rounded-[4px] bg-foreground px-3 py-3 text-[16px] font-medium text-white transition-opacity hover:opacity-90"
           >
             <span>More about my experience</span>
             <span aria-hidden="true" className="text-[20px] leading-none">
               →
             </span>
-          </Link>
+          </a>
         </div>
 
-        {/* Timeline — horizontally centered in its column */}
+        {/* Timeline */}
         <div
           id="experience"
           className="flex min-w-0 flex-col justify-self-center"
@@ -112,7 +113,7 @@ export default function AboutBackground() {
               {index < timeline.length - 1 && (
                 <div
                   aria-hidden="true"
-                  className="absolute left-[25px] top-[50px] bottom-0 w-px bg-[#D9D8D5]"
+                  className="absolute bottom-0 left-[25px] top-[50px] w-px bg-[#D9D8D5]"
                 />
               )}
 
@@ -155,10 +156,7 @@ export default function AboutBackground() {
 
           <div className="flex flex-col gap-4">
             {focusAreas.map((item) => (
-              <div
-                key={item.label}
-                className="flex items-center gap-3"
-              >
+              <div key={item.label} className="flex items-center gap-3">
                 <img src={item.icon} alt="" aria-hidden="true" />
 
                 <span className="text-[16px] font-semibold text-foreground">
