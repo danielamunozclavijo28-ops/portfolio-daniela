@@ -1,6 +1,7 @@
 
 import type { Metadata } from "next";
 import { Work_Sans } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
 import "cal-sans";
 import "./globals.css";
 
@@ -29,6 +30,7 @@ export default function RootLayout({
         <Header />
         {children}
         <Footer />
+        <Analytics />
       </body>
     </html>
   );
