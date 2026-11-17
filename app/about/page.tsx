@@ -1,16 +1,11 @@
+import type { Metadata } from "next";
+import AboutPage from "@/components/pages/AboutPage";
 
-import AboutHero from "@/components/about/AboutHero";
-import AboutBackground from "@/components/about/AboutBackground";
-import AboutSkills from "@/components/about/AboutSkills";
-import AboutOutside from "@/components/about/AboutOutside";
+export const metadata: Metadata = {
+  title: "About · Daniela Muñoz",
+  description: "Industrial designer by training, product designer by practice.",
+};
 
-export default function AboutPage() {
-  return (
-    <main>
-      <AboutHero />
-      <AboutBackground />
-      <AboutSkills />
-      <AboutOutside />
-    </main>
-  );
+export default function Page() {
+  return <AboutPage />;
 }

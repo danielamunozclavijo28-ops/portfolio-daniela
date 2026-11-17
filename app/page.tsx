@@ -1,18 +1,11 @@
+import type { Metadata } from "next";
+import HomePage from "@/components/pages/HomePage";
 
-import Hero from "@/components/home/Hero";
-import SelectedWork from "@/components/home/SelectedWork";
-import HowIWork from "@/components/home/HowIWork";
-import AIWorkflow from "@/components/home/AIWorkflow";
-import Lab from "@/components/home/Lab";
+export const metadata: Metadata = {
+  title: "Daniela Muñoz · Product Designer",
+  description: "Product Designer · UX/UI in Barcelona. B2B SaaS and marketplace products, designed end to end.",
+};
 
-export default function Home() {
-  return (
-    <main>
-      <Hero />
-      <SelectedWork />
-      <HowIWork />
-      <AIWorkflow />
-      <Lab />
-    </main>
-  );
+export default function Page() {
+  return <HomePage />;
 }
