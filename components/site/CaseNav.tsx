@@ -1,11 +1,14 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
+import { langOf } from "./i18n";
 
 type Item = { id: string; label: string };
 
 /** Floating pill with the sections of a case study. Desktop only. */
 export default function CaseNav() {
+  const es = langOf(usePathname()) === "es";
   const [items, setItems] = useState<Item[]>([]);
   const [active, setActive] = useState("");
   const [visible, setVisible] = useState(false);
@@ -40,7 +43,7 @@ export default function CaseNav() {
 
   return (
     <nav
-      aria-label="Case study sections"
+      aria-label={es ? "Secciones del caso" : "Case study sections"}
       className="dm-casenav"
       style={{
         position: "fixed",

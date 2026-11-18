@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { usePathname } from "next/navigation";
+import { langOf } from "./i18n";
 
 /**
  * Site-wide scroll effects, driven by data attributes in the markup:
@@ -13,6 +14,7 @@ export default function Effects() {
   const pathname = usePathname();
 
   useEffect(() => {
+    document.documentElement.lang = langOf(pathname);
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const once = Array.from(document.querySelectorAll<HTMLElement>("[data-anim], [data-reveal]"));
     const fills = Array.from(document.querySelectorAll<HTMLElement>("[data-fill]"));
