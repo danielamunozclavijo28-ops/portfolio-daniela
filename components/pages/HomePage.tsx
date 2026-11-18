@@ -190,21 +190,21 @@ export default function HomePage() {
               {v.hero0 && (
                 <>
                   <div className="dm-hero-mk">
-                    <img src="/images/v2/mockup-acreditta-desktop-isometrico.webp" alt="Acreditta platform screens: dashboard, badge creation, bulk issuing and credential page" style={{ width: "112%", maxWidth: "none", height: "auto", display: "block" }} />
+                    <img src="/images/v2/mockup-acreditta-desktop-isometrico.webp" alt="Acreditta platform screens: dashboard, badge creation, bulk issuing and credential page" style={{ position: "absolute", left: "-2%", top: "50%", transform: "translateY(-50%)", width: "94%", maxWidth: "none", height: "auto", display: "block" }} />
                   </div>
                 </>
               )}
               {v.hero1 && (
                 <>
                   <div className="dm-hero-mk">
-                    <img src="/images/v2/mockup-tusclases-web-isometrico.webp" alt="Tus Clases Particulares screens on desktop and mobile: post-ad page, inbox and response metrics" style={{ width: "112%", maxWidth: "none", height: "auto", display: "block" }} />
+                    <img src="/images/v2/mockup-tusclases-web-isometrico.webp" alt="Tus Clases Particulares screens on desktop and mobile: post-ad page, inbox and response metrics" style={{ position: "absolute", left: "-2%", top: "50%", transform: "translateY(-50%)", width: "116%", maxWidth: "none", height: "auto", display: "block" }} />
                   </div>
                 </>
               )}
               {v.hero2 && (
                 <>
                   <div className="dm-hero-mk">
-                    <img src="/images/v2/mockup-acreditta-wallet-3d.webp" alt="Acreditta Wallet screens on five phones" style={{ width: "112%", maxWidth: "none", height: "auto", display: "block" }} />
+                    <img src="/images/v2/mockup-acreditta-wallet-3d.webp" alt="Acreditta Wallet screens on five phones" style={{ position: "absolute", left: "-2%", top: "50%", transform: "translateY(-50%)", width: "114%", maxWidth: "none", height: "auto", display: "block" }} />
                   </div>
                 </>
               )}

@@ -192,21 +192,21 @@ export default function HomePage() {
               {v.hero0 && (
                 <>
                   <div className="dm-hero-mk">
-                    <img src="/images/v2/mockup-acreditta-desktop-isometrico.webp" alt="Pantallas de la plataforma Acreditta: dashboard, creación de insignias, emisión masiva y página de la credencial" style={{ width: "112%", maxWidth: "none", height: "auto", display: "block" }} />
+                    <img src="/images/v2/mockup-acreditta-desktop-isometrico.webp" alt="Pantallas de la plataforma Acreditta: dashboard, creación de insignias, emisión masiva y página de la credencial" style={{ position: "absolute", left: "-2%", top: "50%", transform: "translateY(-50%)", width: "94%", maxWidth: "none", height: "auto", display: "block" }} />
                   </div>
                 </>
               )}
               {v.hero1 && (
                 <>
                   <div className="dm-hero-mk">
-                    <img src="/images/v2/mockup-tusclases-web-isometrico.webp" alt="Pantallas de Tus Clases Particulares en escritorio y móvil: página tras publicar, bandeja y métricas de respuesta" style={{ width: "112%", maxWidth: "none", height: "auto", display: "block" }} />
+                    <img src="/images/v2/mockup-tusclases-web-isometrico.webp" alt="Pantallas de Tus Clases Particulares en escritorio y móvil: página tras publicar, bandeja y métricas de respuesta" style={{ position: "absolute", left: "-2%", top: "50%", transform: "translateY(-50%)", width: "116%", maxWidth: "none", height: "auto", display: "block" }} />
                   </div>
                 </>
               )}
               {v.hero2 && (
                 <>
                   <div className="dm-hero-mk">
-                    <img src="/images/v2/mockup-acreditta-wallet-3d.webp" alt="Pantallas de Acreditta Wallet en cinco móviles" style={{ width: "112%", maxWidth: "none", height: "auto", display: "block" }} />
+                    <img src="/images/v2/mockup-acreditta-wallet-3d.webp" alt="Pantallas de Acreditta Wallet en cinco móviles" style={{ position: "absolute", left: "-2%", top: "50%", transform: "translateY(-50%)", width: "114%", maxWidth: "none", height: "auto", display: "block" }} />
                   </div>
                 </>
               )}
