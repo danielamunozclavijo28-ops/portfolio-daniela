@@ -4,6 +4,7 @@ import Link from "next/link";
 import SiteHeader from "@/components/site/SiteHeader";
 import SiteFooter from "@/components/site/SiteFooter";
 import ContactBand from "@/components/site/ContactBand";
+import CaseNav from "@/components/site/CaseNav";
 
 export default function WalletCase() {
   return (
@@ -47,7 +48,7 @@ export default function WalletCase() {
           </div>
         </div>
       </section>
-      <section style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s01" data-case-section="A product decision" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -55,9 +56,24 @@ export default function WalletCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>A product decision</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Why a PWA{" "}
-                <em>and not a native app.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Why</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>a</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>PWA</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>and</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>not</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>a</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>native</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "7" }}>app.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -94,7 +110,7 @@ export default function WalletCase() {
           </ul>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s02" data-case-section="Scoped MVP" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -102,10 +118,20 @@ export default function WalletCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Scoped MVP</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>What we designed and shipped.</h2>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>What</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>we</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>designed</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>and</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "4" }}>shipped.</span>
+              </h2>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }} data-reveal="">
             <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <span style={{ width: "48px", height: "48px", borderRadius: "50%", background: "#F3D1DC", color: "#6E1A3D", display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -189,9 +215,24 @@ export default function WalletCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>03</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>The moment that matters</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }}>
-                Receiving a credential{" "}
-                <em>should feel like an achievement.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Receiving</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>a</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>credential</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>should</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>feel</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>like</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>an</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "7" }}>achievement.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -216,7 +257,7 @@ export default function WalletCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s04" data-case-section="Learnings" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -224,13 +265,20 @@ export default function WalletCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Learnings</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Doing less,{" "}
-                <em>on purpose.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Doing</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>less,</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>on</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>purpose.</span>
+                </em>
               </h2>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "20px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "20px" }} data-reveal="">
             <div style={{ background: "#DDE7D7", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.7", color: "#1D2A22" }}>Scoping to the essential tasks let us give recipients real value without pulling focus from the core B2B product.</p>
             </div>
@@ -245,9 +293,16 @@ export default function WalletCase() {
           <Link href="/work/acreditta" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px", background: "#DDE7D7", borderRadius: "32px", padding: "40px 48px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Next project</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(32px, 3.4vw, 52px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Acreditta{" "}
-                <em>→ B2B SaaS</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(32px, 3.4vw, 52px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Acreditta</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "1" }}>→</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "2" }}>B2B</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>SaaS</span>
+                </em>
               </h2>
             </div>
             <span style={{ width: "64px", height: "64px", borderRadius: "50%", background: "#34503E", color: "#F7F3EE", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "26px" }}>→</span>
@@ -255,6 +310,7 @@ export default function WalletCase() {
         </div>
       </section>
       <ContactBand />
+      <CaseNav />
       <SiteFooter />
     </>
   );

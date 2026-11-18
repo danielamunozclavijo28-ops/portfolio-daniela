@@ -4,6 +4,7 @@ import Link from "next/link";
 import SiteHeader from "@/components/site/SiteHeader";
 import SiteFooter from "@/components/site/SiteFooter";
 import ContactBand from "@/components/site/ContactBand";
+import CaseNav from "@/components/site/CaseNav";
 
 export default function TusClasesCase() {
   return (
@@ -60,7 +61,7 @@ export default function TusClasesCase() {
       </section>
       <section style={{ padding: "0 0 24px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }} data-reveal="">
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", paddingTop: "16px", borderTop: "1.5px solid #34503E" }}>
               <span style={{ fontFamily: "Fraunces, serif", fontSize: "clamp(24px, 2.2vw, 32px)", lineHeight: "1.15", color: "#34503E" }}>Shipped</span>
               <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#4B524D" }}>Every feature in this case went live on the platform.</span>
@@ -80,7 +81,7 @@ export default function TusClasesCase() {
           </div>
         </div>
       </section>
-      <section style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s01" data-case-section="Context" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -88,7 +89,17 @@ export default function TusClasesCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Context</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>Seeing the whole tutor journey.</h2>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Seeing</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>the</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>whole</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>tutor</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "4" }}>journey.</span>
+              </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
@@ -124,7 +135,7 @@ export default function TusClasesCase() {
           </ul>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s02" data-case-section="Feature · Students without a tutor" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -132,9 +143,16 @@ export default function TusClasesCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · Students without a tutor</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Turning waiting{" "}
-                <em>into action.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Turning</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>waiting</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>into</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>action.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -223,7 +241,7 @@ export default function TusClasesCase() {
           </div>
         </div>
       </section>
-      <section style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s03" data-case-section="Feature · Response metrics" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -231,9 +249,24 @@ export default function TusClasesCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>03</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · Response metrics</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Data that tells you{" "}
-                <em>what to do next.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Data</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>that</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>tells</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>you</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "4" }}>what</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>to</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>do</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "7" }}>next.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -337,7 +370,7 @@ export default function TusClasesCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s04" data-case-section="Feature · After publishing an ad" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -345,7 +378,19 @@ export default function TusClasesCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · After publishing an ad</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>Answering “what should I do now?”</h2>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Answering</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>“what</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>should</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>I</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "4" }}>do</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "5" }}>now?”</span>
+              </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
@@ -452,9 +497,16 @@ export default function TusClasesCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>05</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Quick wins</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }}>
-                Small changes,{" "}
-                <em>real impact.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Small</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>changes,</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>real</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>impact.</span>
+                </em>
               </h2>
             </div>
           </div>
@@ -496,7 +548,7 @@ export default function TusClasesCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s06" data-case-section="Learnings" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -504,9 +556,18 @@ export default function TusClasesCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Learnings</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Small things{" "}
-                <em>make a difference.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Small</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>things</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>make</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>a</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>difference.</span>
+                </em>
               </h2>
             </div>
           </div>
@@ -541,9 +602,16 @@ export default function TusClasesCase() {
           <Link href="/work/wallet" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px", background: "#DDE7D7", borderRadius: "32px", padding: "40px 48px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Next project</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(32px, 3.4vw, 52px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Acreditta Wallet{" "}
-                <em>→ mobile</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(32px, 3.4vw, 52px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Acreditta</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>Wallet</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>→</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>mobile</span>
+                </em>
               </h2>
             </div>
             <span style={{ width: "64px", height: "64px", borderRadius: "50%", background: "#34503E", color: "#F7F3EE", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "26px" }}>→</span>
@@ -551,6 +619,7 @@ export default function TusClasesCase() {
         </div>
       </section>
       <ContactBand />
+      <CaseNav />
       <SiteFooter />
     </>
   );

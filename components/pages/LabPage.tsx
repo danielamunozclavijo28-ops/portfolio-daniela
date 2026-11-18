@@ -16,6 +16,7 @@ export default function LabPage() {
             <h1 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(48px, 5.8vw, 92px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
               Projects beyond{" "}
               <em style={{ color: "#B8336A" }}>the brief.</em>
+              <sup className="dm-count" aria-label="3 projects">03</sup>
             </h1>
             <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "680px" }}>Academic and client projects where I explored new problems, from health behaviour to brand and e-commerce.</p>
           </div>
@@ -23,7 +24,7 @@ export default function LabPage() {
       </section>
       <section style={{ padding: "24px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))", gap: "40px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(340px, 1fr))", gap: "40px" }} data-reveal="">
             <Link href="/lab/a-casa-portuguesa" style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
               <span className="dm-swap" style={{ position: "relative", display: "block", borderRadius: "24px", overflow: "hidden" }}>
                 <img src="/images/v2/casa-portada.jpg" alt="A Casa Portuguesa mockups" style={{ width: "100%", height: "300px", objectFit: "cover", objectPosition: "top center", borderRadius: "24px", background: "#F3D1DC", display: "block" }} />
@@ -85,9 +86,26 @@ export default function LabPage() {
               <span style={{ alignSelf: "flex-start" }}>
                 <span style={{ padding: "6px 14px", borderRadius: "999px", background: "#F7F3EE", color: "#6E1A3D", fontSize: "13px", fontWeight: "600" }}>Currently exploring</span>
               </span>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(38px, 4vw, 60px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#1D2A22" }}>
-                Learning to design with AI,{" "}
-                <em>not just use AI.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(38px, 4vw, 60px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#1D2A22" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Learning</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>to</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>design</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>with</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "4" }}>AI,</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "5" }}>not</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>just</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "7" }}>use</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "8" }}>AI.</span>
+                </em>
               </h2>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#1D2A22" }}>
                 How AI can support each stage of the product design process. The goal isn’t to automate design. It’s to create more space for better thinking.

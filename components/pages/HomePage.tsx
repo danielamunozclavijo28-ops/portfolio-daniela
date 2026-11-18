@@ -138,9 +138,38 @@ export default function HomePage() {
                   </>
                 )}
               </div>
-              <h1 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(44px, 5.2vw, 84px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                I design digital products end to end,{" "}
-                <em style={{ color: v.heroEm, transition: "color .6s ease" }}>from the first question to the shipped feature.</em>
+              <h1 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(44px, 5.2vw, 84px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-anim="words">
+                <span className="dm-w" style={{ "--i": "0" }}>I</span>
+                {" "}
+                <span className="dm-w" style={{ "--i": "1" }}>design</span>
+                {" "}
+                <span className="dm-w" style={{ "--i": "2" }}>digital</span>
+                {" "}
+                <span className="dm-w" style={{ "--i": "3" }}>products</span>
+                {" "}
+                <span className="dm-w" style={{ "--i": "4" }}>end</span>
+                {" "}
+                <span className="dm-w" style={{ "--i": "5" }}>to</span>
+                {" "}
+                <span className="dm-w" style={{ "--i": "6" }}>end,</span>
+                {" "}
+                <em style={{ color: v.heroEm, transition: "color .6s ease" }}>
+                  <span className="dm-w" style={{ "--i": "7" }}>from</span>
+                  {" "}
+                  <span className="dm-w" style={{ "--i": "8" }}>the</span>
+                  {" "}
+                  <span className="dm-w" style={{ "--i": "9" }}>first</span>
+                  {" "}
+                  <span className="dm-w" style={{ "--i": "10" }}>question</span>
+                  {" "}
+                  <span className="dm-w" style={{ "--i": "11" }}>to</span>
+                  {" "}
+                  <span className="dm-w" style={{ "--i": "12" }}>the</span>
+                  {" "}
+                  <span className="dm-w" style={{ "--i": "13" }}>shipped</span>
+                  {" "}
+                  <span className="dm-w" style={{ "--i": "14" }}>feature.</span>
+                </em>
               </h1>
               <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "620px" }}>
                 3+ years designing B2B SaaS and marketplace products, 7+ years in digital design. I was the sole designer of a digital-credentials platform used by organizations across Latin America, and I owned the tutor experience of a two-sided marketplace in Spain.
@@ -224,7 +253,7 @@ export default function HomePage() {
       </section>
       <section style={{ padding: "8px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }} data-reveal="">
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", paddingTop: "16px", borderTop: "1.5px solid #34503E" }}>
               <span style={{ fontFamily: "Fraunces, serif", fontSize: "clamp(24px, 2.2vw, 32px)", lineHeight: "1.15", color: "#34503E" }}>Sole designer, 0 → 1</span>
               <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#4B524D" }}>Designed a B2B SaaS platform from scratch and evolved it for almost 3 years.</span>
@@ -242,11 +271,113 @@ export default function HomePage() {
               <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#4B524D" }}>7+ years in visual and digital design, including 200+ digital badges for organizations.</span>
             </div>
           </div>
-          <p style={{ margin: "0", fontSize: "15px", color: "#4B524D" }}>
-            Products and credentials I designed have been used by{" "}
-            <strong style={{ color: "#34503E" }}>Adidas, Nutresa, Bayer, ICONTEC, Tecmilenio, Tec de Monterrey, AIESEC, FIAD</strong>
-            {" "}and universities and chambers of commerce from Mexico to Chile.
-          </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", fontSize: "15px", color: "#4B524D" }}>Products and credentials I designed have been used by organizations from Mexico to Chile.</p>
+            <div className="dm-marquee" role="img" aria-label="Products and credentials I designed have been used by Adidas, Nutresa, Bayer, ICONTEC, Tecmilenio, Tec de Monterrey, AIESEC, FIAD, Cámara de Comercio de Cali, MoodleMoot México, Universidad BCI, ANUIES." style={{ overflow: "hidden", borderTop: "1px solid #CFDCCB", borderBottom: "1px solid #CFDCCB", padding: "18px 0" }}>
+              <div className="dm-track" aria-hidden="true" style={{ display: "flex", gap: "40px", width: "max-content", fontFamily: "Fraunces, serif", fontSize: "clamp(22px, 2.2vw, 30px)", color: "#34503E" }}>
+                <span style={{ display: "inline-flex", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Adidas
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Nutresa
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Bayer
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    ICONTEC
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Tecmilenio
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Tec de Monterrey
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    AIESEC
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    FIAD
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Cámara de Comercio de Cali
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    MoodleMoot México
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Universidad BCI
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    ANUIES
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                </span>
+                <span style={{ display: "inline-flex", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Adidas
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Nutresa
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Bayer
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    ICONTEC
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Tecmilenio
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Tec de Monterrey
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    AIESEC
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    FIAD
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Cámara de Comercio de Cali
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    MoodleMoot México
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    Universidad BCI
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                    ANUIES
+                    <span style={{ color: "#B8336A" }}>·</span>
+                  </span>
+                </span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden", marginTop: "88px" }}>
@@ -254,14 +385,24 @@ export default function HomePage() {
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "flex-end", gap: "24px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Selected work</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }}>
-                Case studies{" "}
-                <em>from real products.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Case</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>studies</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>from</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>real</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>products.</span>
+                </em>
+                <sup className="dm-count" aria-label="3 projects">03</sup>
               </h2>
             </div>
             <Link href="/work" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 26px", borderRadius: "999px", border: "1.5px solid #F7F3EE", color: "#F7F3EE", fontSize: "15px", fontWeight: "500" }}>View all work →</Link>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "28px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "28px" }} data-reveal="">
             <Link href="/work/acreditta" className="dm-lift" style={{ background: "#F7F3EE", color: "#1D2A22", borderRadius: "24px", padding: "14px 14px 26px", display: "flex", flexDirection: "column", gap: "16px" }}>
               <div style={{ height: "250px", overflow: "hidden", borderRadius: "18px" }}>
                 <div style={{ position: "relative", background: "#DDE7D7", borderRadius: "36px", padding: "28px 34px 22px", overflow: "hidden", minHeight: "auto" }}>
@@ -341,9 +482,24 @@ export default function HomePage() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>How I work</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                It usually starts with{" "}
-                <em style={{ color: "#B8336A" }}>a lot of questions.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>It</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>usually</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>starts</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>with</span>
+                {" "}
+                <em style={{ color: "#B8336A" }}>
+                  <span className="dm-f" style={{ "--i": "4" }}>a</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>lot</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>of</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "7" }}>questions.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -391,16 +547,22 @@ export default function HomePage() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Exploration Lab</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Beyond{" "}
-                <em>the brief.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Beyond</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "1" }}>the</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "2" }}>brief.</span>
+                </em>
+                <sup className="dm-count" aria-label="3 projects">03</sup>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>A team project in brand and e-commerce, my Master’s final project at ELISAVA, and a website for a real client.</p>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }} data-reveal="">
             <div style={{ background: "#F7F3EE", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <span style={{ fontSize: "13px", fontWeight: "600", color: "#6E1A3D" }}>Team project · Brand &amp; e-commerce</span>
               <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "24px", color: "#34503E" }}>A Casa Portuguesa</strong>

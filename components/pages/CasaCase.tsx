@@ -4,6 +4,7 @@ import Link from "next/link";
 import SiteHeader from "@/components/site/SiteHeader";
 import SiteFooter from "@/components/site/SiteFooter";
 import ContactBand from "@/components/site/ContactBand";
+import CaseNav from "@/components/site/CaseNav";
 
 export default function CasaCase() {
   return (
@@ -47,7 +48,7 @@ export default function CasaCase() {
       </section>
       <section style={{ padding: "0 0 24px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }} data-reveal="">
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", paddingTop: "16px", borderTop: "1.5px solid #34503E" }}>
               <span style={{ fontFamily: "Fraunces, serif", fontSize: "clamp(24px, 2.2vw, 32px)", lineHeight: "1.15", color: "#34503E" }}>33 survey responses</span>
               <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#4B524D" }}>To validate consumption patterns and interest in new services.</span>
@@ -67,7 +68,7 @@ export default function CasaCase() {
           </div>
         </div>
       </section>
-      <section style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s01" data-case-section="Context and my role" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -75,9 +76,28 @@ export default function CasaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Context and my role</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                A shop with more to offer{" "}
-                <em>than its website showed.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>A</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>shop</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>with</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>more</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "4" }}>to</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "5" }}>offer</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "6" }}>than</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "7" }}>its</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "8" }}>website</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "9" }}>showed.</span>
+                </em>
               </h2>
             </div>
           </div>
@@ -130,7 +150,7 @@ export default function CasaCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s02" data-case-section="Research" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -138,9 +158,24 @@ export default function CasaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Research</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Five ways of looking{" "}
-                <em>at the same shop.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Five</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>ways</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>of</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>looking</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "4" }}>at</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>the</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>same</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "7" }}>shop.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -149,7 +184,7 @@ export default function CasaCase() {
               </p>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(210px, 1fr))", gap: "20px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(210px, 1fr))", gap: "20px" }} data-reveal="">
             <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "40px", lineHeight: "1", color: "#B8336A" }}>01</span>
               <strong style={{ fontSize: "18px", fontWeight: "600", color: "#34503E" }}>In-depth interviews</strong>
@@ -214,9 +249,20 @@ export default function CasaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>03</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>The idea</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }}>
-                Designing an experience,{" "}
-                <em>not a checkout.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Designing</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>an</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>experience,</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>not</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>a</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>checkout.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -225,7 +271,7 @@ export default function CasaCase() {
               </p>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }} data-reveal="">
             <div style={{ background: "#F7F3EE", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <span style={{ width: "48px", height: "48px", borderRadius: "50%", background: "#F3D1DC", color: "#6E1A3D", display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -258,7 +304,7 @@ export default function CasaCase() {
           </div>
         </div>
       </section>
-      <section style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s04" data-case-section="People" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -266,16 +312,27 @@ export default function CasaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>People</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Three customers,{" "}
-                <em>three reasons to visit.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Three</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>customers,</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>three</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>reasons</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>to</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>visit.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>We turned the research into three personas and mapped a journey for each one.</p>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px" }} data-reveal="">
             <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <span style={{ alignSelf: "flex-start", padding: "6px 14px", borderRadius: "999px", background: "#F3D1DC", color: "#6E1A3D", fontSize: "13px", fontWeight: "600" }}>The nostalgic customer</span>
               <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "26px", color: "#34503E" }}>Pedro</strong>
@@ -300,7 +357,7 @@ export default function CasaCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s05" data-case-section="Key decisions" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -308,13 +365,24 @@ export default function CasaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>05</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Key decisions</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Four decisions{" "}
-                <em>that shaped the web.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Four</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>decisions</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>that</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>shaped</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>the</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>web.</span>
+                </em>
               </h2>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "24px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "24px" }} data-reveal="">
             <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "32px", display: "flex", flexDirection: "column", gap: "12px", gap: "16px" }}>
               <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", lineHeight: "1", color: "#B8336A" }}>01</span>
               <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "26px", color: "#34503E" }}>Experiences in the main navigation</strong>
@@ -390,7 +458,7 @@ export default function CasaCase() {
           </div>
         </div>
       </section>
-      <section style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s06" data-case-section="Structure" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -398,9 +466,16 @@ export default function CasaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Structure</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                From sitemap{" "}
-                <em>to wireframes.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>From</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>sitemap</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>to</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>wireframes.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -431,7 +506,7 @@ export default function CasaCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s07" data-case-section="Visual design" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -439,9 +514,20 @@ export default function CasaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Visual design</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Tradition you can{" "}
-                <em>see and click.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Tradition</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>you</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>can</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>see</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>and</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>click.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -466,7 +552,7 @@ export default function CasaCase() {
           </figure>
         </div>
       </section>
-      <section style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s08" data-case-section="The solution" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -474,9 +560,18 @@ export default function CasaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>08</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>The solution</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Buy, book{" "}
-                <em>and feel Portugal.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Buy,</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>book</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>and</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>feel</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>Portugal.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -617,7 +712,7 @@ export default function CasaCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s09" data-case-section="Reflections" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -625,9 +720,22 @@ export default function CasaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>09</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Reflections</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                What I learned{" "}
-                <em>and what comes next.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>What</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>I</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>learned</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>and</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>what</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>comes</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>next.</span>
+                </em>
               </h2>
             </div>
           </div>
@@ -714,9 +822,22 @@ export default function CasaCase() {
           <Link href="/lab" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px", background: "#DDE7D7", borderRadius: "32px", padding: "40px 48px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Next project</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(32px, 3.4vw, 52px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Back to the Lab{" "}
-                <em>→ more projects</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(32px, 3.4vw, 52px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Back</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>to</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>the</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>Lab</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "4" }}>→</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>more</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>projects</span>
+                </em>
               </h2>
             </div>
             <span style={{ width: "64px", height: "64px", borderRadius: "50%", background: "#34503E", color: "#F7F3EE", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "26px" }}>→</span>
@@ -724,6 +845,7 @@ export default function CasaCase() {
         </div>
       </section>
       <ContactBand />
+      <CaseNav />
       <SiteFooter />
     </>
   );

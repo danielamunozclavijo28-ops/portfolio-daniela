@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
+import Effects from "@/components/site/Effects";
 
 export const metadata: Metadata = {
   title: "Daniela Muñoz · Product Designer",
@@ -37,6 +38,7 @@ export default function RootLayout({
         >
           {children}
         </div>
+        <Effects />
         <Analytics />
       </body>
     </html>

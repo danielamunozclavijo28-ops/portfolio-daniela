@@ -59,7 +59,7 @@ export default function WorkPage() {
           </div>
           {v.showAcr && (
             <>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "clamp(32px, 5vw, 72px)", alignItems: "center" }}>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "clamp(32px, 5vw, 72px)", alignItems: "center" }} data-reveal="">
                 <Link href="/work/acreditta" style={{ flex: "1 1 480px", minWidth: "0", display: "block" }}>
                   <div style={{ position: "relative", background: "#DDE7D7", borderRadius: "36px", padding: "clamp(28px, 5vw, 72px)", overflow: "hidden", minHeight: "auto" }}>
                     <div style={{ position: "relative", padding: "4% 14% 2% 4%" }}>
@@ -86,9 +86,20 @@ export default function WorkPage() {
                     <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "48px", lineHeight: "1", color: "#B8336A" }}>01</span>
                     <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>B2B SaaS · 0 → 1</span>
                   </div>
-                  <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(34px, 3.4vw, 50px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                    Acreditta: a credentials platform,{" "}
-                    <em>from zero.</em>
+                  <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(34px, 3.4vw, 50px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                    <span className="dm-f" style={{ "--i": "0" }}>Acreditta:</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "1" }}>a</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "2" }}>credentials</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>platform,</span>
+                    {" "}
+                    <em>
+                      <span className="dm-f" style={{ "--i": "4" }}>from</span>
+                      {" "}
+                      <span className="dm-f" style={{ "--i": "5" }}>zero.</span>
+                    </em>
                   </h2>
                   <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
                     As the only designer, I designed Acreditta’s platform from a requirements document and grew it into an ecosystem: badges, certificates and professional degrees; individual and bulk issuing; tracking and analytics; multi-organization admin; LMS integrations.
@@ -120,15 +131,28 @@ export default function WorkPage() {
           )}
           {v.showTus && (
             <>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "clamp(32px, 5vw, 72px)", alignItems: "center" }}>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "clamp(32px, 5vw, 72px)", alignItems: "center" }} data-reveal="">
                 <div style={{ flex: "1 1 400px", minWidth: "0", display: "flex", flexDirection: "column", gap: "18px" }}>
                   <div style={{ display: "flex", alignItems: "baseline", gap: "16px" }}>
                     <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "48px", lineHeight: "1", color: "#B8336A" }}>02</span>
                     <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Marketplace · Growth</span>
                   </div>
-                  <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(34px, 3.4vw, 50px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                    Tus Clases Particulares: helping tutors{" "}
-                    <em>find students.</em>
+                  <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(34px, 3.4vw, 50px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                    <span className="dm-f" style={{ "--i": "0" }}>Tus</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "1" }}>Clases</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "2" }}>Particulares:</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>helping</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>tutors</span>
+                    {" "}
+                    <em>
+                      <span className="dm-f" style={{ "--i": "5" }}>find</span>
+                      {" "}
+                      <span className="dm-f" style={{ "--i": "6" }}>students.</span>
+                    </em>
                   </h2>
                   <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
                     Designer responsible for the tutor area of a two-sided marketplace. Student matching tied to a paid plan, response-rate insights that nudge action, and a post-signup flow that tells new tutors what to do next.
@@ -178,7 +202,7 @@ export default function WorkPage() {
           )}
           {v.showWal && (
             <>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "clamp(32px, 5vw, 72px)", alignItems: "center" }}>
+              <div style={{ display: "flex", flexWrap: "wrap", gap: "clamp(32px, 5vw, 72px)", alignItems: "center" }} data-reveal="">
                 <Link href="/work/wallet" style={{ flex: "1 1 480px", minWidth: "0", display: "block" }}>
                   <div style={{ position: "relative", background: "#DDE7D7", borderRadius: "36px", padding: "clamp(24px, 4vw, 48px)", overflow: "hidden", minHeight: "auto" }}>
                     <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
@@ -191,9 +215,22 @@ export default function WorkPage() {
                     <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "48px", lineHeight: "1", color: "#B8336A" }}>03</span>
                     <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Mobile · PWA</span>
                   </div>
-                  <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(34px, 3.4vw, 50px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                    Acreditta Wallet: a home{" "}
-                    <em>for earned credentials.</em>
+                  <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(34px, 3.4vw, 50px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                    <span className="dm-f" style={{ "--i": "0" }}>Acreditta</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "1" }}>Wallet:</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "2" }}>a</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>home</span>
+                    {" "}
+                    <em>
+                      <span className="dm-f" style={{ "--i": "4" }}>for</span>
+                      {" "}
+                      <span className="dm-f" style={{ "--i": "5" }}>earned</span>
+                      {" "}
+                      <span className="dm-f" style={{ "--i": "6" }}>credentials.</span>
+                    </em>
                   </h2>
                   <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
                     The recipient side of Acreditta: accept, view and share credentials from your phone. Scoped as a PWA so the team could ship fast while the B2B platform stayed the priority.
@@ -230,13 +267,22 @@ export default function WorkPage() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Also</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Visual craft{" "}
-                <em>and side projects.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Visual</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>craft</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>and</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>side</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>projects.</span>
+                </em>
               </h2>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "20px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "20px" }} data-reveal="">
             <div style={{ background: "#F7F3EE", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <span style={{ width: "48px", height: "48px", borderRadius: "50%", background: "#F3D1DC", color: "#6E1A3D", display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

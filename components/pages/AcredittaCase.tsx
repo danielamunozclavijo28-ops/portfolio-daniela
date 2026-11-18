@@ -4,6 +4,7 @@ import Link from "next/link";
 import SiteHeader from "@/components/site/SiteHeader";
 import SiteFooter from "@/components/site/SiteFooter";
 import ContactBand from "@/components/site/ContactBand";
+import CaseNav from "@/components/site/CaseNav";
 
 export default function AcredittaCase() {
   return (
@@ -66,7 +67,7 @@ export default function AcredittaCase() {
       </section>
       <section style={{ padding: "0 0 24px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }} data-reveal="">
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", paddingTop: "16px", borderTop: "1.5px solid #34503E" }}>
               <span style={{ fontFamily: "Fraunces, serif", fontSize: "clamp(24px, 2.2vw, 32px)", lineHeight: "1.15", color: "#34503E" }}>3 credential types</span>
               <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#4B524D" }}>Digital badges, certificates and professional degrees.</span>
@@ -86,7 +87,7 @@ export default function AcredittaCase() {
           </div>
         </div>
       </section>
-      <section style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s01" data-case-section="Context" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -94,9 +95,18 @@ export default function AcredittaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Context</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Starting from{" "}
-                <em>a requirements document.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Starting</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>from</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>a</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>requirements</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>document.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -165,7 +175,7 @@ export default function AcredittaCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s02" data-case-section="The core flow" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -173,7 +183,21 @@ export default function AcredittaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>The core flow</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>Create → issue → track → report.</h2>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Create</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>→</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>issue</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>→</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "4" }}>track</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "5" }}>→</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "6" }}>report.</span>
+              </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
@@ -241,7 +265,7 @@ export default function AcredittaCase() {
           </div>
         </div>
       </section>
-      <section style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s03" data-case-section="Key decisions" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -249,9 +273,20 @@ export default function AcredittaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>03</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Key decisions</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Three decisions{" "}
-                <em>that shaped the product.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Three</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>decisions</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>that</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>shaped</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>the</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>product.</span>
+                </em>
               </h2>
             </div>
           </div>
@@ -286,7 +321,7 @@ export default function AcredittaCase() {
             </div>
             <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>All issuances: status chips and contextual actions per row. Personal data blurred.</figcaption>
           </figure>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "24px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "24px" }} data-reveal="">
             <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "32px", display: "flex", flexDirection: "column", gap: "12px", gap: "16px" }}>
               <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", lineHeight: "1", color: "#B8336A" }}>02</span>
               <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "26px", color: "#34503E" }}>Bulk issuing as a first-class path</strong>
@@ -326,7 +361,7 @@ export default function AcredittaCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s04" data-case-section="Measuring impact" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -334,9 +369,20 @@ export default function AcredittaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Measuring impact</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Giving organizations{" "}
-                <em>proof that it works.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Giving</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>organizations</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>proof</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>that</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>it</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>works.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -414,16 +460,29 @@ export default function AcredittaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>05</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Scaling the product</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }}>
-                From a badge tool{" "}
-                <em>to an ecosystem.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>From</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>a</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>badge</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>tool</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "4" }}>to</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>an</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>ecosystem.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>As Acreditta grew, I extended the same patterns to new credential types, new roles and new ways of issuing.</p>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }} data-reveal="">
             <div style={{ background: "#F7F3EE", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <span style={{ width: "48px", height: "48px", borderRadius: "50%", background: "#F3D1DC", color: "#6E1A3D", display: "flex", alignItems: "center", justifyContent: "center" }}>
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
@@ -505,7 +564,7 @@ export default function AcredittaCase() {
           </div>
         </div>
       </section>
-      <section style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s06" data-case-section="Research & collaboration" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -513,9 +572,22 @@ export default function AcredittaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Research &amp; collaboration</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Research also decides{" "}
-                <em>what not to build.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Research</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>also</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>decides</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>what</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>not</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>to</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>build.</span>
+                </em>
               </h2>
             </div>
           </div>
@@ -563,7 +635,7 @@ export default function AcredittaCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s07" data-case-section="Visual craft" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
@@ -571,9 +643,16 @@ export default function AcredittaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Visual craft</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Designing the credentials{" "}
-                <em>themselves.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Designing</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>the</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>credentials</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>themselves.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -619,13 +698,28 @@ export default function AcredittaCase() {
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>08</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Outcome &amp; learnings</span>
               </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }}>
-                What it led to,{" "}
-                <em>and what I learned.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>What</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>it</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>led</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "3" }}>to,</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "4" }}>and</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>what</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>I</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "7" }}>learned.</span>
+                </em>
               </h2>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }}>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }} data-reveal="">
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", paddingTop: "16px", borderTop: "1.5px solid #F7F3EE" }}>
               <span style={{ fontFamily: "Fraunces, serif", fontSize: "clamp(24px, 2.2vw, 32px)", lineHeight: "1.15", color: "#F7F3EE" }}>Launched &amp; evolved</span>
               <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#CFDCCB" }}>A first version shipped fast and kept growing for almost 3 years.</span>
@@ -666,9 +760,18 @@ export default function AcredittaCase() {
           <Link href="/work/tus-clases-particulares" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px", background: "#DDE7D7", borderRadius: "32px", padding: "40px 48px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Next project</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(32px, 3.4vw, 52px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                Tus Clases Particulares{" "}
-                <em>→ marketplace</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(32px, 3.4vw, 52px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Tus</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>Clases</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>Particulares</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>→</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>marketplace</span>
+                </em>
               </h2>
             </div>
             <span style={{ width: "64px", height: "64px", borderRadius: "50%", background: "#34503E", color: "#F7F3EE", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "26px" }}>→</span>
@@ -676,6 +779,7 @@ export default function AcredittaCase() {
         </div>
       </section>
       <ContactBand />
+      <CaseNav />
       <SiteFooter />
     </>
   );

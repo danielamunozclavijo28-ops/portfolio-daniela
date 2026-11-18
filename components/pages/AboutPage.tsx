@@ -5,6 +5,7 @@ import { Fragment, useRef, useState } from "react";
 import SiteHeader from "@/components/site/SiteHeader";
 import SiteFooter from "@/components/site/SiteFooter";
 import ContactBand from "@/components/site/ContactBand";
+import GrowPortrait from "@/components/site/GrowPortrait";
 
 export default function AboutPage() {
   const [state, setSt] = useState({});
@@ -65,10 +66,7 @@ export default function AboutPage() {
                 <a href="https://www.linkedin.com/in/daniela-munoz28" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 26px", borderRadius: "999px", border: "1.5px solid #34503E", color: "#34503E", fontSize: "15px", fontWeight: "500" }} target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </div>
             </div>
-            <figure style={{ flex: "1 1 340px", maxWidth: "420px", margin: "0", position: "relative", padding: "24px 24px 0 0" }}>
-              <div style={{ position: "absolute", right: "0", top: "0", width: "calc(100% - 24px)", height: "calc(100% - 24px)", borderRadius: "999px 999px 24px 24px", background: "#F3D1DC" }} aria-hidden="true" />
-              <img src="/images/v2/portrait.webp" alt="Portrait of Daniela Muñoz" style={{ position: "relative", width: "100%", height: "500px", objectFit: "cover", objectPosition: "50% 15%", borderRadius: "999px 999px 24px 24px", display: "block", background: "#DDE7D7" }} />
-            </figure>
+            <GrowPortrait />
           </div>
         </div>
       </section>
@@ -77,9 +75,20 @@ export default function AboutPage() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "56px", alignItems: "flex-start" }}>
             <div style={{ flex: "1 1 360px", display: "flex", flexDirection: "column", gap: "20px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Experience</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(38px, 4vw, 60px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }}>
-                From physical objects{" "}
-                <em>to digital products.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(38px, 4vw, 60px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>From</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>physical</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>objects</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>to</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>digital</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>products.</span>
+                </em>
               </h2>
               <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>3+ years in product design and 7+ years in digital and visual design, across Colombia and Spain.</p>
             </div>
@@ -152,9 +161,22 @@ export default function AboutPage() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Skills &amp; tools</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                What I bring{" "}
-                <em>to a product team.</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>What</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>I</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>bring</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>to</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>a</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>product</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>team.</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
@@ -218,9 +240,16 @@ export default function AboutPage() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Outside of work</p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
-                When I’m not{" "}
-                <em>designing…</em>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(40px, 4.4vw, 68px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>When</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>I’m</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "2" }}>not</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "3" }}>designing…</span>
+                </em>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
