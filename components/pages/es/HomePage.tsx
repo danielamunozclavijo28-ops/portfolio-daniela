@@ -27,7 +27,13 @@ export default function HomePage() {
     }));
     const c = STEPS[step];
     const bloom = egg === 'accepted' || !!st.bloomed;
-
+    const hero = st.hero || 0;
+    const tabs = (list, cur, key) => list.map((label, i) => ({ label,
+      pressed: i === cur ? 'true' : 'false',
+      bg: i === cur ? '#34503E' : 'transparent',
+      fg: i === cur ? '#F7F3EE' : '#34503E',
+      pick: () => this.setState({ [key]: i }) }));
+    const CAPS = ["Acreditta · dashboard, creación de insignias, emisión masiva y página de la credencial", "Tus Clases Particulares · página tras publicar, bandeja del profesor y métricas de respuesta", "Acreditta Wallet · PWA móvil"];
     return {
       steps,
       cur: { n: c[0], title: c[1], q: c[2], what: c[3], ex: c[4] },
@@ -36,6 +42,9 @@ export default function HomePage() {
       openEgg: () => this.setState({ egg: st.bloomed ? 'accepted' : 'issued', hint: false }),
       acceptEgg: () => this.setState({ egg: 'accepted', bloomed: true }),
       closeEgg: () => this.setState({ egg: 'closed', hint: false }),
+      heroTabs: tabs(["Acreditta", "Tus Clases", "Wallet"], hero, 'hero'),
+      hero0: hero === 0, hero1: hero === 1, hero2: hero === 2,
+      heroCaption: CAPS[hero],
       dotClass: st.hint ? 'dm-dot dm-dot-loud' : 'dm-dot',
       showHint: () => {
         this.setState({ hint: false });
@@ -179,42 +188,36 @@ export default function HomePage() {
                 En Barcelona · Disponible para nuevas oportunidades
               </span>
             </div>
-            <figure style={{ flex: "1 1 460px", maxWidth: "620px", margin: "0", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <div className="dm-iso" style={{ background: v.heroStage }}>
-                <div className="dm-iso-plane">
-                  <div className="dm-ph" style={{ left: "0%", top: "16%", "--i": "0" }}>
-                    <div className="dm-ph-sh" aria-hidden="true" />
-                    <div className="dm-ph-body">
-                      <img src="/images/v2/w-lista.jpg" alt="Acreditta Wallet: mis insignias" loading="eager" />
-                    </div>
+            <figure style={{ flex: "1 1 460px", maxWidth: "620px", margin: "0", display: "flex", flexDirection: "column", gap: "18px" }}>
+              {v.hero0 && (
+                <>
+                  <div className="dm-hero-mk">
+                    <img src="/images/v2/mockup-acreditta-desktop-isometrico.webp" alt="Pantallas de la plataforma Acreditta: dashboard, creación de insignias, emisión masiva y página de la credencial" style={{ width: "112%", maxWidth: "none", height: "auto", display: "block" }} />
                   </div>
-                  <div className="dm-ph" style={{ left: "0%", top: "60%", "--i": "1" }}>
-                    <div className="dm-ph-sh" aria-hidden="true" />
-                    <div className="dm-ph-body">
-                      <img src="/images/v2/w-perfil.jpg" alt="Acreditta Wallet: perfil con insignias" loading="eager" />
-                    </div>
+                </>
+              )}
+              {v.hero1 && (
+                <>
+                  <div className="dm-hero-mk">
+                    <img src="/images/v2/mockup-tusclases-web-isometrico.webp" alt="Pantallas de Tus Clases Particulares en escritorio y móvil: página tras publicar, bandeja y métricas de respuesta" style={{ width: "112%", maxWidth: "none", height: "auto", display: "block" }} />
                   </div>
-                  <div className="dm-ph" style={{ left: "35.5%", top: "2%", "--i": "2" }}>
-                    <div className="dm-ph-sh" aria-hidden="true" />
-                    <div className="dm-ph-body">
-                      <img src="/images/v2/w-emitida.jpg" alt="Acreditta Wallet: te han emitido una insignia" loading="eager" />
-                    </div>
+                </>
+              )}
+              {v.hero2 && (
+                <>
+                  <div className="dm-hero-mk">
+                    <img src="/images/v2/mockup-acreditta-wallet-3d.webp" alt="Pantallas de Acreditta Wallet en cinco móviles" style={{ width: "112%", maxWidth: "none", height: "auto", display: "block" }} />
                   </div>
-                  <div className="dm-ph" style={{ left: "35.5%", top: "46%", "--i": "3" }}>
-                    <div className="dm-ph-sh" aria-hidden="true" />
-                    <div className="dm-ph-body">
-                      <img src="/images/v2/w-detalle-1.jpg" alt="Acreditta Wallet: detalle de la credencial" loading="eager" />
-                    </div>
-                  </div>
-                  <div className="dm-ph" style={{ left: "71%", top: "26%", "--i": "4" }}>
-                    <div className="dm-ph-sh" aria-hidden="true" />
-                    <div className="dm-ph-body">
-                      <img src="/images/v2/w-detalle.jpg" alt="Acreditta Wallet: compartir una credencial" loading="eager" />
-                    </div>
-                  </div>
-                </div>
+                </>
+              )}
+              <div role="group" aria-label="Elige un proyecto" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "8px" }}>
+                {v.heroTabs.map((t, i) => (
+                  <Fragment key={i}>
+                    <button type="button" className="dm-tab dm-btn" onClick={t.pick} aria-pressed={t.pressed} style={{ minHeight: "44px", padding: "0 20px", borderRadius: "999px", border: "1.5px solid #34503E", cursor: "pointer", fontFamily: "'DM Sans', sans-serif", fontSize: "15px", fontWeight: "500", background: t.bg, color: t.fg }}>{t.label}</button>
+                  </Fragment>
+                ))}
               </div>
-              <figcaption style={{ fontSize: "14px", color: "#4B524D", textAlign: "center" }}>Acreditta Wallet · PWA móvil que diseñé</figcaption>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", textAlign: "center" }}>{v.heroCaption}</figcaption>
             </figure>
           </div>
         </div>
