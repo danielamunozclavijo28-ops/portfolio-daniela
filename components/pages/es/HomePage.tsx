@@ -382,7 +382,9 @@ export default function HomePage() {
             </Link>
             <Link href="/es/work/wallet" className="dm-lift" style={{ background: "#F7F3EE", color: "#1D2A22", borderRadius: "24px", padding: "14px 14px 26px", display: "flex", flexDirection: "column", gap: "16px" }}>
               <div style={{ height: "250px", overflow: "hidden", borderRadius: "18px" }}>
-                <img src="/images/v2/mockup-acreditta-wallet.webp" alt="Pantallas de Acreditta Wallet en móviles" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", display: "block" }} />
+                <div style={{ height: "100%", boxSizing: "border-box", background: "#DDE7D7", display: "flex", alignItems: "center", justifyContent: "center", padding: "18px 22px" }}>
+                  <img src="/images/v2/mockup-wallet-trio.webp" alt="Pantallas de Acreditta Wallet en móviles" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
+                </div>
               </div>
               <div style={{ padding: "0 10px", display: "flex", flexDirection: "column", gap: "10px" }}>
                 <span style={{ fontSize: "13px", fontWeight: "600", color: "#6E1A3D" }}>PWA móvil · 2021–2024</span>
