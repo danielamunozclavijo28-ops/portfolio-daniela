@@ -92,7 +92,7 @@ export default function AboutPage() {
                   <span className="dm-f" style={{ "--i": "5" }}>products.</span>
                 </em>
               </h2>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>3+ years in product design and 7+ years in digital and visual design, across Colombia and Spain.</p>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>Designing since 2019, with 3+ years in product design, across Colombia and Spain.</p>
             </div>
             <ol style={{ flex: "2 1 560px", listStyle: "none", margin: "0", padding: "0", borderBottom: "1px solid #CFDCCB" }}>
               {v.exp.map((e, i) => (

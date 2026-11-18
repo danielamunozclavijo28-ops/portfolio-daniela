@@ -301,7 +301,7 @@ export default function WorkPage() {
                 </svg>
               </span>
               <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "22px", color: "#34503E" }}>Brand &amp; visual design</strong>
-              <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#4B524D" }}>7+ years designing visual identities, websites and 200+ digital badges for organizations across Latin America.</span>
+              <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#4B524D" }}>Designing visual identities, websites and 200+ digital badges since 2019, for organizations across Latin America.</span>
             </div>
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "14px" }}>

@@ -92,7 +92,7 @@ export default function AboutPage() {
                   <span className="dm-f" style={{ "--i": "5" }}>digitales.</span>
                 </em>
               </h2>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>Más de 3 años en diseño de producto y más de 7 en diseño digital y visual, entre Colombia y España.</p>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>Diseñando desde 2019, con más de 3 años en diseño de producto, entre Colombia y España.</p>
             </div>
             <ol style={{ flex: "2 1 560px", listStyle: "none", margin: "0", padding: "0", borderBottom: "1px solid #CFDCCB" }}>
               {v.exp.map((e, i) => (

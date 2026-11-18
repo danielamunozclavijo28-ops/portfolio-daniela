@@ -174,7 +174,7 @@ export default function HomePage() {
                 </em>
               </h1>
               <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "620px" }}>
-                Más de 3 años diseñando productos B2B SaaS y marketplaces, y más de 7 en diseño digital. Fui la única diseñadora de una plataforma de credenciales digitales usada por organizaciones de toda Latinoamérica, y fui responsable de la experiencia de los profesores en un marketplace de dos lados en España.
+                Diseñando desde 2019, con más de 3 años en productos B2B SaaS y marketplaces. Fui la única diseñadora de una plataforma de credenciales digitales usada por organizaciones de toda Latinoamérica, y fui responsable de la experiencia de los profesores en un marketplace de dos lados en España.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "16px" }}>
                 <Link href="/es/work" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 28px", borderRadius: "999px", background: "#34503E", color: "#F7F3EE", fontSize: "15px", fontWeight: "500" }}>Ver proyectos →</Link>
@@ -270,7 +270,7 @@ export default function HomePage() {
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", paddingTop: "16px", borderTop: "1.5px solid #34503E" }}>
               <span style={{ fontFamily: "Fraunces, serif", fontSize: "clamp(24px, 2.2vw, 32px)", lineHeight: "1.15", color: "#34503E" }}>Oficio visual</span>
-              <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#4B524D" }}>Más de 7 años en diseño visual y digital, incluidas más de 200 insignias digitales para organizaciones.</span>
+              <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#4B524D" }}>Diseñando desde 2019, incluidas más de 200 insignias digitales para organizaciones.</span>
             </div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>

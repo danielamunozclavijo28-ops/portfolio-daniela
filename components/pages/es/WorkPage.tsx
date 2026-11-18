@@ -314,7 +314,7 @@ export default function WorkPage() {
               </span>
               <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "22px", color: "#34503E" }}>Marca y diseño visual</strong>
               <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#4B524D" }}>
-                Más de 7 años diseñando identidades visuales, webs y más de 200 insignias digitales para organizaciones de toda Latinoamérica.
+                Diseñando identidades visuales, webs y más de 200 insignias digitales desde 2019, para organizaciones de toda Latinoamérica.
               </span>
             </div>
           </div>

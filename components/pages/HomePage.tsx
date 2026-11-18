@@ -172,7 +172,7 @@ export default function HomePage() {
                 </em>
               </h1>
               <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "620px" }}>
-                3+ years designing B2B SaaS and marketplace products, 7+ years in digital design. I was the sole designer of a digital-credentials platform used by organizations across Latin America, and I owned the tutor experience of a two-sided marketplace in Spain.
+                Designing since 2019, with 3+ years in B2B SaaS and marketplace products. I was the sole designer of a digital-credentials platform used by organizations across Latin America, and I owned the tutor experience of a two-sided marketplace in Spain.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "16px" }}>
                 <Link href="/work" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 28px", borderRadius: "999px", background: "#34503E", color: "#F7F3EE", fontSize: "15px", fontWeight: "500" }}>View selected work →</Link>
@@ -268,7 +268,7 @@ export default function HomePage() {
             </div>
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", paddingTop: "16px", borderTop: "1.5px solid #34503E" }}>
               <span style={{ fontFamily: "Fraunces, serif", fontSize: "clamp(24px, 2.2vw, 32px)", lineHeight: "1.15", color: "#34503E" }}>Visual craft</span>
-              <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#4B524D" }}>7+ years in visual and digital design, including 200+ digital badges for organizations.</span>
+              <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#4B524D" }}>Designing since 2019, including 200+ digital badges for organizations.</span>
             </div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
