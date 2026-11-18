@@ -33,7 +33,7 @@ export default function RootLayout({
             fontFamily: "'DM Sans', sans-serif",
             display: "flex",
             flexDirection: "column",
-            overflowX: "hidden",
+            overflowX: "clip",
           }}
         >
           {children}

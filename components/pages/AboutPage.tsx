@@ -65,9 +65,9 @@ export default function AboutPage() {
                 <a href="https://www.linkedin.com/in/daniela-munoz28" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 26px", borderRadius: "999px", border: "1.5px solid #34503E", color: "#34503E", fontSize: "15px", fontWeight: "500" }} target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </div>
             </div>
-            <figure style={{ flex: "1 1 400px", maxWidth: "540px", margin: "0", position: "relative", padding: "28px 28px 0 0" }}>
-              <div style={{ position: "absolute", right: "0", top: "0", width: "calc(100% - 28px)", height: "calc(100% - 28px)", borderRadius: "999px 999px 24px 24px", background: "#F3D1DC" }} aria-hidden="true" />
-              <img src="/images/v2/portrait.webp" alt="Portrait of Daniela Muñoz" style={{ position: "relative", width: "100%", height: "clamp(440px, 46vw, 620px)", objectFit: "cover", objectPosition: "50% 15%", borderRadius: "999px 999px 24px 24px", display: "block", background: "#DDE7D7" }} />
+            <figure style={{ flex: "1 1 340px", maxWidth: "420px", margin: "0", position: "relative", padding: "24px 24px 0 0" }}>
+              <div style={{ position: "absolute", right: "0", top: "0", width: "calc(100% - 24px)", height: "calc(100% - 24px)", borderRadius: "999px 999px 24px 24px", background: "#F3D1DC" }} aria-hidden="true" />
+              <img src="/images/v2/portrait.webp" alt="Portrait of Daniela Muñoz" style={{ position: "relative", width: "100%", height: "500px", objectFit: "cover", objectPosition: "50% 15%", borderRadius: "999px 999px 24px 24px", display: "block", background: "#DDE7D7" }} />
             </figure>
           </div>
         </div>

@@ -63,6 +63,7 @@ a:hover .dm-swap-hint,a:focus-visible .dm-swap-hint{opacity:0}
   .dm-marquee .dm-track { animation: none; flex-wrap: wrap; width: auto; }
 }
 .dm-casenav::-webkit-scrollbar { display: none; }
+[data-case-section] { scroll-margin-top: 90px; }
 @media (max-width: 900px) { .dm-casenav { display: none !important; } }
 
 .dm-grow { flex: 1 1 360px; max-width: 470px; width: 100%; aspect-ratio: 600 / 520; position: relative; cursor: pointer; -webkit-tap-highlight-color: transparent; }

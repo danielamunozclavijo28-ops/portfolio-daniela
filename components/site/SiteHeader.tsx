@@ -11,7 +11,7 @@ export default function SiteHeader() {
     return on ? "2px solid #B8336A" : "2px solid transparent";
   };
   return (
-    <header style={{ padding: "24px clamp(20px, 5vw, 80px) 0" }}>
+    <header style={{ position: "sticky", top: "0", zIndex: 50, background: "#F7F3EE", padding: "14px clamp(20px, 5vw, 80px)", borderBottom: "1px solid rgba(52, 80, 62, 0.1)" }}>
       <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "16px" }}>
         <Link href="/" style={{ fontFamily: "Fraunces, serif", fontSize: "24px", fontWeight: "500", color: "#34503E" }}>
           Daniela{" "}
