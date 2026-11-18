@@ -61,24 +61,10 @@ export default function WorkPage() {
             <>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "clamp(32px, 5vw, 72px)", alignItems: "center" }} data-reveal="">
                 <Link href="/work/acreditta" style={{ flex: "1 1 480px", minWidth: "0", display: "block" }}>
-                  <div style={{ position: "relative", background: "#DDE7D7", borderRadius: "36px", padding: "clamp(28px, 5vw, 72px)", overflow: "hidden", minHeight: "auto" }}>
-                    <div style={{ position: "relative", padding: "4% 14% 2% 4%" }}>
-                      <div style={{ position: "relative" }}>
-                        <div style={{ position: "relative", background: "#1E211F", borderRadius: "20px 20px 6px 6px", padding: "2.2% 2.2% 2.8%", boxShadow: "0 40px 80px rgba(29,42,34,0.22)" }}>
-                          <span style={{ position: "absolute", left: "50%", top: "0.9%", width: "6px", height: "6px", marginLeft: "-3px", borderRadius: "50%", background: "#3A3E3B" }} aria-hidden="true" />
-                          <img src="/images/v2/acr-dashboard.jpg" alt="Acreditta dashboard" style={{ width: "100%", aspectRatio: "16 / 10", objectFit: "cover", objectPosition: "top left", display: "block", borderRadius: "4px", background: "#FFFFFF" }} />
-                        </div>
-                        <div style={{ height: "14px", margin: "0 -6%", background: "#D9D4CC", borderRadius: "2px 2px 16px 16px", boxShadow: "inset 0 3px 0 #EEEAE4" }} aria-hidden="true" />
-                      </div>
-                      <div style={{ position: "absolute", right: "18%", top: "-3%", width: "34%", zIndex: "2", background: "#FFFFFF", borderRadius: "16px", padding: "8px", boxShadow: "0 24px 50px rgba(29,42,34,0.22)" }}>
-                        <img src="/images/v2/det-kpi.jpg" alt="Credentials accepted metric" style={{ width: "100%", height: "auto", display: "block", borderRadius: "10px" }} />
-                      </div>
-                      <div style={{ position: "absolute", right: "2%", bottom: "0", width: "20%", zIndex: "3" }}>
-                        <div style={{ position: "relative", width: "100%", boxSizing: "border-box", borderRadius: "30px", padding: "7px", background: "#1E211F", boxShadow: "0 30px 60px rgba(29,42,34,0.28)" }}>
-                          <img src="/images/v2/w-emitida.jpg" alt="Acreditta Wallet" style={{ width: "100%", height: "auto", display: "block", borderRadius: "23px", background: "#FFFFFF" }} />
-                        </div>
-                      </div>
-                    </div>
+                  <div style={{ position: "relative", background: "#DDE7D7", borderRadius: "36px", padding: "clamp(24px, 4vw, 48px)", overflow: "hidden", minHeight: "auto" }}>
+                    <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
+                      <img src="/images/v2/work-acreditta-laptop.webp" alt="Acreditta dashboard on a laptop with the credential page on a phone and two badges" style={{ width: "100%", maxWidth: "100%", height: "auto", display: "block" }} />
+                    </figure>
                   </div>
                 </Link>
                 <div style={{ flex: "1 1 400px", minWidth: "0", display: "flex", flexDirection: "column", gap: "18px" }}>
@@ -180,21 +166,10 @@ export default function WorkPage() {
                   </div>
                 </div>
                 <Link href="/work/tus-clases-particulares" style={{ flex: "1 1 480px", minWidth: "0", display: "block" }}>
-                  <div style={{ position: "relative", background: "#F3D1DC", borderRadius: "36px", padding: "clamp(28px, 5vw, 72px)", overflow: "hidden", minHeight: "auto" }}>
-                    <div style={{ position: "relative", padding: "4% 14% 2% 4%" }}>
-                      <div style={{ position: "relative" }}>
-                        <div style={{ position: "relative", background: "#1E211F", borderRadius: "20px 20px 6px 6px", padding: "2.2% 2.2% 2.8%", boxShadow: "0 40px 80px rgba(29,42,34,0.22)" }}>
-                          <span style={{ position: "absolute", left: "50%", top: "0.9%", width: "6px", height: "6px", marginLeft: "-3px", borderRadius: "50%", background: "#3A3E3B" }} aria-hidden="true" />
-                          <img src="/images/v2/tus-ratio-1.jpg" alt="Tutor inbox with response metrics" style={{ width: "100%", aspectRatio: "16 / 10", objectFit: "cover", objectPosition: "top left", display: "block", borderRadius: "4px", background: "#FFFFFF" }} />
-                        </div>
-                        <div style={{ height: "14px", margin: "0 -6%", background: "#D9D4CC", borderRadius: "2px 2px 16px 16px", boxShadow: "inset 0 3px 0 #EEEAE4" }} aria-hidden="true" />
-                      </div>
-                      <div style={{ position: "absolute", right: "2%", bottom: "0", width: "20%", zIndex: "3" }}>
-                        <div style={{ position: "relative", width: "100%", boxSizing: "border-box", borderRadius: "30px", padding: "7px", background: "#1E211F", boxShadow: "0 30px 60px rgba(29,42,34,0.28)" }}>
-                          <img src="/images/v2/tus-ratio-m1.jpg" alt="Mobile response metrics" style={{ width: "100%", height: "auto", display: "block", borderRadius: "23px", background: "#FFFFFF" }} />
-                        </div>
-                      </div>
-                    </div>
+                  <div style={{ position: "relative", background: "#F3D1DC", borderRadius: "36px", padding: "clamp(24px, 4vw, 48px)", overflow: "hidden", minHeight: "auto" }}>
+                    <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
+                      <img src="/images/v2/work-tusclases-laptop.webp" alt="Tus Clases Particulares post-ad page on a laptop and the tutor inbox with response metrics on a phone" style={{ width: "100%", maxWidth: "100%", height: "auto", display: "block" }} />
+                    </figure>
                   </div>
                 </Link>
               </div>
