@@ -64,13 +64,13 @@ export default function LabPage() {
               </div>
               <span style={{ fontSize: "15px", fontWeight: "600", color: "#A02B5B" }}>Ver más →</span>
             </Link>
-            <a href="#" style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <Link href="/es/lab/diego-pomareda" style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
               <span className="dm-swap" style={{ position: "relative", display: "block", borderRadius: "24px", overflow: "hidden" }}>
                 <img src="/images/v2/diego-hero.jpg" alt="Mockups de Diego Pomareda" style={{ width: "100%", height: "300px", objectFit: "cover", objectPosition: "top center", borderRadius: "24px", background: "#F3D1DC", display: "block" }} />
                 <img className="dm-swap-2" src="/images/v2/diego-2.jpg" alt="Diego Pomareda: secciones de la web" style={{ width: "100%", height: "300px", objectFit: "cover", objectPosition: "top center", borderRadius: "24px", background: "#F3D1DC", display: "block", position: "absolute", inset: "0" }} />
                 <span className="dm-swap-hint" style={{ position: "absolute", left: "14px", bottom: "14px", padding: "6px 12px", borderRadius: "999px", background: "rgba(247,243,238,0.92)", color: "#34503E", fontSize: "12px", fontWeight: "600" }}>Pasa el ratón para ver más</span>
               </span>
-              <span style={{ fontSize: "13px", fontWeight: "600", color: "#6E1A3D" }}>Proyecto para cliente · Web</span>
+              <span style={{ fontSize: "13px", fontWeight: "600", color: "#6E1A3D" }}>Freelance · Web</span>
               <span style={{ fontFamily: "Fraunces, serif", fontSize: "28px", fontWeight: "500", color: "#34503E" }}>Diego Pomareda</span>
               <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#4B524D" }}>Una web para un candidato público en Perú, diseñada para que su perfil y sus propuestas sean fáciles de explorar.</span>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
@@ -79,7 +79,7 @@ export default function LabPage() {
                 <span style={{ padding: "6px 14px", borderRadius: "999px", background: "#DDE7D7", color: "#34503E", fontSize: "13px", fontWeight: "600" }}>Arquitectura de información</span>
               </div>
               <span style={{ fontSize: "15px", fontWeight: "600", color: "#A02B5B" }}>Ver más →</span>
-            </a>
+            </Link>
           </div>
         </div>
       </section>
