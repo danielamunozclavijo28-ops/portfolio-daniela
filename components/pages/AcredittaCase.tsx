@@ -444,12 +444,6 @@ export default function AcredittaCase() {
               <img src="/images/v2/mk-mide.webp" alt="Report cards: issuance vs. acceptance chart, credentials accepted and shares by channel" style={{ width: "100%", height: "auto", display: "block" }} />
             </div>
           </div>
-          <div style={{ position: "relative", background: "#F7F3EE", borderRadius: "36px", padding: "clamp(24px, 4vw, 56px)", overflow: "hidden", minHeight: "auto" }}>
-            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
-              <img src="/images/v2/mk-conecta.webp" alt="Share modal and the LinkedIn posts recipients publish" style={{ width: "100%", maxWidth: "560px", height: "auto", display: "block" }} />
-              <figcaption style={{ fontSize: "14px", lineHeight: "1.5", color: "#4B524D", textAlign: "center" }}>Sharing is the metric: the share modal and the LinkedIn posts it produces.</figcaption>
-            </figure>
-          </div>
         </div>
       </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
