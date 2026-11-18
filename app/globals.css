@@ -18,10 +18,12 @@ a:hover { opacity: 0.8; }
 .dm-egg:hover .dm-dot{transform:scale(1.5)}
 .dm-hero-mk .dm-mk-acr{width:94%}.dm-hero-mk .dm-mk-tus{width:116%}.dm-hero-mk .dm-mk-wal{width:114%}
 .dm-hero-mk img{position:absolute;left:-2%;top:50%;transform:translateY(-50%);height:auto;max-width:none;display:block}
+.dm-hero-mk:hover .dm-rot{animation-play-state:paused}
 .dm-hero-mk:hover{transform:translateY(-12px);filter:drop-shadow(0 26px 30px rgba(29,42,34,.14))}
 .dm-hero-mk{position:relative;aspect-ratio:1/0.98;transition:transform .5s cubic-bezier(.2,.8,.2,1),filter .5s ease;animation:dmMkIn .7s cubic-bezier(.2,.8,.2,1) both}
 .dm-lift:hover{transform:translateY(-6px);box-shadow:0 24px 50px rgba(0,0,0,0.18);opacity:1}
 .dm-lift{transition:transform .25s ease,box-shadow .25s ease}
+.dm-rot{opacity:0;animation:dmRot 18s ease-in-out infinite both;animation-delay:calc(var(--n) * 6s)}
 .dm-step:hover{transform:translateY(-3px)}
 .dm-step{transition:background .2s ease,transform .2s ease}
 .dm-swap-2{opacity:0;transition:opacity .45s ease}
@@ -30,12 +32,14 @@ a:hover { opacity: 0.8; }
 @keyframes dmMkIn{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
 @keyframes dmPop{from{opacity:0;transform:translateY(8px) scale(0.97)}to{opacity:1;transform:none}}
 @keyframes dmPulse{0%{box-shadow:0 0 0 0 rgba(184,51,106,0.45)}70%{box-shadow:0 0 0 10px rgba(184,51,106,0)}100%{box-shadow:0 0 0 0 rgba(184,51,106,0)}}
+@keyframes dmRot{0%{opacity:0;translate:0 18px}5%{opacity:1;translate:0 0}30%{opacity:1;translate:0 0}35%{opacity:0;translate:0 -10px}100%{opacity:0;translate:0 -10px}}
 @media (hover: none){.dm-swap-hint{display:none}}
 @media (min-width: 1001px){.dm-hero-txt{max-width:54%}.dm-hero-fig{position:absolute;left:53%;top:0;bottom:-64px;right:0;max-width:none!important}.dm-hero-mk{position:absolute;inset:0;aspect-ratio:auto}.dm-hero-mk img{left:0;transform:none}.dm-hero-mk .dm-mk-acr{width:69vw;top:-5vw}.dm-hero-mk .dm-mk-tus{width:81vw;top:-11vw;left:-1vw}.dm-hero-mk .dm-mk-wal{width:65vw;top:-2vw;left:-1vw}.dm-hero-tabs{position:absolute;left:0;bottom:24px;z-index:2;padding:6px;border-radius:999px;background:rgba(247,243,238,.9);-webkit-backdrop-filter:blur(8px);backdrop-filter:blur(8px);box-shadow:0 8px 24px rgba(29,42,34,.12)}.dm-hero-cap{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}}
 @media (prefers-reduced-motion: reduce){.dm-btn{transition:none}.dm-btn:hover{transform:none}}
 @media (prefers-reduced-motion: reduce){.dm-dot,.dm-card{animation:none}.dm-lift,.dm-step{transition:none}}
 @media (prefers-reduced-motion: reduce){.dm-dot-loud{animation:none;transform:scale(1.8)}}
 @media (prefers-reduced-motion: reduce){.dm-hero-mk{animation:none;transition:none}.dm-hero-mk:hover{transform:none}}
+@media (prefers-reduced-motion: reduce){.dm-rot{animation:none;opacity:0}.dm-rot:first-child{opacity:1}}
 @media (prefers-reduced-motion: reduce){.dm-swap-2,.dm-swap-hint{transition:none}}
 a:hover .dm-swap-2,a:focus-visible .dm-swap-2{opacity:1}
 a:hover .dm-swap-hint,a:focus-visible .dm-swap-hint{opacity:0}

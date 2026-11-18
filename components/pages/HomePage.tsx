@@ -186,36 +186,12 @@ export default function HomePage() {
                 Based in Barcelona · Available for new opportunities
               </span>
             </div>
-            <figure className="dm-hero-fig" style={{ flex: "1 1 460px", maxWidth: "620px", margin: "0", display: "flex", flexDirection: "column", gap: "18px" }}>
-              {v.hero0 && (
-                <>
-                  <div className="dm-hero-mk">
-                    <img className="dm-mk-acr" src="/images/v2/mockup-acreditta-desktop-isometrico.webp" alt="Acreditta platform screens: dashboard, badge creation, bulk issuing and credential page" />
-                  </div>
-                </>
-              )}
-              {v.hero1 && (
-                <>
-                  <div className="dm-hero-mk">
-                    <img className="dm-mk-tus" src="/images/v2/mockup-tusclases-web-isometrico.webp" alt="Tus Clases Particulares screens on desktop and mobile: post-ad page, inbox and response metrics" />
-                  </div>
-                </>
-              )}
-              {v.hero2 && (
-                <>
-                  <div className="dm-hero-mk">
-                    <img className="dm-mk-wal" src="/images/v2/mockup-acreditta-wallet-3d.webp" alt="Acreditta Wallet screens on five phones" />
-                  </div>
-                </>
-              )}
-              <div role="group" aria-label="Choose a project" className="dm-hero-tabs" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "8px" }}>
-                {v.heroTabs.map((t, i) => (
-                  <Fragment key={i}>
-                    <button type="button" className="dm-tab dm-btn" onClick={t.pick} aria-pressed={t.pressed} style={{ minHeight: "44px", padding: "0 20px", borderRadius: "999px", border: "1.5px solid #34503E", cursor: "pointer", fontFamily: "'DM Sans', sans-serif", fontSize: "15px", fontWeight: "500", background: t.bg, color: t.fg }}>{t.label}</button>
-                  </Fragment>
-                ))}
+            <figure className="dm-hero-fig" style={{ flex: "1 1 460px", maxWidth: "620px", margin: "0" }}>
+              <div className="dm-hero-mk">
+                <img className="dm-rot dm-mk-acr" style={{ "--n": "0" }} src="/images/v2/mockup-acreditta-desktop-isometrico.webp" alt="Acreditta platform screens: dashboard, badge creation, bulk issuing and credential page" />
+                <img className="dm-rot dm-mk-tus" style={{ "--n": "1" }} src="/images/v2/mockup-tusclases-web-isometrico.webp" alt="Tus Clases Particulares screens on desktop and mobile: post-ad page, inbox and response metrics" />
+                <img className="dm-rot dm-mk-wal" style={{ "--n": "2" }} src="/images/v2/mockup-acreditta-wallet-3d.webp" alt="Acreditta Wallet screens on five phones" />
               </div>
-              <figcaption className="dm-hero-cap" style={{ fontSize: "14px", color: "#4B524D", textAlign: "center" }}>{v.heroCaption}</figcaption>
             </figure>
           </div>
         </div>
