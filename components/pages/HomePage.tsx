@@ -405,14 +405,8 @@ export default function HomePage() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "28px" }} data-reveal="">
             <Link href="/work/acreditta" className="dm-lift" style={{ background: "#F7F3EE", color: "#1D2A22", borderRadius: "24px", padding: "14px 14px 26px", display: "flex", flexDirection: "column", gap: "16px" }}>
               <div style={{ height: "250px", overflow: "hidden", borderRadius: "18px" }}>
-                <div style={{ position: "relative", background: "#DDE7D7", borderRadius: "36px", padding: "28px 34px 22px", overflow: "hidden", minHeight: "auto" }}>
-                  <div style={{ position: "relative" }}>
-                    <div style={{ position: "relative", background: "#1E211F", borderRadius: "20px 20px 6px 6px", padding: "2.2% 2.2% 2.8%", boxShadow: "0 40px 80px rgba(29,42,34,0.22)" }}>
-                      <span style={{ position: "absolute", left: "50%", top: "0.9%", width: "6px", height: "6px", marginLeft: "-3px", borderRadius: "50%", background: "#3A3E3B" }} aria-hidden="true" />
-                      <img src="/images/v2/acr-dashboard.jpg" alt="Acreditta dashboard" style={{ width: "100%", aspectRatio: "16 / 10", objectFit: "cover", objectPosition: "top left", display: "block", borderRadius: "4px", background: "#FFFFFF" }} />
-                    </div>
-                    <div style={{ height: "14px", margin: "0 -6%", background: "#D9D4CC", borderRadius: "2px 2px 16px 16px", boxShadow: "inset 0 3px 0 #EEEAE4" }} aria-hidden="true" />
-                  </div>
+                <div style={{ height: "100%", boxSizing: "border-box", background: "#DDE7D7", display: "flex", alignItems: "center", justifyContent: "center", padding: "18px 22px" }}>
+                  <img src="/images/v2/mockup-acreditta-dashboard-laptop.webp" alt="Acreditta dashboard on a laptop" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
                 </div>
               </div>
               <div style={{ padding: "0 10px", display: "flex", flexDirection: "column", gap: "10px" }}>
@@ -425,14 +419,8 @@ export default function HomePage() {
             </Link>
             <Link href="/work/tus-clases-particulares" className="dm-lift" style={{ background: "#F7F3EE", color: "#1D2A22", borderRadius: "24px", padding: "14px 14px 26px", display: "flex", flexDirection: "column", gap: "16px" }}>
               <div style={{ height: "250px", overflow: "hidden", borderRadius: "18px" }}>
-                <div style={{ position: "relative", background: "#F3D1DC", borderRadius: "36px", padding: "28px 34px 22px", overflow: "hidden", minHeight: "auto" }}>
-                  <div style={{ position: "relative" }}>
-                    <div style={{ position: "relative", background: "#1E211F", borderRadius: "20px 20px 6px 6px", padding: "2.2% 2.2% 2.8%", boxShadow: "0 40px 80px rgba(29,42,34,0.22)" }}>
-                      <span style={{ position: "absolute", left: "50%", top: "0.9%", width: "6px", height: "6px", marginLeft: "-3px", borderRadius: "50%", background: "#3A3E3B" }} aria-hidden="true" />
-                      <img src="/images/v2/tus-alumnos-1.jpg" alt="Tus Clases Particulares tutor inbox" style={{ width: "100%", aspectRatio: "16 / 10", objectFit: "cover", objectPosition: "top left", display: "block", borderRadius: "4px", background: "#FFFFFF" }} />
-                    </div>
-                    <div style={{ height: "14px", margin: "0 -6%", background: "#D9D4CC", borderRadius: "2px 2px 16px 16px", boxShadow: "inset 0 3px 0 #EEEAE4" }} aria-hidden="true" />
-                  </div>
+                <div style={{ height: "100%", boxSizing: "border-box", background: "#F3D1DC", display: "flex", alignItems: "center", justifyContent: "center", padding: "18px 22px" }}>
+                  <img src="/images/v2/mockup-tusclases-acciones-laptop.webp" alt="Tus Clases Particulares post-ad page on a laptop" style={{ width: "100%", height: "100%", objectFit: "contain", display: "block" }} />
                 </div>
               </div>
               <div style={{ padding: "0 10px", display: "flex", flexDirection: "column", gap: "10px" }}>
@@ -445,11 +433,7 @@ export default function HomePage() {
             </Link>
             <Link href="/work/wallet" className="dm-lift" style={{ background: "#F7F3EE", color: "#1D2A22", borderRadius: "24px", padding: "14px 14px 26px", display: "flex", flexDirection: "column", gap: "16px" }}>
               <div style={{ height: "250px", overflow: "hidden", borderRadius: "18px" }}>
-                <div style={{ position: "relative", background: "#DDE7D7", borderRadius: "36px", padding: "22px 26px", overflow: "hidden", minHeight: "auto" }}>
-                  <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
-                    <img src="/images/v2/w-mk-trio-c.webp" alt="Acreditta Wallet screens" style={{ width: "100%", maxWidth: "100%", height: "auto", display: "block" }} />
-                  </figure>
-                </div>
+                <img src="/images/v2/mockup-acreditta-wallet.webp" alt="Acreditta Wallet screens on phones" style={{ width: "100%", height: "100%", objectFit: "cover", objectPosition: "center", display: "block" }} />
               </div>
               <div style={{ padding: "0 10px", display: "flex", flexDirection: "column", gap: "10px" }}>
                 <span style={{ fontSize: "13px", fontWeight: "600", color: "#6E1A3D" }}>Mobile PWA · 2021–2024</span>
