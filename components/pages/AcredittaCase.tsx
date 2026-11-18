@@ -523,27 +523,33 @@ export default function AcredittaCase() {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "28px" }}>
             <div style={{ position: "relative", background: "#F7F3EE", borderRadius: "36px", padding: "clamp(20px, 3vw, 40px)", overflow: "hidden", minHeight: "auto" }}>
-              <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
-                <img src="/images/v2/mk-diplomas.webp" alt="Digital certificate and degree on a laptop with their public verification page" style={{ width: "100%", maxWidth: "100%", height: "auto", display: "block" }} />
+              <figure style={{ margin: "0", flex: "1", display: "flex", flexDirection: "column", gap: "18px" }}>
+                <div style={{ height: "clamp(220px, 24vw, 330px)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <img src="/images/v2/mk-diplomas.webp" alt="Digital certificate and degree on a laptop with their public verification page" style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", display: "block" }} />
+                </div>
                 <figcaption style={{ fontSize: "14px", lineHeight: "1.5", color: "#1D2A22", textAlign: "center" }}>Certificates and degrees with their own fields and verification page.</figcaption>
               </figure>
             </div>
             <div style={{ position: "relative", background: "#F7F3EE", borderRadius: "36px", padding: "clamp(20px, 3vw, 40px)", overflow: "hidden", minHeight: "auto" }}>
-              <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
-                <img src="/images/v2/mk-org.webp" alt="Verified public profile of an organization (ICONTEC)" style={{ width: "100%", maxWidth: "100%", height: "auto", display: "block" }} />
+              <figure style={{ margin: "0", flex: "1", display: "flex", flexDirection: "column", gap: "18px" }}>
+                <div style={{ height: "clamp(220px, 24vw, 330px)", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <img src="/images/v2/mk-org.webp" alt="Verified public profile of an organization (ICONTEC)" style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", display: "block" }} />
+                </div>
                 <figcaption style={{ fontSize: "14px", lineHeight: "1.5", color: "#1D2A22", textAlign: "center" }}>A verified organization profile with all the credentials it issues.</figcaption>
               </figure>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "28px" }}>
-            <div style={{ position: "relative", background: "#F7F3EE", borderRadius: "36px", padding: "clamp(20px, 3vw, 40px)", overflow: "hidden", minHeight: "auto" }}>
-              <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
-                <img src="/images/v2/mk-gestiona.webp" alt="Public certification page with credential cards" style={{ width: "100%", maxWidth: "100%", height: "auto", display: "block" }} />
+            <div style={{ position: "relative", background: "#F7F3EE", borderRadius: "36px", padding: "clamp(20px, 3vw, 40px)", overflow: "hidden", minHeight: "auto", display: "flex", flexDirection: "column" }}>
+              <figure style={{ margin: "0", flex: "1", display: "flex", flexDirection: "column", gap: "18px" }}>
+                <div style={{ flex: "1", display: "flex", alignItems: "center", justifyContent: "center" }}>
+                  <img src="/images/v2/mk-gestiona.webp" alt="Public certification page with credential cards" style={{ maxWidth: "100%", maxHeight: "100%", width: "auto", height: "auto", display: "block" }} />
+                </div>
                 <figcaption style={{ fontSize: "14px", lineHeight: "1.5", color: "#1D2A22", textAlign: "center" }}>Public pages that group an organization’s certifications.</figcaption>
               </figure>
             </div>
-            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div style={{ background: "#F7F3EE", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px", height: "100%" }}>
+              <div style={{ background: "#F7F3EE", borderRadius: "36px", padding: "clamp(20px, 3vw, 40px)", height: "100%", boxSizing: "border-box", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
                 <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
                   <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
                     <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
@@ -552,8 +558,8 @@ export default function AcredittaCase() {
                   </div>
                   <img src="/images/v2/acr-admins.jpg" alt="Administrators table with roles" style={{ width: "100%", height: "auto", display: "block" }} />
                 </div>
+                <figcaption style={{ marginTop: "18px", fontSize: "14px", lineHeight: "1.5", color: "#1D2A22", textAlign: "center" }}>Group administration with roles across organizations.</figcaption>
               </div>
-              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Group administration with roles across organizations.</figcaption>
             </figure>
           </div>
         </div>
