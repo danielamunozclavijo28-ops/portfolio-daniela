@@ -27,13 +27,7 @@ export default function HomePage() {
     }));
     const c = STEPS[step];
     const bloom = egg === 'accepted' || !!st.bloomed;
-    const hero = st.hero || 0;
-    const tabs = (list, cur, key) => list.map((label, i) => ({ label,
-      pressed: i === cur ? 'true' : 'false',
-      bg: i === cur ? '#34503E' : 'transparent',
-      fg: i === cur ? '#F7F3EE' : '#34503E',
-      pick: () => this.setState({ [key]: i }) }));
-    const CAPS = ["Acreditta \u00b7 B2B SaaS platform and its Wallet", "Tus Clases Particulares \u00b7 tutor inbox and response metrics", "Acreditta Wallet \u00b7 mobile PWA"];
+
     return {
       steps,
       cur: { n: c[0], title: c[1], q: c[2], what: c[3], ex: c[4] },
@@ -42,9 +36,6 @@ export default function HomePage() {
       openEgg: () => this.setState({ egg: st.bloomed ? 'accepted' : 'issued', hint: false }),
       acceptEgg: () => this.setState({ egg: 'accepted', bloomed: true }),
       closeEgg: () => this.setState({ egg: 'closed', hint: false }),
-      heroTabs: tabs(["Acreditta", "Tus Clases", "Wallet"], hero, 'hero'),
-      hero0: hero === 0, hero1: hero === 1, hero2: hero === 2,
-      heroCaption: CAPS[hero],
       dotClass: st.hint ? 'dm-dot dm-dot-loud' : 'dm-dot',
       showHint: () => {
         this.setState({ hint: false });
@@ -186,67 +177,42 @@ export default function HomePage() {
                 Based in Barcelona · Available for new opportunities
               </span>
             </div>
-            <figure style={{ flex: "1 1 460px", maxWidth: "620px", margin: "0", display: "flex", flexDirection: "column", gap: "18px" }}>
-              {v.hero0 && (
-                <>
-                  <div style={{ position: "relative", background: v.heroStage, borderRadius: "36px", padding: "clamp(28px, 5vw, 72px)", overflow: "hidden", minHeight: "auto" }}>
-                    <div style={{ position: "relative", padding: "4% 14% 2% 4%" }}>
-                      <div style={{ position: "relative" }}>
-                        <div style={{ position: "relative", background: "#1E211F", borderRadius: "20px 20px 6px 6px", padding: "2.2% 2.2% 2.8%", boxShadow: "0 40px 80px rgba(29,42,34,0.22)" }}>
-                          <span style={{ position: "absolute", left: "50%", top: "0.9%", width: "6px", height: "6px", marginLeft: "-3px", borderRadius: "50%", background: "#3A3E3B" }} aria-hidden="true" />
-                          <img src="/images/v2/acr-dashboard.jpg" alt="Acreditta dashboard I designed" style={{ width: "100%", aspectRatio: "16 / 10", objectFit: "cover", objectPosition: "top left", display: "block", borderRadius: "4px", background: "#FFFFFF" }} />
-                        </div>
-                        <div style={{ height: "14px", margin: "0 -6%", background: "#D9D4CC", borderRadius: "2px 2px 16px 16px", boxShadow: "inset 0 3px 0 #EEEAE4" }} aria-hidden="true" />
-                      </div>
-                      <div style={{ position: "absolute", left: "-2%", top: "4%", width: "26%", zIndex: "2", background: "#FFFFFF", borderRadius: "16px", padding: "8px", boxShadow: "0 24px 50px rgba(29,42,34,0.22)" }}>
-                        <img src="/images/v2/det-template.jpg" alt="Badge template card from Acreditta" style={{ width: "100%", height: "auto", display: "block", borderRadius: "10px" }} />
-                      </div>
-                      <div style={{ position: "absolute", right: "2%", bottom: "0", width: "20%", zIndex: "3" }}>
-                        <div style={{ position: "relative", width: "100%", boxSizing: "border-box", borderRadius: "30px", padding: "7px", background: "#1E211F", boxShadow: "0 30px 60px rgba(29,42,34,0.28)" }}>
-                          <img src="/images/v2/w-emitida.jpg" alt="Acreditta Wallet: badge received" style={{ width: "100%", height: "auto", display: "block", borderRadius: "23px", background: "#FFFFFF" }} />
-                        </div>
-                      </div>
+            <figure style={{ flex: "1 1 460px", maxWidth: "620px", margin: "0", display: "flex", flexDirection: "column", gap: "14px" }}>
+              <div className="dm-iso" style={{ background: v.heroStage }}>
+                <div className="dm-iso-plane">
+                  <div className="dm-ph" style={{ left: "0%", top: "16%", "--i": "0" }}>
+                    <div className="dm-ph-sh" aria-hidden="true" />
+                    <div className="dm-ph-body">
+                      <img src="/images/v2/w-lista.jpg" alt="Acreditta Wallet: my badges" loading="eager" />
                     </div>
                   </div>
-                </>
-              )}
-              {v.hero1 && (
-                <>
-                  <div style={{ position: "relative", background: v.heroStage, borderRadius: "36px", padding: "clamp(28px, 5vw, 72px)", overflow: "hidden", minHeight: "auto" }}>
-                    <div style={{ position: "relative", padding: "4% 14% 2% 4%" }}>
-                      <div style={{ position: "relative" }}>
-                        <div style={{ position: "relative", background: "#1E211F", borderRadius: "20px 20px 6px 6px", padding: "2.2% 2.2% 2.8%", boxShadow: "0 40px 80px rgba(29,42,34,0.22)" }}>
-                          <span style={{ position: "absolute", left: "50%", top: "0.9%", width: "6px", height: "6px", marginLeft: "-3px", borderRadius: "50%", background: "#3A3E3B" }} aria-hidden="true" />
-                          <img src="/images/v2/tus-ratio-1.jpg" alt="Tus Clases Particulares tutor inbox with response metrics" style={{ width: "100%", aspectRatio: "16 / 10", objectFit: "cover", objectPosition: "top left", display: "block", borderRadius: "4px", background: "#FFFFFF" }} />
-                        </div>
-                        <div style={{ height: "14px", margin: "0 -6%", background: "#D9D4CC", borderRadius: "2px 2px 16px 16px", boxShadow: "inset 0 3px 0 #EEEAE4" }} aria-hidden="true" />
-                      </div>
-                      <div style={{ position: "absolute", right: "2%", bottom: "0", width: "20%", zIndex: "3" }}>
-                        <div style={{ position: "relative", width: "100%", boxSizing: "border-box", borderRadius: "30px", padding: "7px", background: "#1E211F", boxShadow: "0 30px 60px rgba(29,42,34,0.28)" }}>
-                          <img src="/images/v2/tus-ratio-m1.jpg" alt="Tus Clases Particulares mobile response metrics" style={{ width: "100%", height: "auto", display: "block", borderRadius: "23px", background: "#FFFFFF" }} />
-                        </div>
-                      </div>
+                  <div className="dm-ph" style={{ left: "0%", top: "60%", "--i": "1" }}>
+                    <div className="dm-ph-sh" aria-hidden="true" />
+                    <div className="dm-ph-body">
+                      <img src="/images/v2/w-perfil.jpg" alt="Acreditta Wallet: profile with badges" loading="eager" />
                     </div>
                   </div>
-                </>
-              )}
-              {v.hero2 && (
-                <>
-                  <div style={{ position: "relative", background: v.heroStage, borderRadius: "36px", padding: "clamp(24px, 4vw, 48px)", overflow: "hidden", minHeight: "auto" }}>
-                    <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
-                      <img src="/images/v2/w-mk-trio-b.webp" alt="Acreditta Wallet screens: badge received, my badges and credential detail" style={{ width: "100%", maxWidth: "100%", height: "auto", display: "block" }} />
-                    </figure>
+                  <div className="dm-ph" style={{ left: "35.5%", top: "2%", "--i": "2" }}>
+                    <div className="dm-ph-sh" aria-hidden="true" />
+                    <div className="dm-ph-body">
+                      <img src="/images/v2/w-emitida.jpg" alt="Acreditta Wallet: a badge has been issued to you" loading="eager" />
+                    </div>
                   </div>
-                </>
-              )}
-              <div role="group" aria-label="Choose a project" style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", gap: "8px" }}>
-                {v.heroTabs.map((t, i) => (
-                  <Fragment key={i}>
-                    <button type="button" className="dm-tab dm-btn" onClick={t.pick} aria-pressed={t.pressed} style={{ minHeight: "44px", padding: "0 20px", borderRadius: "999px", border: "1.5px solid #34503E", cursor: "pointer", fontFamily: "'DM Sans', sans-serif", fontSize: "15px", fontWeight: "500", background: t.bg, color: t.fg }}>{t.label}</button>
-                  </Fragment>
-                ))}
+                  <div className="dm-ph" style={{ left: "35.5%", top: "46%", "--i": "3" }}>
+                    <div className="dm-ph-sh" aria-hidden="true" />
+                    <div className="dm-ph-body">
+                      <img src="/images/v2/w-detalle-1.jpg" alt="Acreditta Wallet: credential detail" loading="eager" />
+                    </div>
+                  </div>
+                  <div className="dm-ph" style={{ left: "71%", top: "26%", "--i": "4" }}>
+                    <div className="dm-ph-sh" aria-hidden="true" />
+                    <div className="dm-ph-body">
+                      <img src="/images/v2/w-detalle.jpg" alt="Acreditta Wallet: sharing a credential" loading="eager" />
+                    </div>
+                  </div>
+                </div>
               </div>
-              <figcaption style={{ fontSize: "14px", color: "#4B524D", textAlign: "center" }}>{v.heroCaption}</figcaption>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", textAlign: "center" }}>Acreditta Wallet · mobile PWA I designed</figcaption>
             </figure>
           </div>
         </div>
