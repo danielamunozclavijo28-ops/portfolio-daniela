@@ -288,7 +288,7 @@ export default function WalletCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "0 0 96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section style={{ padding: "72px clamp(20px, 5vw, 80px) 96px", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <Link href="/work/acreditta" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px", background: "#DDE7D7", borderRadius: "32px", padding: "40px 48px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>

@@ -5,7 +5,6 @@ import { Fragment, useRef, useState } from "react";
 import SiteHeader from "@/components/site/SiteHeader";
 import SiteFooter from "@/components/site/SiteFooter";
 import ContactBand from "@/components/site/ContactBand";
-import GrowPortrait from "@/components/site/GrowPortrait";
 
 export default function AboutPage() {
   const [state, setSt] = useState({});
@@ -49,9 +48,9 @@ export default function AboutPage() {
       <section style={{ padding: "64px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "clamp(40px, 6vw, 96px)", alignItems: "center" }}>
-            <div style={{ flex: "999 1 560px", minWidth: "0", display: "flex", flexDirection: "column", gap: "24px" }}>
+            <div style={{ flex: "1.3 1 480px", minWidth: "0", display: "flex", flexDirection: "column", gap: "24px" }}>
               <p style={{ margin: "0", fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>About</p>
-              <h1 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(46px, 5.4vw, 84px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
+              <h1 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(38px, 4vw, 60px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
                 Industrial designer by training.{" "}
                 <em>Product designer by practice.</em>
               </h1>
@@ -66,7 +65,10 @@ export default function AboutPage() {
                 <a href="https://www.linkedin.com/in/daniela-munoz28" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 26px", borderRadius: "999px", border: "1.5px solid #34503E", color: "#34503E", fontSize: "15px", fontWeight: "500" }} target="_blank" rel="noopener noreferrer">LinkedIn</a>
               </div>
             </div>
-            <GrowPortrait />
+            <figure style={{ flex: "1 1 400px", maxWidth: "540px", margin: "0", position: "relative", padding: "28px 28px 0 0" }}>
+              <div style={{ position: "absolute", right: "0", top: "0", width: "calc(100% - 28px)", height: "calc(100% - 28px)", borderRadius: "999px 999px 24px 24px", background: "#F3D1DC" }} aria-hidden="true" />
+              <img src="/images/v2/portrait.webp" alt="Portrait of Daniela Muñoz" style={{ position: "relative", width: "100%", height: "clamp(440px, 46vw, 620px)", objectFit: "cover", objectPosition: "50% 15%", borderRadius: "999px 999px 24px 24px", display: "block", background: "#DDE7D7" }} />
+            </figure>
           </div>
         </div>
       </section>

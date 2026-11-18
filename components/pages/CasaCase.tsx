@@ -46,7 +46,7 @@ export default function CasaCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "0 0 24px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section style={{ padding: "0 clamp(20px, 5vw, 80px) 24px", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }} data-reveal="">
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", paddingTop: "16px", borderTop: "1.5px solid #34503E" }}>
@@ -817,7 +817,7 @@ export default function CasaCase() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "0 0 96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section style={{ padding: "72px clamp(20px, 5vw, 80px) 96px", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <Link href="/lab" style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "24px", background: "#DDE7D7", borderRadius: "32px", padding: "40px 48px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "8px" }}>

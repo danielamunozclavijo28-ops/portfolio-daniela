@@ -271,106 +271,106 @@ export default function HomePage() {
               <span style={{ fontSize: "15px", lineHeight: "1.5", color: "#4B524D" }}>7+ years in visual and digital design, including 200+ digital badges for organizations.</span>
             </div>
           </div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
-            <p style={{ margin: "0", fontSize: "15px", color: "#4B524D" }}>Products and credentials I designed have been used by organizations from Mexico to Chile.</p>
-            <div className="dm-marquee" role="img" aria-label="Products and credentials I designed have been used by Adidas, Nutresa, Bayer, ICONTEC, Tecmilenio, Tec de Monterrey, AIESEC, FIAD, Cámara de Comercio de Cali, MoodleMoot México, Universidad BCI, ANUIES." style={{ overflow: "hidden", borderTop: "1px solid #CFDCCB", borderBottom: "1px solid #CFDCCB", padding: "18px 0" }}>
-              <div className="dm-track" aria-hidden="true" style={{ display: "flex", gap: "40px", width: "max-content", fontFamily: "Fraunces, serif", fontSize: "clamp(22px, 2.2vw, 30px)", color: "#34503E" }}>
-                <span style={{ display: "inline-flex", gap: "40px" }}>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+          <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+            <p style={{ margin: "0", fontSize: "13px", color: "#4B524D" }}>Some of the organizations that issued digital badges I designed at Acreditta</p>
+            <div className="dm-marquee" role="img" aria-label="Some of the organizations that issued digital badges I designed at Acreditta: Adidas, Nutresa, Bayer, ICONTEC, Tecmilenio, Tec de Monterrey, AIESEC, FIAD, Cámara de Comercio de Cali, MoodleMoot México, Universidad BCI, ANUIES." style={{ overflow: "hidden", padding: "4px 0" }}>
+              <div className="dm-track" aria-hidden="true" style={{ display: "flex", gap: "28px", width: "max-content", fontSize: "15px", fontWeight: "500", color: "#4B524D" }}>
+                <span style={{ display: "inline-flex", gap: "28px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Adidas
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Nutresa
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Bayer
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     ICONTEC
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Tecmilenio
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Tec de Monterrey
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     AIESEC
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     FIAD
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Cámara de Comercio de Cali
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     MoodleMoot México
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Universidad BCI
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     ANUIES
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
                 </span>
-                <span style={{ display: "inline-flex", gap: "40px" }}>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                <span style={{ display: "inline-flex", gap: "28px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Adidas
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Nutresa
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Bayer
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     ICONTEC
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Tecmilenio
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Tec de Monterrey
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     AIESEC
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     FIAD
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Cámara de Comercio de Cali
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     MoodleMoot México
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     Universidad BCI
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
-                  <span style={{ display: "inline-flex", alignItems: "center", gap: "40px" }}>
+                  <span style={{ display: "inline-flex", alignItems: "center", gap: "28px" }}>
                     ANUIES
                     <span style={{ color: "#B8336A" }}>·</span>
                   </span>
