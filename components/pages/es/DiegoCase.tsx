@@ -345,12 +345,118 @@ export default function DiegoCase() {
           <img src="/images/v2/diego-trio.webp" alt="Más pantallas de la web: temas, columnas y entrevistas, y por qué quiere representar a la ciudadanía" style={{ width: "100%", height: "auto", display: "block" }} />
         </div>
       </section>
-      <section id="s06" data-case-section="Lo que aprendí" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s06" data-case-section="Dentro de la web" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
               <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
                 <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
+                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Dentro de la web</span>
+              </p>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Las</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>pantallas,</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>de</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>cerca.</span>
+                </em>
+              </h2>
+            </div>
+            <div style={{ flex: "1 1 340px" }}>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>Una mirada más de cerca a cómo quedaron las secciones en la web publicada.</p>
+            </div>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "28px" }}>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/dp-home.webp" alt="Inicio: portada con tres accesos a sus propuestas, su trayectoria y su docencia" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Inicio: tres puertas de entrada a la web, una por cada faceta de su perfil.</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/dp-timeline.webp" alt="Línea de tiempo de experiencia laboral con instituciones, fechas y cargos" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>La experiencia laboral como línea de tiempo, con fechas, cargos y la institución de cada uno.</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/dp-passions.webp" alt="Sección personal con fotos y los intereses que lo mueven" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>La faceta personal: fotos y textos breves sobre lo que lo mueve.</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/dp-teaching.webp" alt="Sección de docencia con membresías académicas y cursos" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Docencia: membresías y cursos, presentados con sus instituciones.</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/dp-press.webp" alt="Sección de prensa con redes sociales, columnas de opinión y apariciones en medios" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Prensa: redes sociales, columnas de opinión y entrevistas en un solo lugar.</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/dp-proposals.webp" alt="Propuestas agrupadas por tema, con un icono para cada una" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Propuestas: una tarjeta por tema, cada una resumida en pocas líneas.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      <section id="s07" data-case-section="Lo que aprendí" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+        <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
+            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
+              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Lo que aprendí</span>
               </p>
               <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
