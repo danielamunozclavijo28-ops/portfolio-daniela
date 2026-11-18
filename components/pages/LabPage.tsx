@@ -43,16 +43,16 @@ export default function LabPage() {
               </div>
               <span style={{ fontSize: "15px", fontWeight: "600", color: "#A02B5B" }}>Explore more →</span>
             </Link>
-            <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <Link href="/lab/opto" style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
               <span className="dm-swap" style={{ position: "relative", display: "block", borderRadius: "24px", overflow: "hidden" }}>
-                <img src="/images/v2/opto-hero.jpg" alt="Opto mockups" style={{ width: "100%", height: "300px", objectFit: "cover", objectPosition: "top center", borderRadius: "24px", background: "#F3D1DC", display: "block" }} />
-                <img className="dm-swap-2" src="/images/v2/opto-1.jpg" alt="Opto: app screens" style={{ width: "100%", height: "300px", objectFit: "cover", objectPosition: "top center", borderRadius: "24px", background: "#F3D1DC", display: "block", position: "absolute", inset: "0" }} />
+                <img src="/images/v2/opto-hero.webp" alt="Opto mockups" style={{ width: "100%", height: "300px", objectFit: "cover", objectPosition: "top center", borderRadius: "24px", background: "#F3D1DC", display: "block" }} />
+                <img className="dm-swap-2" src="/images/v2/opto-sol-planes.webp" alt="Opto: plans screens" style={{ width: "100%", height: "300px", objectFit: "cover", objectPosition: "top center", borderRadius: "24px", background: "#F3D1DC", display: "block", position: "absolute", inset: "0" }} />
                 <span className="dm-swap-hint" style={{ position: "absolute", left: "14px", bottom: "14px", padding: "6px 12px", borderRadius: "999px", background: "rgba(247,243,238,0.92)", color: "#34503E", fontSize: "12px", fontWeight: "600" }}>Hover to see more</span>
               </span>
-              <span style={{ fontSize: "13px", fontWeight: "600", color: "#6E1A3D" }}>Master’s final project · ELISAVA</span>
+              <span style={{ fontSize: "13px", fontWeight: "600", color: "#6E1A3D" }}>Master’s final project · ELISAVA · Team of 5</span>
               <span style={{ fontFamily: "Fraunces, serif", fontSize: "28px", fontWeight: "500", color: "#34503E" }}>Opto</span>
               <span style={{ fontSize: "15px", lineHeight: "1.6", color: "#4B524D" }}>
-                A mobile app concept that combines information, tracking and social features to help people become more aware of their drinking habits and reduce alcohol consumption.
+                A mobile app concept for people who want to drink less without giving up their social life: alcohol-free plans, a bar menu that puts alternatives first and a budget for the night. I designed the create-a-plan flow.
               </span>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "8px" }}>
                 <span style={{ padding: "6px 14px", borderRadius: "999px", background: "#DDE7D7", color: "#34503E", fontSize: "13px", fontWeight: "600" }}>UX Research</span>
@@ -60,7 +60,8 @@ export default function LabPage() {
                 <span style={{ padding: "6px 14px", borderRadius: "999px", background: "#DDE7D7", color: "#34503E", fontSize: "13px", fontWeight: "600" }}>Behaviour design</span>
                 <span style={{ padding: "6px 14px", borderRadius: "999px", background: "#DDE7D7", color: "#34503E", fontSize: "13px", fontWeight: "600" }}>UI</span>
               </div>
-            </div>
+              <span style={{ fontSize: "15px", fontWeight: "600", color: "#A02B5B" }}>Explore more →</span>
+            </Link>
             <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
               <span className="dm-swap" style={{ position: "relative", display: "block", borderRadius: "24px", overflow: "hidden" }}>
                 <img src="/images/v2/diego-hero.jpg" alt="Diego Pomareda mockups" style={{ width: "100%", height: "300px", objectFit: "cover", objectPosition: "top center", borderRadius: "24px", background: "#F3D1DC", display: "block" }} />
