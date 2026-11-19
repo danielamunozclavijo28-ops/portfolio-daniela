@@ -172,7 +172,7 @@ export default function HomePage() {
                 </em>
               </h1>
               <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "620px" }}>
-                Designing since 2019, with 3+ years in B2B SaaS and marketplace products. I was the sole designer of a digital-credentials platform used by organizations across Latin America, and I owned the tutor experience of a two-sided marketplace in Spain.
+                Product designer with 3+ years in B2B SaaS and marketplace products. I was the sole designer of a digital-credentials platform used by organizations across Latin America, and I owned the tutor experience of a marketplace in Spain.
               </p>
               <div style={{ display: "flex", flexWrap: "wrap", alignItems: "center", gap: "16px" }}>
                 <Link href="/work" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 28px", borderRadius: "999px", background: "#34503E", color: "#F7F3EE", fontSize: "15px", fontWeight: "500" }}>View selected work →</Link>
@@ -196,7 +196,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section style={{ padding: "8px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section style={{ padding: "8px clamp(20px, 5vw, 80px) 56px", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }} data-reveal="">
             <div style={{ display: "flex", flexDirection: "column", gap: "6px", paddingTop: "16px", borderTop: "1.5px solid #34503E" }}>
@@ -217,7 +217,7 @@ export default function HomePage() {
             </div>
           </div>
           <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-            <p style={{ margin: "0", fontSize: "13px", color: "#4B524D" }}>Some of the organizations that issued digital badges I designed at Acreditta</p>
+            <p style={{ margin: "0", fontSize: "13px", color: "#4B524D", textAlign: "center" }}>Some of the organizations that issued digital badges I designed at Acreditta</p>
             <div className="dm-marquee" role="img" aria-label="Some of the organizations that issued digital badges I designed at Acreditta: Adidas, Nutresa, Bayer, ICONTEC, Tecmilenio, Tec de Monterrey, AIESEC, FIAD, Cámara de Comercio de Cali, MoodleMoot México, Universidad BCI, ANUIES." style={{ overflow: "hidden", padding: "4px 0" }}>
               <div className="dm-track" aria-hidden="true" style={{ display: "flex", gap: "28px", width: "max-content", fontSize: "15px", fontWeight: "500", color: "#4B524D" }}>
                 <span style={{ display: "inline-flex", gap: "28px" }}>
@@ -325,7 +325,7 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden", marginTop: "88px" }}>
+      <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "flex-end", gap: "24px" }}>
             <div style={{ display: "flex", flexDirection: "column", gap: "12px" }}>

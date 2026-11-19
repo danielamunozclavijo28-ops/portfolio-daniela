@@ -68,39 +68,41 @@ export default function OptoCase() {
       </section>
       <section id="s01" data-case-section="Context and my role" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Context and my role</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Drinking</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>less</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>is</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>easy</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "4" }}>to</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "5" }}>want</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "6" }}>and</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Context and my role</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Drinking</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>hard</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>less</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "8" }}>to</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>is</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "9" }}>do</span>
+                  <span className="dm-f" style={{ "--i": "3" }}>easy</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "10" }}>with</span>
+                  <span className="dm-f" style={{ "--i": "4" }}>to</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "11" }}>friends.</span>
-                </em>
-              </h2>
+                  <span className="dm-f" style={{ "--i": "5" }}>want</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "6" }}>and</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>hard</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "8" }}>to</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "9" }}>do</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "10" }}>with</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "11" }}>friends.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-start" }}>
@@ -154,32 +156,34 @@ export default function OptoCase() {
       </section>
       <section id="s02" data-case-section="Research" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Research</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>What</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>stops</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>people</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>from</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Research</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>What</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>drinking</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>stops</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>less.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                We focused on young adults who drink in social settings and started from four hypotheses: social pressure makes it hard to say no, drinking is tied to traditional ideas of masculinity, drinking consciously is becoming aspirational, and the reasons to cut down are mostly about personal wellbeing.
-              </p>
+                  <span className="dm-f" style={{ "--i": "2" }}>people</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>from</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>drinking</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>less.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  We focused on young adults who drink in social settings and started from four hypotheses: social pressure makes it hard to say no, drinking is tied to traditional ideas of masculinity, drinking consciously is becoming aspirational, and the reasons to cut down are mostly about personal wellbeing.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(210px, 1fr))", gap: "20px" }} data-reveal="">
@@ -243,28 +247,30 @@ export default function OptoCase() {
       </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>03</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>The tone</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Zero</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>guilt,</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>zero</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>03</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>The tone</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Zero</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>lectures.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>
-                I interviewed a psychologist specialized in alcohol use. Her main advice shaped everything else: people who want to drink less often already feel judged, so the app should never add guilt. We turned that into requirements for the whole team.
-              </p>
+                  <span className="dm-f" style={{ "--i": "1" }}>guilt,</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>zero</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>lectures.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>
+                  I interviewed a psychologist specialized in alcohol use. Her main advice shaped everything else: people who want to drink less often already feel judged, so the app should never add guilt. We turned that into requirements for the whole team.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "20px" }}>
@@ -314,34 +320,36 @@ export default function OptoCase() {
       </section>
       <section id="s04" data-case-section="People" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>People</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Three</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>people,</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>three</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>People</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Three</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>ways</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>people,</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>to</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>drink</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>less.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                We turned the research into three personas, each with a job to be done and a journey. Their photos in the project were generated with AI by a teammate, so here I keep just their stories.
-              </p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>three</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>ways</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>to</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>drink</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>less.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  We turned the research into three personas, each with a job to be done and a journey. Their photos in the project were generated with AI by a teammate, so here I keep just their stories.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px" }} data-reveal="">
@@ -379,27 +387,29 @@ export default function OptoCase() {
       </section>
       <section id="s05" data-case-section="Key decisions" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>05</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Key decisions</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Four</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>ideas</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>for</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>05</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Key decisions</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Four</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>one</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>ideas</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>night</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>out.</span>
-                </em>
-              </h2>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>for</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>one</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>night</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>out.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "24px" }} data-reveal="">
@@ -476,28 +486,30 @@ export default function OptoCase() {
       </section>
       <section id="s06" data-case-section="Structure" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Structure</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>From</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>sitemap</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>to</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Structure</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>From</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>wireframes.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Six sections carry the app: Home, Plans, Community, Money, Learn and Profile. We drew a flow for each persona. Jordi’s, creating his own plan, is the one I later took to UI.
-              </p>
+                  <span className="dm-f" style={{ "--i": "1" }}>sitemap</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>to</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>wireframes.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Six sections carry the app: Home, Plans, Community, Money, Learn and Profile. We drew a flow for each persona. Jordi’s, creating his own plan, is the one I later took to UI.
+                </p>
+              </div>
             </div>
           </div>
           <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
@@ -518,34 +530,36 @@ export default function OptoCase() {
       </section>
       <section id="s07" data-case-section="My UI" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>My UI</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Creating</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>a</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>plan,</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>from</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>My UI</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Creating</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>idea</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>a</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>to</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>plan,</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>invite.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Jordi wants to suggest something different to his friends, but can’t find a plan he likes. This is the flow I designed in UI, on top of our design system. Scroll inside each phone.
-              </p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>from</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>idea</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>to</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>invite.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Jordi wants to suggest something different to his friends, but can’t find a plan he likes. This is the flow I designed in UI, on top of our design system. Scroll inside each phone.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ position: "relative", background: "#F3D1DC", borderRadius: "36px", padding: "clamp(24px, 4vw, 56px)", overflow: "hidden", minHeight: "auto" }}>
@@ -616,36 +630,38 @@ export default function OptoCase() {
       </section>
       <section id="s08" data-case-section="Visual design" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>08</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Visual design</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>One</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>colour</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>for</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>08</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Visual design</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>One</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>each</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>colour</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>part</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>of</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>the</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>app.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Instead of one dominant brand colour, we chose a vibrant palette for a young audience, and gave each colour a job: pink for health and wellbeing, purple for bars and menus, blue for community, yellow for plans and events, and green for money and the OptoCard. Hatton for headlines, IBM Plex Sans for everything else.
-              </p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>for</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>each</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>part</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>of</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>the</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>app.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Instead of one dominant brand colour, we chose a vibrant palette for a young audience, and gave each colour a job: pink for health and wellbeing, purple for bars and menus, blue for community, yellow for plans and events, and green for money and the OptoCard. Hatton for headlines, IBM Plex Sans for everything else.
+                </p>
+              </div>
             </div>
           </div>
           <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
@@ -666,25 +682,27 @@ export default function OptoCase() {
       </section>
       <section id="s09" data-case-section="The solution" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>09</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>The solution</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Four</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>ways</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>to</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>09</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>The solution</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Four</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>opt</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>ways</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>in.</span>
-                </em>
-              </h2>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>to</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>opt</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>in.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "clamp(28px, 4vw, 64px)", alignItems: "center" }}>
@@ -734,29 +752,31 @@ export default function OptoCase() {
       </section>
       <section id="s10" data-case-section="Reflections" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>10</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Reflections</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>What</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>I</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>learned</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>and</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>10</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Reflections</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>What</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>what</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>I</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>comes</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>learned</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>next.</span>
-                </em>
-              </h2>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>and</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>what</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>comes</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>next.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "24px" }}>

@@ -22,7 +22,7 @@ export default function AboutPage() {
       fg: i === cur ? '#F7F3EE' : '#34503E',
       pick: () => this.setState({ [key]: i }) }));
     const EXP = [["2025 – now", "Freelance Designer", "Brand identity & web", ["Visual identity and brand guidelines for a corporate intelligence company.", "Visual identity and website redesign for a hacienda (in progress)."], "", ""], ["May – Oct 2025", "Product & UX/UI Designer", "Tus Clases Particulares · Barcelona", ["Started in Marketing & CRM: tutor email journeys, copy and social pieces.", "Moved to product as the designer responsible for the tutor area, with a PM and 3 engineers.", "Designed student matching with a paid plan, response-rate insights and post-signup next steps.", "Designed A/B/C tests for the Black Friday campaign."], "/work/tus-clases-particulares", "Read the case study →"], ["Jul 2021 – Apr 2024", "Product & UX/UI Designer", "Acreditta · Bogotá", ["Sole designer of a B2B SaaS credentials platform, from a requirements document to a full ecosystem.", "Badges, certificates and degrees; individual and bulk issuing; reports; multi-organization admin; Moodle integrations.", "Built the component library on Material Design and designed the mobile Wallet (PWA).", "Designed 200+ digital badges for organizations from Mexico to Chile."], "/work/acreditta", "Read the case study →"], ["2022 – 2023", "Graphic & Digital Designer", "Gobernación de Cundinamarca", ["320+ graphic pieces and 2 short videos within the official visual identity, in parallel with Acreditta."], "", ""], ["2019 – 2021", "Graphic & Digital Designer", "NIX Engineering · Hacienda Salamanca", ["Presentations, brochures, social media and websites in WordPress and Wix."], "", ""]];
-    const SKILLS = [["Product", [["Product & discovery", "Problem framing, user stories, journey mapping, end-to-end flows, 0 → 1 design."], ["Collaboration", "Developer handoff with user stories and acceptance criteria, Agile/Scrum, Jira."]], "Figma · FigJam · Miro · Notion · Jira"], ["Research", [["UX research", "Interviews, surveys, focus groups, usability testing, benchmarking, Hotjar."], ["Experimentation", "A/B and A/B/C testing, CRO, email journeys (flows, copy and design)."]], "Hotjar · Miro · FigJam"], ["UI & systems", [["UX/UI", "Information architecture, wireframes, high-fidelity prototypes, responsive and mobile-first, microcopy."], ["Design systems", "Component libraries built on Material Design; designing within existing systems."]], "Figma · Material Design"], ["Visual & AI", [["Visual design", "Brand identity, web design, 200+ digital badges."], ["AI in my workflow", "AI-assisted research synthesis, exploration, UX copy and prototyping."]], "Illustrator · Photoshop · After Effects · WordPress · Wix"]];
+    const SKILLS = [["Product", [["Product & discovery", "Problem framing, user stories, journey mapping, end-to-end flows, 0 → 1 design."], ["Collaboration", "Developer handoff with user stories and acceptance criteria, Agile/Scrum, Jira."]], "Figma · FigJam · Miro · Notion · Jira"], ["Research", [["UX research", "Interviews, surveys, focus groups, usability testing, benchmarking, Hotjar."], ["Experimentation", "A/B and A/B/C testing, CRO, email journeys (flows, copy and design)."]], "Hotjar · Miro · FigJam"], ["UI & systems", [["UX/UI", "Information architecture, wireframes, high-fidelity prototypes, responsive and mobile-first, microcopy."], ["Design systems", "Component libraries built on Material Design; designing within existing systems."]], "Figma · Material Design"], ["Visual & AI", [["Visual design", "Brand identity, web design, 200+ digital badges."], ["AI in my workflow", "AI-assisted research synthesis, exploration, UX copy and prototyping."]], "Illustrator · Photoshop · After Effects · WordPress · Wix · Claude"]];
     const QUOTES = [["Daniela’s user-centred approach, her ability to turn insights into solutions using qualitative and quantitative data, and her attention to detail in turning complex flows into simple ones, through a good mix of UX and UI, had a direct impact on improving our users’ experience across several key metrics.", "Oliver Morgade", "Head of Product at Tusmedia (Tus Clases Particulares), my direct manager"], ["From day one she showed great creative and technical ability, combining design, copy and user experience with a lot of sensitivity and judgment.", "Laura Fernández", "Market Intelligence Manager, managed Daniela directly at Tus Clases Particulares"], ["Professional, approachable and attentive to detail from the very first minute of her onboarding. She works in a very collaborative way, always ready to help, share feedback and improve processes.", "Laia Blanes Fernández", "UX/UI Designer, worked with Daniela on a different team"]];
     const exp = EXP.map((e, i) => ({
       y: e[0], t: e[1], c: e[2], d: e[3], href: e[4], cta: e[5], hasLink: !!e[4],
@@ -210,7 +210,7 @@ export default function AboutPage() {
           </div>
           <p style={{ margin: "0", fontSize: "15px", color: "#4B524D" }}>
             <strong style={{ color: "#34503E" }}>Tools:</strong>
-            {" "}Figma, FigJam, Miro, Notion, Jira, Hotjar, Illustrator, Photoshop, After Effects, WordPress, Wix ·{" "}
+            {" "}Figma, FigJam, Miro, Notion, Jira, Hotjar, Illustrator, Photoshop, After Effects, WordPress, Wix, Claude ·{" "}
             <strong style={{ color: "#34503E" }}>Languages:</strong>
             {" "}Spanish (native), English (professional, C1)
           </p>
@@ -260,42 +260,55 @@ export default function AboutPage() {
               </p>
             </div>
           </div>
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "20px" }}>
-            <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <span style={{ color: "#34503E" }}>
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <circle cx="14" cy="4.5" r="2" />
-                  <path d="M8 21l3-6 3 2 1 5M6 12l3-4 4 1 3 3 3 1" />
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(190px, 1fr))", gap: "20px" }}>
+            <div className="dm-hobby" style={{ "--tilt": "-6deg", background: "#F3D1DC", borderRadius: "28px", padding: "28px", minHeight: "190px", boxSizing: "border-box", display: "flex", flexDirection: "column", justifyContent: "space-between", gap: "28px" }}>
+              <span className="dm-hobby-ic" style={{ width: "72px", height: "72px", borderRadius: "50%", background: "#FFFFFF", color: "#A02B5B", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z" />
+                  <path d="M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z" />
+                  <path d="M16 17h4" />
+                  <path d="M4 13h4" />
                 </svg>
               </span>
-              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "24px", color: "#34503E" }}>Running</strong>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "26px", lineHeight: "1.15", color: "#34503E" }}>Running</strong>
             </div>
-            <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <span style={{ color: "#34503E" }}>
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M2 14l20-8-6 16-4-7z" />
-                  <path d="M12 15l4-4" />
+            <div className="dm-hobby" style={{ "--tilt": "8deg", background: "#DDE7D7", borderRadius: "28px", padding: "28px", minHeight: "190px", boxSizing: "border-box", display: "flex", flexDirection: "column", justifyContent: "space-between", gap: "28px" }}>
+              <span className="dm-hobby-ic" style={{ width: "72px", height: "72px", borderRadius: "50%", background: "#FFFFFF", color: "#34503E", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M17.8 19.2 16 11l3.5-3.5C21 6 21.5 4 21 3c-1-.5-3 0-4.5 1.5L13 8 4.8 6.2c-.5-.1-.9.1-1.1.5l-.3.5c-.2.5-.1 1 .3 1.3L9 12l-2 3H4l-1 1 3 2 2 3 1-1v-3l3-2 3.5 5.3c.3.4.8.5 1.3.3l.5-.2c.4-.3.6-.7.5-1.2z" />
                 </svg>
               </span>
-              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "24px", color: "#34503E" }}>Travel</strong>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "26px", lineHeight: "1.15", color: "#34503E" }}>Travel</strong>
             </div>
-            <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <span style={{ color: "#34503E" }}>
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M12 20h9" />
-                  <path d="M16.5 3.5a2.1 2.1 0 0 1 3 3L7 19l-4 1 1-4z" />
+            <div className="dm-hobby" style={{ "--tilt": "-8deg", background: "#34503E", borderRadius: "28px", padding: "28px", minHeight: "190px", boxSizing: "border-box", display: "flex", flexDirection: "column", justifyContent: "space-between", gap: "28px" }}>
+              <span className="dm-hobby-ic" style={{ width: "72px", height: "72px", borderRadius: "50%", background: "#F7F3EE", color: "#B8336A", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2" />
+                  <path d="M7 2v20" />
+                  <path d="M21 15V2a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7" />
                 </svg>
               </span>
-              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "24px", color: "#34503E" }}>Nature &amp; plants</strong>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "26px", lineHeight: "1.15", color: "#F7F3EE" }}>Good food</strong>
             </div>
-            <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <span style={{ color: "#34503E" }}>
-                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-                  <path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z" />
-                  <path d="M4 21V5" />
+            <div className="dm-hobby" style={{ "--tilt": "6deg", background: "#A9C0A0", borderRadius: "28px", padding: "28px", minHeight: "190px", boxSizing: "border-box", display: "flex", flexDirection: "column", justifyContent: "space-between", gap: "28px" }}>
+              <span className="dm-hobby-ic" style={{ width: "72px", height: "72px", borderRadius: "50%", background: "#F7F3EE", color: "#34503E", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M7 20h10" />
+                  <path d="M10 20c5.5-2.5.8-6.4 3-10" />
+                  <path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z" />
+                  <path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z" />
                 </svg>
               </span>
-              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "24px", color: "#34503E" }}>Learning</strong>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "26px", lineHeight: "1.15", color: "#1D2A22" }}>Nature &amp; plants</strong>
+            </div>
+            <div className="dm-hobby" style={{ "--tilt": "-5deg", background: "#FFFFFF", borderRadius: "28px", padding: "28px", minHeight: "190px", boxSizing: "border-box", display: "flex", flexDirection: "column", justifyContent: "space-between", gap: "28px" }}>
+              <span className="dm-hobby-ic" style={{ width: "72px", height: "72px", borderRadius: "50%", background: "#DDE7D7", color: "#34503E", display: "inline-flex", alignItems: "center", justifyContent: "center" }}>
+                <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+                </svg>
+              </span>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "26px", lineHeight: "1.15", color: "#34503E" }}>Learning</strong>
             </div>
           </div>
         </div>

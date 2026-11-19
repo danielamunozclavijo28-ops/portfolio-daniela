@@ -23,7 +23,7 @@ function shortLabel(label: string) {
 
 /** Sections left out of the pill on specific cases (they stay on the page). */
 function hiddenIn(path: string) {
-  if (path.includes("tus-clases")) return new Set(["Response metrics", "Métricas de respuesta", "Learnings", "Aprendizajes"]);
+  if (path.includes("tus-clases")) return new Set(["Learnings", "Aprendizajes"]);
   if (path.includes("wallet")) return new Set(["Learnings", "Aprendizajes"]);
   return new Set<string>();
 }

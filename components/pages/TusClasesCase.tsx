@@ -83,28 +83,30 @@ export default function TusClasesCase() {
       </section>
       <section id="s01" data-case-section="Context" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Context</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Seeing</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>the</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>whole</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>tutor</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "4" }}>journey.</span>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                My first months were in Marketing &amp; CRM, analysing the emails tutors received along their journey: I removed high-friction emails and rewrote copy to improve opens and retention. When I moved to product, I already knew where tutors got stuck, inside and outside the platform.
-              </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Context</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Seeing</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "1" }}>the</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "2" }}>whole</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>tutor</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>journey.</span>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  My first months were in Marketing &amp; CRM, analysing the emails tutors received along their journey: I removed high-friction emails and rewrote copy to improve opens and retention. When I moved to product, I already knew where tutors got stuck, inside and outside the platform.
+                </p>
+              </div>
             </div>
           </div>
           <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
@@ -137,28 +139,30 @@ export default function TusClasesCase() {
       </section>
       <section id="s02" data-case-section="Feature · Students without a tutor" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · Students without a tutor</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Turning</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>waiting</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>into</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · Students without a tutor</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Turning</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>action.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                New tutors often waited passively for students to contact them. We designed a way for tutors to go to the students instead.
-              </p>
+                  <span className="dm-f" style={{ "--i": "1" }}>waiting</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>into</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>action.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  New tutors often waited passively for students to contact them. We designed a way for tutors to go to the students instead.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "20px" }}>
@@ -243,36 +247,38 @@ export default function TusClasesCase() {
       </section>
       <section id="s03" data-case-section="Feature · Response metrics" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>03</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · Response metrics</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Data</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>that</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>tells</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>you</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "4" }}>what</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>03</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · Response metrics</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Data</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>to</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>that</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>do</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>tells</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>next.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Responding fast affects a tutor’s ranking and students’ trust, but tutors couldn’t see how they were doing. The goal was to increase their response rate.
-              </p>
+                  <span className="dm-f" style={{ "--i": "3" }}>you</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "4" }}>what</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>to</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>do</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>next.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Responding fast affects a tutor’s ranking and students’ trust, but tutors couldn’t see how they were doing. The goal was to increase their response rate.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-start" }}>
@@ -372,30 +378,32 @@ export default function TusClasesCase() {
       </section>
       <section id="s04" data-case-section="Feature · After publishing an ad" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · After publishing an ad</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Answering</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>“what</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>should</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>I</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "4" }}>do</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "5" }}>now?”</span>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                After creating their first ad, tutors landed on an upsell page or skipped straight to an empty area, and many then waited passively and dropped off.
-              </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · After publishing an ad</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Answering</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "1" }}>“what</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "2" }}>should</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>I</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>do</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>now?”</span>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  After creating their first ad, tutors landed on an upsell page or skipped straight to an empty area, and many then waited passively and dropped off.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "24px" }}>
@@ -475,13 +483,13 @@ export default function TusClasesCase() {
             <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "center", alignItems: "flex-start", gap: "8%" }}>
               <figure style={{ margin: "0", width: "240px", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
                 <div style={{ position: "relative", width: "100%", boxSizing: "border-box", borderRadius: "30px", padding: "7px", background: "#1E211F", boxShadow: "0 30px 60px rgba(29,42,34,0.28)" }}>
-                  <img src="/images/v2/tus-acc-m-antes.jpg" alt="Previous mobile page" style={{ width: "100%", height: "auto", display: "block", borderRadius: "23px", background: "#FFFFFF" }} />
+                  <img src="/images/v2/tus-acc-m-antes.jpg" alt="Previous mobile page" style={{ width: "100%", aspectRatio: "9 / 18.5", objectFit: "cover", objectPosition: "top", display: "block", borderRadius: "23px", background: "#FFFFFF" }} />
                 </div>
                 <figcaption style={{ fontSize: "14px", color: "#4B524D" }}>Before · mobile</figcaption>
               </figure>
               <figure style={{ margin: "0", width: "240px", display: "flex", flexDirection: "column", gap: "14px", alignItems: "center" }}>
                 <div style={{ position: "relative", width: "100%", boxSizing: "border-box", borderRadius: "30px", padding: "7px", background: "#1E211F", boxShadow: "0 30px 60px rgba(29,42,34,0.28)" }}>
-                  <img src="/images/v2/tus-acc-m-despues.jpg" alt="New mobile page with three next steps" style={{ width: "100%", height: "auto", display: "block", borderRadius: "23px", background: "#FFFFFF" }} />
+                  <img src="/images/v2/tus-acc-m-despues.jpg" alt="New mobile page with three next steps" style={{ width: "100%", aspectRatio: "9 / 18.5", objectFit: "cover", objectPosition: "top", display: "block", borderRadius: "23px", background: "#FFFFFF" }} />
                 </div>
                 <figcaption style={{ fontSize: "14px", color: "#4B524D" }}>After · mobile</figcaption>
               </figure>
@@ -491,30 +499,32 @@ export default function TusClasesCase() {
       </section>
       <section id="s05" data-case-section="Feature · Ad status for academies" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>05</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · Ad status for academies</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Clear</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>states,</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>not</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>05</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · Ad status for academies</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Clear</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>error</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>states,</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>messages.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Some academies boosted several similar ads in a row to the first page, which filled the results with near duplicates, confused students and made the marketplace feel less varied. The platform now keeps one ad per academy on the first page and queues the rest, so academies needed to understand clearly what happened each time they boosted an ad.
-              </p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>not</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>error</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>messages.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Some academies boosted several similar ads in a row to the first page, which filled the results with near duplicates, confused students and made the marketplace feel less varied. The platform now keeps one ad per academy on the first page and queues the rest, so academies needed to understand clearly what happened each time they boosted an ad.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "24px" }}>
@@ -582,44 +592,50 @@ export default function TusClasesCase() {
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
-            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
-                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
-                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px", height: "100%" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "36px", padding: "clamp(20px, 3vw, 40px)", height: "100%", boxSizing: "border-box", display: "flex", flexDirection: "column" }}>
+                <div style={{ flex: "1", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                  <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                    <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    </div>
+                    <img src="/images/v2/tus-subir-ok.webp" alt="Modal: your ad was boosted successfully" style={{ width: "100%", height: "auto", display: "block" }} />
                   </div>
-                  <img src="/images/v2/tus-subir-ok.webp" alt="Modal: your ad was boosted successfully" style={{ width: "100%", height: "auto", display: "block" }} />
                 </div>
+                <figcaption style={{ marginTop: "18px", fontSize: "14px", lineHeight: "1.5", color: "#1D2A22", textAlign: "center" }}>Boosted: the ad will be on the first page in a few minutes.</figcaption>
               </div>
-              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Boosted: the ad will be on the first page in a few minutes.</figcaption>
             </figure>
-            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
-                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
-                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px", height: "100%" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "36px", padding: "clamp(20px, 3vw, 40px)", height: "100%", boxSizing: "border-box", display: "flex", flexDirection: "column" }}>
+                <div style={{ flex: "1", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                  <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                    <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    </div>
+                    <img src="/images/v2/tus-subir-cola.webp" alt="Modal: your ad has been queued" style={{ width: "100%", height: "auto", display: "block" }} />
                   </div>
-                  <img src="/images/v2/tus-subir-cola.webp" alt="Modal: your ad has been queued" style={{ width: "100%", height: "auto", display: "block" }} />
                 </div>
+                <figcaption style={{ marginTop: "18px", fontSize: "14px", lineHeight: "1.5", color: "#1D2A22", textAlign: "center" }}>Queued: the reason, what happens next and the email that will confirm it.</figcaption>
               </div>
-              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Queued: the reason, what happens next and the email that will confirm it.</figcaption>
             </figure>
-            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
-              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
-                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
-                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px", height: "100%" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "36px", padding: "clamp(20px, 3vw, 40px)", height: "100%", boxSizing: "border-box", display: "flex", flexDirection: "column" }}>
+                <div style={{ flex: "1", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                  <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                    <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    </div>
+                    <img src="/images/v2/tus-subir-espera.webp" alt="Modal: this ad is already waiting" style={{ width: "100%", height: "auto", display: "block" }} />
                   </div>
-                  <img src="/images/v2/tus-subir-espera.webp" alt="Modal: this ad is already waiting" style={{ width: "100%", height: "auto", display: "block" }} />
                 </div>
+                <figcaption style={{ marginTop: "18px", fontSize: "14px", lineHeight: "1.5", color: "#1D2A22", textAlign: "center" }}>Already waiting: no boost was charged.</figcaption>
               </div>
-              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Already waiting: no boost was charged.</figcaption>
             </figure>
           </div>
           <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.7", color: "#4B524D", maxWidth: "820px" }}>
@@ -629,23 +645,25 @@ export default function TusClasesCase() {
       </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>06</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Quick wins</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Small</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>changes,</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>real</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>06</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Quick wins</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Small</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>impact.</span>
-                </em>
-              </h2>
+                  <span className="dm-f" style={{ "--i": "1" }}>changes,</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>real</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>impact.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "20px" }}>
@@ -688,25 +706,27 @@ export default function TusClasesCase() {
       </section>
       <section id="s07" data-case-section="Learnings" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Learnings</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Small</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>things</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>make</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Learnings</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Small</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>a</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>things</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>difference.</span>
-                </em>
-              </h2>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>make</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>a</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>difference.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "20px" }}>
@@ -719,19 +739,6 @@ export default function TusClasesCase() {
             <div style={{ background: "#DDE7D7", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
               <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.7", color: "#1D2A22" }}>Product decisions balance user needs with the goals and constraints of a platform that already exists.</p>
             </div>
-          </div>
-          <div style={{ maxWidth: "980px" }}>
-            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "18px" }}>
-              <span style={{ fontFamily: "Fraunces, serif", fontSize: "64px", lineHeight: "0.5", color: "#B8336A" }} aria-hidden="true">“</span>
-              <blockquote style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(20px, 1.8vw, 26px)", lineHeight: "1.45", color: "#34503E" }}>
-                Her user-centred approach and her ability to turn insights into solutions had a direct impact on improving our users’ experience across several key metrics.
-              </blockquote>
-              <figcaption style={{ fontSize: "15px", color: "#4B524D" }}>
-                <strong style={{ color: "#34503E", fontWeight: "600" }}>Oliver Morgade</strong>
-                {" "}· Head of Product at Tusmedia, my direct manager
-                <span style={{ display: "block", fontSize: "13px", marginTop: "4px" }}>Translated from Spanish · LinkedIn recommendation</span>
-              </figcaption>
-            </figure>
           </div>
         </div>
       </section>

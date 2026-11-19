@@ -70,39 +70,41 @@ export default function CasaCase() {
       </section>
       <section id="s01" data-case-section="Contexto y mi rol" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Contexto y mi rol</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Una</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>tienda</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>con</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>más</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "4" }}>que</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "5" }}>ofrecer</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "6" }}>de</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Contexto y mi rol</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Una</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>lo</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>tienda</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "8" }}>que</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>con</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "9" }}>mostraba</span>
+                  <span className="dm-f" style={{ "--i": "3" }}>más</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "10" }}>su</span>
+                  <span className="dm-f" style={{ "--i": "4" }}>que</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "11" }}>web.</span>
-                </em>
-              </h2>
+                  <span className="dm-f" style={{ "--i": "5" }}>ofrecer</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "6" }}>de</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>lo</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "8" }}>que</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "9" }}>mostraba</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "10" }}>su</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "11" }}>web.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-start" }}>
@@ -158,34 +160,36 @@ export default function CasaCase() {
       </section>
       <section id="s02" data-case-section="Investigación" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Investigación</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Cinco</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>formas</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>de</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>mirar</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "4" }}>la</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Investigación</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Cinco</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>misma</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>formas</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>tienda.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Partimos de tres hipótesis: la gente viene sobre todo por los pastéis de nata y rara vez prueba otra cosa; no usa la web para hacer pedidos; y no participa en catas ni talleres porque no sabe que existen.
-              </p>
+                  <span className="dm-f" style={{ "--i": "2" }}>de</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>mirar</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "4" }}>la</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>misma</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>tienda.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Partimos de tres hipótesis: la gente viene sobre todo por los pastéis de nata y rara vez prueba otra cosa; no usa la web para hacer pedidos; y no participa en catas ni talleres porque no sabe que existen.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(210px, 1fr))", gap: "20px" }} data-reveal="">
@@ -247,32 +251,34 @@ export default function CasaCase() {
       </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>03</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>La idea</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Diseñar</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>una</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>experiencia,</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>no</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>03</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>La idea</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Diseñar</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>un</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>una</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>checkout.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>
-                No quería otra tienda online donde añades al carrito, pagas y te vas, ni un catálogo donde puedes mirar pero no comprar. La investigación apuntaba a otra cosa: la gente quería sentir Portugal. Así que la web se convirtió en un lugar para comprar, reservar una experiencia y aprender.
-              </p>
+                  <span className="dm-f" style={{ "--i": "2" }}>experiencia,</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>no</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>un</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>checkout.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>
+                  No quería otra tienda online donde añades al carrito, pagas y te vas, ni un catálogo donde puedes mirar pero no comprar. La investigación apuntaba a otra cosa: la gente quería sentir Portugal. Así que la web se convirtió en un lugar para comprar, reservar una experiencia y aprender.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }} data-reveal="">
@@ -310,30 +316,32 @@ export default function CasaCase() {
       </section>
       <section id="s04" data-case-section="Personas" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Personas</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Tres</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>clientes,</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>tres</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Personas</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Tres</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>motivos</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>clientes,</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>para</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>venir.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>Convertimos la investigación en tres personas y trazamos un journey para cada una.</p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>tres</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>motivos</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>para</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>venir.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>Convertimos la investigación en tres personas y trazamos un journey para cada una.</p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "20px" }} data-reveal="">
@@ -363,31 +371,33 @@ export default function CasaCase() {
       </section>
       <section id="s05" data-case-section="Decisiones clave" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>05</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Decisiones clave</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Cuatro</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>decisiones</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>que</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>05</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Decisiones clave</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Cuatro</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>dieron</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>decisiones</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>forma</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>a</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>la</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>web.</span>
-                </em>
-              </h2>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>que</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>dieron</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>forma</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>a</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>la</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>web.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "24px" }} data-reveal="">
@@ -468,30 +478,32 @@ export default function CasaCase() {
       </section>
       <section id="s06" data-case-section="Estructura" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Estructura</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Del</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>sitemap</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>a</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Estructura</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Del</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>los</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>sitemap</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>wireframes.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Cuatro secciones sostienen la experiencia: Tienda, Catas y talleres, Tradición y Club A Casa. Diseñé un flujo para el objetivo principal de cada persona y luego pasé de los bocetos a los wireframes.
-              </p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>a</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>los</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>wireframes.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Cuatro secciones sostienen la experiencia: Tienda, Catas y talleres, Tradición y Club A Casa. Diseñé un flujo para el objetivo principal de cada persona y luego pasé de los bocetos a los wireframes.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "28px" }}>
@@ -518,32 +530,34 @@ export default function CasaCase() {
       </section>
       <section id="s07" data-case-section="Diseño visual" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Diseño visual</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Tradición</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>que</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>puedes</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>ver</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Diseño visual</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Tradición</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>y</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>que</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>tocar.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                El azul y el naranja de los azulejos y la cerámica portuguesa, imágenes tratadas en azul e ilustraciones que hacen que la web se sienta hecha a mano.
-              </p>
+                  <span className="dm-f" style={{ "--i": "2" }}>puedes</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>ver</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>y</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>tocar.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  El azul y el naranja de los azulejos y la cerámica portuguesa, imágenes tratadas en azul e ilustraciones que hacen que la web se sienta hecha a mano.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "28px" }}>
@@ -564,28 +578,30 @@ export default function CasaCase() {
       </section>
       <section id="s08" data-case-section="La solución" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>08</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>La solución</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Comprar,</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>reservar</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>y</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>08</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>La solución</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Comprar,</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>sentir</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>reservar</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>Portugal.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>Estas son las páginas finales que diseñamos. Haz scroll dentro de cada ventana para ver la página completa.</p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>y</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>sentir</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>Portugal.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>Estas son las páginas finales que diseñamos. Haz scroll dentro de cada ventana para ver la página completa.</p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(420px, 1fr))", gap: "28px" }}>
@@ -724,31 +740,33 @@ export default function CasaCase() {
       </section>
       <section id="s09" data-case-section="Reflexiones" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>09</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Reflexiones</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Lo</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>que</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>aprendí</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>y</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>09</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Reflexiones</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Lo</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>lo</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>que</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>que</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>aprendí</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>viene</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>después.</span>
-                </em>
-              </h2>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>y</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>lo</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>que</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>viene</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>después.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "24px" }}>

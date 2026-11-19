@@ -89,32 +89,34 @@ export default function AcredittaCase() {
       </section>
       <section id="s01" data-case-section="Contexto" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Contexto</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Partiendo</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>de</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>un</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Contexto</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Partiendo</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>documento</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>de</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>de</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>requisitos.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Los stakeholders trajeron un documento con los requisitos que tenían en mente. No había producto, ni sistema de diseño, ni otra diseñadora.
-              </p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>un</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>documento</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>de</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>requisitos.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Los stakeholders trajeron un documento con los requisitos que tenían en mente. No había producto, ni sistema de diseño, ni otra diseñadora.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-start" }}>
@@ -179,32 +181,34 @@ export default function AcredittaCase() {
       </section>
       <section id="s02" data-case-section="El flujo principal" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>El flujo principal</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Crear</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>→</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>emitir</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>→</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "4" }}>seguir</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "5" }}>→</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "6" }}>reportar.</span>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Todo en la plataforma apoya un mismo ciclo de vida. Diseñé cada paso para que un administrador pudiera pasar de una idea a un impacto medible sin salir del producto.
-              </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>El flujo principal</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Crear</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "1" }}>→</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "2" }}>emitir</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>→</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>seguir</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>→</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "6" }}>reportar.</span>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Todo en la plataforma apoya un mismo ciclo de vida. Diseñé cada paso para que un administrador pudiera pasar de una idea a un impacto medible sin salir del producto.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(240px, 1fr))", gap: "20px" }}>
@@ -269,29 +273,31 @@ export default function AcredittaCase() {
       </section>
       <section id="s03" data-case-section="Decisiones clave" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>03</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Decisiones clave</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Tres</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>decisiones</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>que</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>03</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Decisiones clave</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Tres</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>dieron</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>decisiones</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>forma</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>al</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>producto.</span>
-                </em>
-              </h2>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>que</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>dieron</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>forma</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>al</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>producto.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "32px", display: "flex", flexDirection: "column", gap: "12px", gap: "16px" }}>
@@ -367,36 +373,38 @@ export default function AcredittaCase() {
       </section>
       <section id="s04" data-case-section="Medir el impacto" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Medir el impacto</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Dar</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>a</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>las</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>organizaciones</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "4" }}>pruebas</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Medir el impacto</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Dar</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>de</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>a</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>que</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>las</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>funciona.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Las organizaciones necesitaban mostrar el valor de sus programas. Diseñé el dashboard y los reportes en torno a las preguntas que se hacían: cuántas personas aceptaron, quién compartió y dónde, y con qué rapidez.
-              </p>
+                  <span className="dm-f" style={{ "--i": "3" }}>organizaciones</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "4" }}>pruebas</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>de</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>que</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>funciona.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Las organizaciones necesitaban mostrar el valor de sus programas. Diseñé el dashboard y los reportes en torno a las preguntas que se hacían: cuántas personas aceptaron, quién compartió y dónde, y con qué rapidez.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(min(100%, 420px), 1fr))", gap: "clamp(24px, 3vw, 40px)", alignItems: "stretch" }}>
@@ -456,36 +464,38 @@ export default function AcredittaCase() {
       </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>05</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Hacer crecer el producto</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>De</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>una</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>herramienta</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>de</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "4" }}>insignias</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "5" }}>a</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>05</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Hacer crecer el producto</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>De</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>un</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>una</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>ecosistema.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>
-                A medida que Acreditta crecía, extendí los mismos patrones a nuevos tipos de credencial, nuevos roles y nuevas formas de emitir.
-              </p>
+                  <span className="dm-f" style={{ "--i": "2" }}>herramienta</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>de</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>insignias</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "5" }}>a</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>un</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>ecosistema.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>
+                  A medida que Acreditta crecía, extendí los mismos patrones a nuevos tipos de credencial, nuevos roles y nuevas formas de emitir.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }} data-reveal="">
@@ -565,14 +575,16 @@ export default function AcredittaCase() {
               </figure>
             </div>
             <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px", height: "100%" }}>
-              <div style={{ background: "#F7F3EE", borderRadius: "36px", padding: "clamp(20px, 3vw, 40px)", height: "100%", boxSizing: "border-box", display: "flex", flexDirection: "column", justifyContent: "space-between" }}>
-                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
-                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
-                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+              <div style={{ background: "#F7F3EE", borderRadius: "36px", padding: "clamp(20px, 3vw, 40px)", height: "100%", boxSizing: "border-box", display: "flex", flexDirection: "column" }}>
+                <div style={{ flex: "1", display: "flex", flexDirection: "column", justifyContent: "center" }}>
+                  <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                    <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                      <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    </div>
+                    <img src="/images/v2/acr-admins.jpg" alt="Tabla de administradores con roles" style={{ width: "100%", height: "auto", display: "block" }} />
                   </div>
-                  <img src="/images/v2/acr-admins.jpg" alt="Tabla de administradores con roles" style={{ width: "100%", height: "auto", display: "block" }} />
                 </div>
                 <figcaption style={{ marginTop: "18px", fontSize: "14px", lineHeight: "1.5", color: "#1D2A22", textAlign: "center" }}>Administración de grupos con roles entre organizaciones.</figcaption>
               </div>
@@ -582,29 +594,31 @@ export default function AcredittaCase() {
       </section>
       <section id="s06" data-case-section="Investigación y colaboración" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Investigación y colaboración</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>La</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>investigación</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>también</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>decide</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "4" }}>qué</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Investigación y colaboración</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>La</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>no</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>investigación</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>construir.</span>
-                </em>
-              </h2>
+                  <span className="dm-f" style={{ "--i": "2" }}>también</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>decide</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "4" }}>qué</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>no</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>construir.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "24px" }}>
@@ -653,28 +667,30 @@ export default function AcredittaCase() {
       </section>
       <section id="s07" data-case-section="Oficio visual" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Oficio visual</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Diseñar</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>las</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>propias</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>credenciales.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Más allá de la plataforma, diseñé más de 200 insignias digitales para organizaciones de toda Latinoamérica, de México a Chile, y para los webinars y eventos de Acreditta. Cada una tenía que funcionar como pieza de marca, como credencial verificable y como una pequeña imagen que la gente quiera compartir en LinkedIn.
-              </p>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Oficio visual</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Diseñar</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "1" }}>las</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "2" }}>propias</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>credenciales.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Más allá de la plataforma, diseñé más de 200 insignias digitales para organizaciones de toda Latinoamérica, de México a Chile, y para los webinars y eventos de Acreditta. Cada una tenía que funcionar como pieza de marca, como credencial verificable y como una pequeña imagen que la gente quiera compartir en LinkedIn.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ background: "#F3D1DC", borderRadius: "32px", padding: "clamp(24px, 4vw, 56px)" }}>
@@ -708,27 +724,29 @@ export default function AcredittaCase() {
       </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>08</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Resultados y aprendizajes</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>A</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>qué</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>llevó</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>y</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>08</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Resultados y aprendizajes</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>A</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>qué</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>qué</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>aprendí.</span>
-                </em>
-              </h2>
+                  <span className="dm-f" style={{ "--i": "2" }}>llevó</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>y</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>qué</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>aprendí.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(220px, 1fr))", gap: "28px" }} data-reveal="">

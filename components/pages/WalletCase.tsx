@@ -50,36 +50,38 @@ export default function WalletCase() {
       </section>
       <section id="s01" data-case-section="A product decision" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>A product decision</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Why</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>a</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>PWA</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>and</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>A product decision</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Why</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>not</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>a</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>a</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>PWA</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>native</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>app.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Together with engineering, we chose a PWA: it was faster to build, and the Wallet wasn’t the core of the business. A native app stayed on the long-term roadmap.
-              </p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>and</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>not</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>a</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>native</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>app.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Together with engineering, we chose a PWA: it was faster to build, and the Wallet wasn’t the core of the business. A native app stayed on the long-term roadmap.
+                </p>
+              </div>
             </div>
           </div>
           <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
@@ -112,23 +114,25 @@ export default function WalletCase() {
       </section>
       <section id="s02" data-case-section="Scoped MVP" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Scoped MVP</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>What</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>we</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>designed</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>and</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "4" }}>shipped.</span>
-              </h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Scoped MVP</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>What</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "1" }}>we</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "2" }}>designed</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>and</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>shipped.</span>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }} data-reveal="">
@@ -209,34 +213,36 @@ export default function WalletCase() {
       </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>03</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>The moment that matters</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Receiving</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>a</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>credential</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>should</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>03</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>The moment that matters</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Receiving</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>feel</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>a</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>like</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>credential</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>an</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>achievement.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>The first screen people see is co-branded with the issuing organization and leads to a single action: accept and share.</p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>should</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>feel</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>like</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>an</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>achievement.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>The first screen people see is co-branded with the issuing organization and leads to a single action: accept and share.</p>
+              </div>
             </div>
           </div>
           <div style={{ position: "relative", background: "#F3D1DC", borderRadius: "36px", padding: "clamp(28px, 5vw, 72px)", overflow: "hidden", minHeight: "auto" }}>
@@ -259,23 +265,25 @@ export default function WalletCase() {
       </section>
       <section id="s04" data-case-section="Learnings" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Learnings</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Doing</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>less,</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>on</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Learnings</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Doing</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>purpose.</span>
-                </em>
-              </h2>
+                  <span className="dm-f" style={{ "--i": "1" }}>less,</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>on</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>purpose.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "20px" }} data-reveal="">

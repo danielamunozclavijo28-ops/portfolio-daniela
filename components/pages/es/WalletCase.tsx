@@ -50,38 +50,40 @@ export default function WalletCase() {
       </section>
       <section id="s01" data-case-section="Una decisión de producto" style={{ background: "#DDE7D7", padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Una decisión de producto</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Por</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>qué</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>una</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>PWA</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "4" }}>y</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>01</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Una decisión de producto</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Por</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>no</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>qué</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>una</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>una</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>app</span>
+                  <span className="dm-f" style={{ "--i": "3" }}>PWA</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "8" }}>nativa.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
-                Junto con desarrollo elegimos una PWA: era más rápida de construir y la Wallet no era el centro del negocio. La app nativa se quedó en la hoja de ruta a largo plazo.
-              </p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "4" }}>y</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>no</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>una</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>app</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "8" }}>nativa.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                  Junto con desarrollo elegimos una PWA: era más rápida de construir y la Wallet no era el centro del negocio. La app nativa se quedó en la hoja de ruta a largo plazo.
+                </p>
+              </div>
             </div>
           </div>
           <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
@@ -114,23 +116,25 @@ export default function WalletCase() {
       </section>
       <section id="s02" data-case-section="MVP acotado" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>MVP acotado</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Lo</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>que</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>diseñamos</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "3" }}>y</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "4" }}>lanzamos.</span>
-              </h2>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>02</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>MVP acotado</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Lo</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "1" }}>que</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "2" }}>diseñamos</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>y</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>lanzamos.</span>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "20px" }} data-reveal="">
@@ -211,36 +215,38 @@ export default function WalletCase() {
       </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>03</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>El momento que importa</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Recibir</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>una</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "2" }}>credencial</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "3" }}>debería</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>03</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>El momento que importa</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Recibir</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "4" }}>sentirse</span>
+                  <span className="dm-f" style={{ "--i": "1" }}>una</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "5" }}>como</span>
+                  <span className="dm-f" style={{ "--i": "2" }}>credencial</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "6" }}>un</span>
-                  {" "}
-                  <span className="dm-f" style={{ "--i": "7" }}>logro.</span>
-                </em>
-              </h2>
-            </div>
-            <div style={{ flex: "1 1 340px" }}>
-              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>
-                La primera pantalla que ve la persona lleva la marca de la organización que emite y conduce a una sola acción: aceptar y compartir.
-              </p>
+                  <em>
+                    <span className="dm-f" style={{ "--i": "3" }}>debería</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "4" }}>sentirse</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "5" }}>como</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "6" }}>un</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "7" }}>logro.</span>
+                  </em>
+                </h2>
+              </div>
+              <div style={{ flex: "1 1 340px", paddingTop: "0.5em" }}>
+                <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#CFDCCB" }}>
+                  La primera pantalla que ve la persona lleva la marca de la organización que emite y conduce a una sola acción: aceptar y compartir.
+                </p>
+              </div>
             </div>
           </div>
           <div style={{ position: "relative", background: "#F3D1DC", borderRadius: "36px", padding: "clamp(28px, 5vw, 72px)", overflow: "hidden", minHeight: "auto" }}>
@@ -263,23 +269,25 @@ export default function WalletCase() {
       </section>
       <section id="s04" data-case-section="Aprendizajes" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
-          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
-            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
-              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
-                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Aprendizajes</span>
-              </p>
-              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
-                <span className="dm-f" style={{ "--i": "0" }}>Hacer</span>
-                {" "}
-                <span className="dm-f" style={{ "--i": "1" }}>menos,</span>
-                {" "}
-                <em>
-                  <span className="dm-f" style={{ "--i": "2" }}>a</span>
+          <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
+            <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+              <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>04</span>
+              <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Aprendizajes</span>
+            </p>
+            <div style={{ display: "flex", flexWrap: "wrap", gap: "16px 40px", alignItems: "flex-start" }}>
+              <div style={{ flex: "999 1 520px" }}>
+                <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                  <span className="dm-f" style={{ "--i": "0" }}>Hacer</span>
                   {" "}
-                  <span className="dm-f" style={{ "--i": "3" }}>propósito.</span>
-                </em>
-              </h2>
+                  <span className="dm-f" style={{ "--i": "1" }}>menos,</span>
+                  {" "}
+                  <em>
+                    <span className="dm-f" style={{ "--i": "2" }}>a</span>
+                    {" "}
+                    <span className="dm-f" style={{ "--i": "3" }}>propósito.</span>
+                  </em>
+                </h2>
+              </div>
             </div>
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))", gap: "20px" }} data-reveal="">
