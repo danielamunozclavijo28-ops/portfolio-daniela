@@ -57,9 +57,6 @@ export default function AboutPage() {
               <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "640px" }}>
                 I started in industrial design, learning how people, materials and systems fit together. I moved into digital design in 2019 and, since 2021, I’ve focused on product: first as the only designer of a B2B SaaS startup in Bogotá, then on the product team of a marketplace in Barcelona, after a Master’s in UX at ELISAVA.
               </p>
-              <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "640px" }}>
-                I’m quiet at first and a careful listener, which makes me good at research. Once I know a team, I talk a lot: about users, trade-offs and how to ship the next version.
-              </p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "14px" }}>
                 <a href="/documents/daniela-munoz-cv.pdf" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 28px", borderRadius: "999px", background: "#34503E", color: "#F7F3EE", fontSize: "15px", fontWeight: "500" }} target="_blank" rel="noopener noreferrer">Download CV</a>
                 <a href="https://www.linkedin.com/in/daniela-munoz28" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 26px", borderRadius: "999px", border: "1.5px solid #34503E", color: "#34503E", fontSize: "15px", fontWeight: "500" }} target="_blank" rel="noopener noreferrer">LinkedIn</a>

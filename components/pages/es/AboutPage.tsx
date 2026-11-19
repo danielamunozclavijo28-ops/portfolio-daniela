@@ -57,9 +57,6 @@ export default function AboutPage() {
               <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "640px" }}>
                 Empecé en el diseño industrial, aprendiendo cómo encajan las personas, los materiales y los sistemas. Pasé al diseño digital en 2019 y, desde 2021, me he enfocado en producto: primero como única diseñadora de una startup B2B SaaS en Bogotá y después en el equipo de producto de un marketplace en Barcelona, tras un máster en UX en ELISAVA.
               </p>
-              <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "640px" }}>
-                Al principio soy callada y escucho con atención, y eso me hace buena investigando. Cuando conozco a un equipo, hablo mucho: de usuarios, de trade-offs y de cómo sacar la siguiente versión.
-              </p>
               <div style={{ display: "flex", flexWrap: "wrap", gap: "14px" }}>
                 <a href="/documents/daniela-munoz-cv.pdf" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 28px", borderRadius: "999px", background: "#34503E", color: "#F7F3EE", fontSize: "15px", fontWeight: "500" }} target="_blank" rel="noopener noreferrer">Descargar CV</a>
                 <a href="https://www.linkedin.com/in/daniela-munoz28" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 26px", borderRadius: "999px", border: "1.5px solid #34503E", color: "#34503E", fontSize: "15px", fontWeight: "500" }} target="_blank" rel="noopener noreferrer">LinkedIn</a>
