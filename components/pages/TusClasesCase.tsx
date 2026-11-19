@@ -489,12 +489,150 @@ export default function TusClasesCase() {
           </div>
         </div>
       </section>
+      <section id="s05" data-case-section="Feature · Ad status for academies" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+        <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
+            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
+              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>05</span>
+                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Feature · Ad status for academies</span>
+              </p>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Clear</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>states,</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>not</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>error</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>messages.</span>
+                </em>
+              </h2>
+            </div>
+            <div style={{ flex: "1 1 340px" }}>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                Some academies boosted several similar ads in a row to the first page, which filled the results with near duplicates, confused students and made the marketplace feel less varied. The platform now keeps one ad per academy on the first page and queues the rest, so academies needed to understand clearly what happened each time they boosted an ad.
+              </p>
+            </div>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "24px" }}>
+            <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "32px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <span style={{ fontSize: "13px", fontWeight: "600", letterSpacing: "0.1em", textTransform: "uppercase", color: "#A02B5B" }}>The problem</span>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#1D2A22" }}>
+                Each state was shown as a browser alert: a plain system box with a single “OK” button. Being queued read like an error, and nothing explained whether a boost had been used.
+              </p>
+            </div>
+            <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "32px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <span style={{ fontSize: "13px", fontWeight: "600", letterSpacing: "0.1em", textTransform: "uppercase", color: "#A02B5B" }}>Goals</span>
+              <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#1D2A22" }}>
+                  <span style={{ flex: "0 0 auto", marginTop: "3px", color: "#B8336A" }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M5 12l4 4 10-10" />
+                    </svg>
+                  </span>
+                  <span>Clear, understandable messages about each ad’s status</span>
+                </li>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#1D2A22" }}>
+                  <span style={{ flex: "0 0 auto", marginTop: "3px", color: "#B8336A" }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M5 12l4 4 10-10" />
+                    </svg>
+                  </span>
+                  <span>Avoid states feeling like errors or something negative</span>
+                </li>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#1D2A22" }}>
+                  <span style={{ flex: "0 0 auto", marginTop: "3px", color: "#B8336A" }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M5 12l4 4 10-10" />
+                    </svg>
+                  </span>
+                  <span>A better experience for academies using the marketplace</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+            <div style={{ background: "#F7F3EE", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+              <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                  <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                </div>
+                <img src="/images/v2/tus-subir-antes.webp" alt="Previous browser alerts for each ad status" style={{ width: "100%", height: "auto", display: "block" }} />
+              </div>
+            </div>
+            <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Before: three browser alerts with almost the same look for very different situations.</figcaption>
+          </figure>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "20px" }}>
+            <div style={{ background: "#F7F3EE", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "22px", color: "#34503E" }}>Boosted</strong>
+              <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.7", color: "#4B524D" }}>Confirms the boost was used and sets the expectation: the ad appears on the first page within minutes.</p>
+            </div>
+            <div style={{ background: "#F7F3EE", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "22px", color: "#34503E" }}>Queued</strong>
+              <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.7", color: "#4B524D" }}>Explains why: another ad is already on the first page. It will go up when that one leaves, with an email to confirm.</p>
+            </div>
+            <div style={{ background: "#F7F3EE", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "22px", color: "#34503E" }}>Already waiting</strong>
+              <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.7", color: "#4B524D" }}>Reassures first: the boost was not charged again, because the ad was already in the queue.</p>
+            </div>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/tus-subir-ok.webp" alt="Modal: your ad was boosted successfully" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Boosted: the ad will be on the first page in a few minutes.</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/tus-subir-cola.webp" alt="Modal: your ad has been queued" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Queued: the reason, what happens next and the email that will confirm it.</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/tus-subir-espera.webp" alt="Modal: this ad is already waiting" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Already waiting: no boost was charged.</figcaption>
+            </figure>
+          </div>
+          <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.7", color: "#4B524D", maxWidth: "820px" }}>
+            Each state became a modal in the product’s own style, with a title that names the state, a short explanation in plain language, a small illustration that hints at it (a traffic light for the queue, an hourglass for waiting) and a single “Got it”. The change shipped and worked as intended.
+          </p>
+        </div>
+      </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
               <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>05</span>
+                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>06</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Quick wins</span>
               </p>
               <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
@@ -548,12 +686,12 @@ export default function TusClasesCase() {
           </div>
         </div>
       </section>
-      <section id="s06" data-case-section="Learnings" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s07" data-case-section="Learnings" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
               <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
+                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Learnings</span>
               </p>
               <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">

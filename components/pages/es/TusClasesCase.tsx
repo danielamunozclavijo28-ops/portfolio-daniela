@@ -489,12 +489,152 @@ export default function TusClasesCase() {
           </div>
         </div>
       </section>
+      <section id="s05" data-case-section="Funcionalidad · Estado de anuncios para academias" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+        <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
+            <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
+              <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
+                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>05</span>
+                <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Funcionalidad · Estado de anuncios para academias</span>
+              </p>
+              <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
+                <span className="dm-f" style={{ "--i": "0" }}>Estados</span>
+                {" "}
+                <span className="dm-f" style={{ "--i": "1" }}>claros,</span>
+                {" "}
+                <em>
+                  <span className="dm-f" style={{ "--i": "2" }}>no</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "3" }}>mensajes</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "4" }}>de</span>
+                  {" "}
+                  <span className="dm-f" style={{ "--i": "5" }}>error.</span>
+                </em>
+              </h2>
+            </div>
+            <div style={{ flex: "1 1 340px" }}>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#4B524D" }}>
+                Algunas academias subían varios anuncios parecidos seguidos a la primera página, lo que llenaba los resultados de casi duplicados, confundía a los estudiantes y daba una sensación de menor variedad. La plataforma pasó a mantener un anuncio por academia en la primera página y a poner el resto en cola, así que las academias necesitaban entender con claridad qué pasaba cada vez que subían un anuncio.
+              </p>
+            </div>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(380px, 1fr))", gap: "24px" }}>
+            <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "32px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <span style={{ fontSize: "13px", fontWeight: "600", letterSpacing: "0.1em", textTransform: "uppercase", color: "#A02B5B" }}>El problema</span>
+              <p style={{ margin: "0", fontSize: "16px", lineHeight: "1.7", color: "#1D2A22" }}>
+                Cada estado se mostraba como una alerta del navegador: una caja del sistema con un solo botón “Aceptar”. Quedar en cola se leía como un error y nada explicaba si se había gastado un subir.
+              </p>
+            </div>
+            <div style={{ background: "#FFFFFF", borderRadius: "24px", padding: "32px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <span style={{ fontSize: "13px", fontWeight: "600", letterSpacing: "0.1em", textTransform: "uppercase", color: "#A02B5B" }}>Objetivos</span>
+              <ul style={{ margin: "0", padding: "0", listStyle: "none", display: "flex", flexDirection: "column", gap: "12px" }}>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#1D2A22" }}>
+                  <span style={{ flex: "0 0 auto", marginTop: "3px", color: "#B8336A" }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M5 12l4 4 10-10" />
+                    </svg>
+                  </span>
+                  <span>Mensajes claros y comprensibles sobre el estado de cada anuncio</span>
+                </li>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#1D2A22" }}>
+                  <span style={{ flex: "0 0 auto", marginTop: "3px", color: "#B8336A" }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M5 12l4 4 10-10" />
+                    </svg>
+                  </span>
+                  <span>Evitar que los estados se perciban como errores o algo negativo</span>
+                </li>
+                <li style={{ display: "flex", gap: "12px", fontSize: "16px", lineHeight: "1.6", color: "#1D2A22" }}>
+                  <span style={{ flex: "0 0 auto", marginTop: "3px", color: "#B8336A" }}>
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+                      <path d="M5 12l4 4 10-10" />
+                    </svg>
+                  </span>
+                  <span>Una mejor experiencia para las academias al usar el marketplace</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+            <div style={{ background: "#F7F3EE", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+              <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                  <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                </div>
+                <img src="/images/v2/tus-subir-antes.webp" alt="Alertas del navegador anteriores para cada estado del anuncio" style={{ width: "100%", height: "auto", display: "block" }} />
+              </div>
+            </div>
+            <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Antes: tres alertas del navegador casi iguales para situaciones muy distintas.</figcaption>
+          </figure>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "20px" }}>
+            <div style={{ background: "#F7F3EE", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "22px", color: "#34503E" }}>Subido</strong>
+              <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.7", color: "#4B524D" }}>Confirma que se usó el subir y fija la expectativa: el anuncio aparece en la primera página en unos minutos.</p>
+            </div>
+            <div style={{ background: "#F7F3EE", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "22px", color: "#34503E" }}>En cola</strong>
+              <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.7", color: "#4B524D" }}>Explica el porqué: ya hay otro anuncio en la primera página. Subirá cuando ese salga, con un correo de confirmación.</p>
+            </div>
+            <div style={{ background: "#F7F3EE", borderRadius: "24px", padding: "28px", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <strong style={{ fontFamily: "Fraunces, serif", fontWeight: "500", fontSize: "22px", color: "#34503E" }}>Ya en espera</strong>
+              <p style={{ margin: "0", fontSize: "15px", lineHeight: "1.7", color: "#4B524D" }}>Tranquiliza primero: no se descontó otro subir, porque el anuncio ya estaba en cola.</p>
+            </div>
+          </div>
+          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))", gap: "24px" }}>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/tus-subir-ok.webp" alt="Modal: tu anuncio se ha subido con éxito" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Subido: el anuncio estará en la primera página en unos minutos.</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/tus-subir-cola.webp" alt="Modal: tu anuncio se ha puesto en cola" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>En cola: el motivo, lo que pasará después y el correo que lo confirmará.</figcaption>
+            </figure>
+            <figure style={{ margin: "0", display: "flex", flexDirection: "column", gap: "12px" }}>
+              <div style={{ background: "#DDE7D7", borderRadius: "28px", padding: "clamp(14px, 2.4vw, 36px)" }}>
+                <div style={{ background: "#FFFFFF", borderRadius: "14px", overflow: "hidden", boxShadow: "0 24px 60px rgba(29,42,34,0.16)" }}>
+                  <div style={{ display: "flex", gap: "6px", padding: "10px 14px", background: "#F1EEE9" }} aria-hidden="true">
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                    <span style={{ width: "9px", height: "9px", borderRadius: "50%", background: "#D9D3CB" }} />
+                  </div>
+                  <img src="/images/v2/tus-subir-espera.webp" alt="Modal: este anuncio ya está en espera" style={{ width: "100%", height: "auto", display: "block" }} />
+                </div>
+              </div>
+              <figcaption style={{ fontSize: "14px", color: "#4B524D", padding: "0 6px" }}>Ya en espera: no se descontó ningún subir.</figcaption>
+            </figure>
+          </div>
+          <p style={{ margin: "0", fontSize: "17px", lineHeight: "1.7", color: "#4B524D", maxWidth: "820px" }}>
+            Cada estado pasó a ser un modal con el estilo del producto: un título que nombra el estado, una explicación breve en lenguaje sencillo, una pequeña ilustración que lo sugiere (un semáforo para la cola, un reloj de arena para la espera) y un único “Entendido”. El cambio se lanzó y funcionó como se esperaba.
+          </p>
+        </div>
+      </section>
       <section style={{ background: "#34503E", padding: "96px clamp(20px, 5vw, 80px)", color: "#F7F3EE", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
               <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>05</span>
+                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#F3D1DC" }}>06</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#CFDCCB" }}>Mejoras rápidas</span>
               </p>
               <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#F7F3EE" }} data-fill="">
@@ -548,12 +688,12 @@ export default function TusClasesCase() {
           </div>
         </div>
       </section>
-      <section id="s06" data-case-section="Aprendizajes" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
+      <section id="s07" data-case-section="Aprendizajes" style={{ padding: "96px clamp(20px, 5vw, 80px)", position: "relative", overflow: "hidden" }}>
         <div style={{ maxWidth: "1320px", margin: "0 auto", display: "flex", flexDirection: "column", gap: "48px", position: "relative" }}>
           <div style={{ display: "flex", flexWrap: "wrap", gap: "40px", alignItems: "flex-end" }}>
             <div style={{ flex: "999 1 520px", display: "flex", flexDirection: "column", gap: "14px" }}>
               <p style={{ margin: "0", display: "flex", alignItems: "baseline", gap: "14px" }}>
-                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>06</span>
+                <span style={{ fontFamily: "Fraunces, serif", fontStyle: "italic", fontSize: "36px", color: "#B8336A" }}>07</span>
                 <span style={{ fontSize: "14px", fontWeight: "500", letterSpacing: "0.12em", textTransform: "uppercase", color: "#4B524D" }}>Aprendizajes</span>
               </p>
               <h2 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(36px, 3.8vw, 58px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }} data-fill="">
