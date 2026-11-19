@@ -6,6 +6,28 @@ import { langOf } from "./i18n";
 
 type Item = { id: string; label: string };
 
+/** Shorter labels for the pill, so it stays on one line. */
+const SHORT: Record<string, string> = {
+  "Students without a tutor": "Students without a tutor",
+  "After publishing an ad": "After publishing",
+  "Ad status for academies": "Ads for academies",
+  "Alumnos sin profesor": "Alumnos sin profesor",
+  "Después de publicar un anuncio": "Después de publicar",
+  "Estado de anuncios para academias": "Anuncios para academias",
+};
+
+function shortLabel(label: string) {
+  const bare = label.replace(/^(Feature|Funcionalidad)\s*·\s*/, "");
+  return SHORT[bare] ?? bare;
+}
+
+/** Sections left out of the pill on specific cases (they stay on the page). */
+function hiddenIn(path: string) {
+  if (path.includes("tus-clases")) return new Set(["Response metrics", "Métricas de respuesta", "Learnings", "Aprendizajes"]);
+  if (path.includes("wallet")) return new Set(["Learnings", "Aprendizajes"]);
+  return new Set<string>();
+}
+
 /** Floating pill with the sections of a case study. Desktop only. */
 export default function CaseNav() {
   const es = langOf(usePathname()) === "es";
@@ -15,7 +37,12 @@ export default function CaseNav() {
 
   useEffect(() => {
     const sections = Array.from(document.querySelectorAll<HTMLElement>("[data-case-section]"));
-    setItems(sections.map((s) => ({ id: s.id, label: s.dataset.caseSection || "" })));
+    const path = window.location.pathname;
+    setItems(
+      sections
+        .map((s) => ({ id: s.id, label: shortLabel(s.dataset.caseSection || "") }))
+        .filter((it) => !hiddenIn(path).has(it.label)),
+    );
 
     const io = new IntersectionObserver(
       (entries) => {
