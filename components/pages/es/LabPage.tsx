@@ -16,7 +16,6 @@ export default function LabPage() {
             <h1 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(48px, 5.8vw, 92px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
               Proyectos más allá{" "}
               <em style={{ color: "#B8336A" }}>del brief.</em>
-              <sup className="dm-count" aria-label="3 proyectos">03</sup>
             </h1>
             <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "680px" }}>
               Proyectos académicos y para clientes en los que exploré problemas nuevos, desde el comportamiento y la salud hasta la marca y el e-commerce.

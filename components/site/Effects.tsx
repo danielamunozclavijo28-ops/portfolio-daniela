@@ -38,6 +38,20 @@ export default function Effects() {
     );
     once.forEach((el) => io.observe(el));
 
+    // Content that appears later (e.g. the Work filter) gets revealed too.
+    const mo = new MutationObserver((muts) => {
+      muts.forEach((m) =>
+        m.addedNodes.forEach((n) => {
+          if (!(n instanceof HTMLElement)) return;
+          const found = [n, ...Array.from(n.querySelectorAll<HTMLElement>("[data-anim], [data-reveal]"))];
+          found.forEach((el) => {
+            if (el.matches("[data-anim], [data-reveal]") && !el.classList.contains("is-in")) io.observe(el);
+          });
+        }),
+      );
+    });
+    mo.observe(document.body, { childList: true, subtree: true });
+
     let frame = 0;
     const update = () => {
       frame = 0;
@@ -59,6 +73,7 @@ export default function Effects() {
 
     return () => {
       io.disconnect();
+      mo.disconnect();
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
       if (frame) cancelAnimationFrame(frame);

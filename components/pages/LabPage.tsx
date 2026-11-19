@@ -16,7 +16,6 @@ export default function LabPage() {
             <h1 style={{ margin: "0", fontFamily: "Fraunces, serif", fontWeight: "400", fontSize: "clamp(48px, 5.8vw, 92px)", lineHeight: "1.04", letterSpacing: "-0.02em", color: "#34503E" }}>
               Projects beyond{" "}
               <em style={{ color: "#B8336A" }}>the brief.</em>
-              <sup className="dm-count" aria-label="3 projects">03</sup>
             </h1>
             <p style={{ margin: "0", fontSize: "18px", lineHeight: "1.7", color: "#4B524D", maxWidth: "680px" }}>Academic and client projects where I explored new problems, from health behaviour to brand and e-commerce.</p>
           </div>

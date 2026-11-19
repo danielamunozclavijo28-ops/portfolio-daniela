@@ -346,7 +346,6 @@ export default function HomePage() {
                   {" "}
                   <span className="dm-f" style={{ "--i": "5" }}>reales.</span>
                 </em>
-                <sup className="dm-count" aria-label="3 proyectos">03</sup>
               </h2>
             </div>
             <Link href="/es/work" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 26px", borderRadius: "999px", border: "1.5px solid #F7F3EE", color: "#F7F3EE", fontSize: "15px", fontWeight: "500" }}>Ver todos los proyectos →</Link>
@@ -488,7 +487,6 @@ export default function HomePage() {
                   {" "}
                   <span className="dm-f" style={{ "--i": "3" }}>brief.</span>
                 </em>
-                <sup className="dm-count" aria-label="3 proyectos">03</sup>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>

@@ -342,7 +342,6 @@ export default function HomePage() {
                   {" "}
                   <span className="dm-f" style={{ "--i": "4" }}>products.</span>
                 </em>
-                <sup className="dm-count" aria-label="3 projects">03</sup>
               </h2>
             </div>
             <Link href="/work" style={{ display: "inline-flex", alignItems: "center", gap: "10px", minHeight: "52px", padding: "0 26px", borderRadius: "999px", border: "1.5px solid #F7F3EE", color: "#F7F3EE", fontSize: "15px", fontWeight: "500" }}>View all work →</Link>
@@ -486,7 +485,6 @@ export default function HomePage() {
                   {" "}
                   <span className="dm-f" style={{ "--i": "2" }}>brief.</span>
                 </em>
-                <sup className="dm-count" aria-label="3 projects">03</sup>
               </h2>
             </div>
             <div style={{ flex: "1 1 340px" }}>
