@@ -51,12 +51,14 @@ export default function Effects() {
       );
     });
     mo.observe(document.body, { childList: true, subtree: true });
+    const mo2 = new MutationObserver(() => requestAnimationFrame(() => update()));
+    mo2.observe(document.body, { childList: true, subtree: true });
 
     let frame = 0;
     const update = () => {
       frame = 0;
       const vh = window.innerHeight;
-      fills.forEach((el) => {
+      document.querySelectorAll<HTMLElement>("[data-fill]").forEach((el) => {
         const words = el.querySelectorAll(".dm-f");
         const top = el.getBoundingClientRect().top;
         const p = Math.min(1, Math.max(0, (vh * 0.9 - top) / (vh * 0.45)));
@@ -74,6 +76,7 @@ export default function Effects() {
     return () => {
       io.disconnect();
       mo.disconnect();
+      mo2.disconnect();
       window.removeEventListener("scroll", onScroll);
       window.removeEventListener("resize", onScroll);
       if (frame) cancelAnimationFrame(frame);
